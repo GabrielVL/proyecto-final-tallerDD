@@ -1,5 +1,5 @@
 Analysis & Elaboration report for computer_top
-Wed Jun 11 19:59:07 2025
+Wed Jun 11 20:46:56 2025
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -9,9 +9,23 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   1. Legal Notice
   2. Analysis & Elaboration Summary
   3. Parallel Compilation
-  4. Analysis & Elaboration Settings
-  5. Analysis & Elaboration Messages
-  6. Analysis & Elaboration Suppressed Messages
+  4. Parameter Settings for User Entity Instance: arm:processor|controller:c|condlogic:cl|flopenr:flagregZ
+  5. Parameter Settings for User Entity Instance: arm:processor|controller:c|condlogic:cl|flopenr:flagregN
+  6. Parameter Settings for User Entity Instance: arm:processor|datapath:dp|flopenr:pcreg
+  7. Parameter Settings for User Entity Instance: arm:processor|datapath:dp|adder:pcadd1
+  8. Parameter Settings for User Entity Instance: arm:processor|datapath:dp|adder:pcadd2
+  9. Parameter Settings for User Entity Instance: arm:processor|datapath:dp|mux2:pcmux
+ 10. Parameter Settings for User Entity Instance: arm:processor|datapath:dp|mux2:ra1mux
+ 11. Parameter Settings for User Entity Instance: arm:processor|datapath:dp|mux2:ra2mux
+ 12. Parameter Settings for User Entity Instance: arm:processor|datapath:dp|mux2:srcbmux
+ 13. Parameter Settings for User Entity Instance: arm:processor|datapath:dp|mux2:resmux
+ 14. Analysis & Elaboration Settings
+ 15. Port Connectivity Checks: "arm:processor|datapath:dp|mux2:ra1mux"
+ 16. Port Connectivity Checks: "arm:processor|datapath:dp|adder:pcadd2"
+ 17. Port Connectivity Checks: "arm:processor|datapath:dp|adder:pcadd1"
+ 18. Port Connectivity Checks: "arm:processor|datapath:dp|flopenr:pcreg"
+ 19. Port Connectivity Checks: "arm:processor|controller:c|condlogic:cl|flopenr:flagregN"
+ 20. Analysis & Elaboration Messages
 
 
 
@@ -37,7 +51,7 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Failed - Wed Jun 11 19:59:07 2025           ;
+; Analysis & Elaboration Status ; Successful - Wed Jun 11 20:46:56 2025       ;
 ; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                 ; computer_top                                ;
 ; Top-level Entity Name         ; computer_top                                ;
@@ -66,6 +80,106 @@ refer to the applicable agreement for further details.
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
 +----------------------------+-------------+
+
+
++-------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:processor|controller:c|condlogic:cl|flopenr:flagregZ ;
++----------------+-------+------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                         ;
++----------------+-------+------------------------------------------------------------------------------+
+; WIDTH          ; 2     ; Signed Integer                                                               ;
++----------------+-------+------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:processor|controller:c|condlogic:cl|flopenr:flagregN ;
++----------------+-------+------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                         ;
++----------------+-------+------------------------------------------------------------------------------+
+; WIDTH          ; 2     ; Signed Integer                                                               ;
++----------------+-------+------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:processor|datapath:dp|flopenr:pcreg ;
++----------------+-------+-------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                        ;
++----------------+-------+-------------------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                              ;
++----------------+-------+-------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:processor|datapath:dp|adder:pcadd1 ;
++----------------+-------+------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                       ;
++----------------+-------+------------------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                             ;
++----------------+-------+------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:processor|datapath:dp|adder:pcadd2 ;
++----------------+-------+------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                       ;
++----------------+-------+------------------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                             ;
++----------------+-------+------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:processor|datapath:dp|mux2:pcmux ;
++----------------+-------+----------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                     ;
++----------------+-------+----------------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                           ;
++----------------+-------+----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:processor|datapath:dp|mux2:ra1mux ;
++----------------+-------+-----------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                      ;
++----------------+-------+-----------------------------------------------------------+
+; WIDTH          ; 4     ; Signed Integer                                            ;
++----------------+-------+-----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:processor|datapath:dp|mux2:ra2mux ;
++----------------+-------+-----------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                      ;
++----------------+-------+-----------------------------------------------------------+
+; WIDTH          ; 4     ; Signed Integer                                            ;
++----------------+-------+-----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:processor|datapath:dp|mux2:srcbmux ;
++----------------+-------+------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                       ;
++----------------+-------+------------------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                             ;
++----------------+-------+------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:processor|datapath:dp|mux2:resmux ;
++----------------+-------+-----------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                      ;
++----------------+-------+-----------------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                            ;
++----------------+-------+-----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
@@ -155,13 +269,63 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
++-------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:processor|datapath:dp|mux2:ra1mux" ;
++------+-------+----------+-----------------------------------------+
+; Port ; Type  ; Severity ; Details                                 ;
++------+-------+----------+-----------------------------------------+
+; d1   ; Input ; Info     ; Stuck at VCC                            ;
++------+-------+----------+-----------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:processor|datapath:dp|adder:pcadd2"                                                 ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; b[31..3] ; Input  ; Info     ; Stuck at GND                                                                        ;
+; b[1..0]  ; Input  ; Info     ; Stuck at GND                                                                        ;
+; b[2]     ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; y        ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:processor|datapath:dp|adder:pcadd1" ;
++----------+-------+----------+--------------------------------------+
+; Port     ; Type  ; Severity ; Details                              ;
++----------+-------+----------+--------------------------------------+
+; b[31..3] ; Input ; Info     ; Stuck at GND                         ;
+; b[1..0]  ; Input ; Info     ; Stuck at GND                         ;
+; b[2]     ; Input ; Info     ; Stuck at VCC                         ;
++----------+-------+----------+--------------------------------------+
+
+
++---------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:processor|datapath:dp|flopenr:pcreg" ;
++------+-------+----------+-------------------------------------------+
+; Port ; Type  ; Severity ; Details                                   ;
++------+-------+----------+-------------------------------------------+
+; en   ; Input ; Info     ; Stuck at VCC                              ;
++------+-------+----------+-------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:processor|controller:c|condlogic:cl|flopenr:flagregN"                           ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q[1] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
 +---------------------------------+
 ; Analysis & Elaboration Messages ;
 +---------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Wed Jun 11 19:58:55 2025
+    Info: Processing started: Wed Jun 11 20:46:38 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off proyectofinal -c computer_top --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -173,9 +337,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file control
     Info (12023): Found entity 1: controller File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/controller.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file decoder.sv
     Info (12023): Found entity 1: decoder File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/decoder.sv Line: 1
-Info (12021): Found 2 design units, including 2 entities, in source file condlogic.sv
+Info (12021): Found 1 design units, including 1 entities, in source file condlogic.sv
     Info (12023): Found entity 1: condlogic File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/condlogic.sv Line: 1
-    Info (12023): Found entity 2: condcheck File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/condlogic.sv Line: 26
 Info (12021): Found 1 design units, including 1 entities, in source file datapath.sv
     Info (12023): Found entity 1: datapath File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file regfile.sv
@@ -196,34 +359,39 @@ Info (12021): Found 1 design units, including 1 entities, in source file imem.sv
     Info (12023): Found entity 1: imem File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/imem.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file testbench.sv
     Info (12023): Found entity 1: testbench File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/testbench.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu.sv
+    Info (12023): Found entity 1: alu File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/alu.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mux4.sv
+    Info (12023): Found entity 1: mux4 File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/mux4.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file shift.sv
+    Info (12023): Found entity 1: shift File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/shift.sv Line: 1
 Info (12127): Elaborating entity "computer_top" for the top level hierarchy
-Info (12128): Elaborating entity "arm" for hierarchy "arm:arm" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 8
-Info (12128): Elaborating entity "controller" for hierarchy "arm:arm|controller:c" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm.sv Line: 17
-Info (12128): Elaborating entity "decoder" for hierarchy "arm:arm|controller:c|decoder:dec" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/controller.sv Line: 15
-Info (12128): Elaborating entity "condlogic" for hierarchy "arm:arm|controller:c|condlogic:cl" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/controller.sv Line: 18
-Info (12128): Elaborating entity "flopenr" for hierarchy "arm:arm|controller:c|condlogic:cl|flopenr:flagreg1" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/condlogic.sv Line: 14
-Info (12128): Elaborating entity "condcheck" for hierarchy "arm:arm|controller:c|condlogic:cl|condcheck:cc" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/condlogic.sv Line: 19
-Info (12128): Elaborating entity "datapath" for hierarchy "arm:arm|datapath:dp" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm.sv Line: 24
-Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm|datapath:dp|mux2:pcmux" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 19
-Info (12128): Elaborating entity "flopr" for hierarchy "arm:arm|datapath:dp|flopr:pcreg" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 20
-Info (12128): Elaborating entity "adder" for hierarchy "arm:arm|datapath:dp|adder:pcadd1" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 21
-Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm|datapath:dp|mux2:ra1mux" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 24
-Info (12128): Elaborating entity "regfile" for hierarchy "arm:arm|datapath:dp|regfile:rf" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 28
-Info (12128): Elaborating entity "extend" for hierarchy "arm:arm|datapath:dp|extend:ext" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 30
-Info (12128): Elaborating entity "imem" for hierarchy "imem:imem" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 9
-Error (10054): Verilog HDL File I/O error at imem.sv(6): can't open Verilog Design File "memfile.dat" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/imem.sv Line: 6
-Error (12152): Can't elaborate user hierarchy "imem:imem" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 9
-Info (144001): Generated suppressed messages file C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/output_files/computer_top.map.smsg
-Error: Quartus Prime Analysis & Elaboration was unsuccessful. 2 errors, 1 warning
-    Error: Peak virtual memory: 4769 megabytes
-    Error: Processing ended: Wed Jun 11 19:59:07 2025
-    Error: Elapsed time: 00:00:12
-    Error: Total CPU time (on all processors): 00:00:23
-
-
-+--------------------------------------------+
-; Analysis & Elaboration Suppressed Messages ;
-+--------------------------------------------+
-The suppressed messages can be found in C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/output_files/computer_top.map.smsg.
+Info (12128): Elaborating entity "arm" for hierarchy "arm:processor" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 18
+Info (12128): Elaborating entity "controller" for hierarchy "arm:processor|controller:c" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm.sv Line: 27
+Info (12128): Elaborating entity "decoder" for hierarchy "arm:processor|controller:c|decoder:dec" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/controller.sv Line: 29
+Info (12128): Elaborating entity "condlogic" for hierarchy "arm:processor|controller:c|condlogic:cl" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/controller.sv Line: 44
+Info (12128): Elaborating entity "flopenr" for hierarchy "arm:processor|controller:c|condlogic:cl|flopenr:flagregZ" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/condlogic.sv Line: 13
+Info (12128): Elaborating entity "datapath" for hierarchy "arm:processor|datapath:dp" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm.sv Line: 46
+Info (12128): Elaborating entity "flopenr" for hierarchy "arm:processor|datapath:dp|flopenr:pcreg" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 17
+Info (12128): Elaborating entity "adder" for hierarchy "arm:processor|datapath:dp|adder:pcadd1" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 18
+Info (12128): Elaborating entity "mux2" for hierarchy "arm:processor|datapath:dp|mux2:pcmux" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 20
+Info (12128): Elaborating entity "mux2" for hierarchy "arm:processor|datapath:dp|mux2:ra1mux" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 23
+Info (12128): Elaborating entity "regfile" for hierarchy "arm:processor|datapath:dp|regfile:rf" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 34
+Info (12128): Elaborating entity "extend" for hierarchy "arm:processor|datapath:dp|extend:ext" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 37
+Info (12128): Elaborating entity "alu" for hierarchy "arm:processor|datapath:dp|alu:alu" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 47
+Warning (10230): Verilog HDL assignment warning at alu.sv(18): truncated value with size 33 to match size of target (32) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/alu.sv Line: 18
+Warning (10230): Verilog HDL assignment warning at alu.sv(19): truncated value with size 33 to match size of target (32) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/alu.sv Line: 19
+Warning (10230): Verilog HDL assignment warning at alu.sv(22): truncated value with size 33 to match size of target (32) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/alu.sv Line: 22
+Info (12128): Elaborating entity "imem" for hierarchy "imem:imem" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 24
+Warning (10850): Verilog HDL warning at imem.sv(8): number of words (5) in memory file does not match the number of elements in the address range [0:63] File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/imem.sv Line: 8
+Warning (10030): Net "ROM.data_a" at imem.sv(5) has no driver or initial value, using a default initial value '0' File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/imem.sv Line: 5
+Warning (10030): Net "ROM.waddr_a" at imem.sv(5) has no driver or initial value, using a default initial value '0' File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/imem.sv Line: 5
+Warning (10030): Net "ROM.we_a" at imem.sv(5) has no driver or initial value, using a default initial value '0' File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/imem.sv Line: 5
+Info (12128): Elaborating entity "dmem" for hierarchy "dmem:dmem" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 33
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 8 warnings
+    Info: Peak virtual memory: 4770 megabytes
+    Info: Processing ended: Wed Jun 11 20:46:56 2025
+    Info: Elapsed time: 00:00:18
+    Info: Total CPU time (on all processors): 00:00:26
 
 
