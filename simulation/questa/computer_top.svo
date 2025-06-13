@@ -17,7 +17,7 @@
 // PROGRAM "Quartus Prime"
 // VERSION "Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition"
 
-// DATE "06/13/2025 00:42:15"
+// DATE "06/13/2025 09:53:50"
 
 // 
 // Device: Altera 5CSXFC6D6F31C6 Package FBGA896
@@ -35,11 +35,11 @@ module computer_top (
 	WriteData,
 	DataAdr,
 	MemWrite);
-input 	logic clk ;
-input 	logic reset ;
-output 	logic [31:0] WriteData ;
-output 	logic [31:0] DataAdr ;
-output 	logic MemWrite ;
+input 	clk;
+input 	reset;
+output 	[31:0] WriteData;
+output 	[31:0] DataAdr;
+output 	MemWrite;
 
 // Design Ports Information
 // WriteData[0]	=>  Location: PIN_AE11,	 I/O Standard: 2.5 V,	 Current Strength: Default
