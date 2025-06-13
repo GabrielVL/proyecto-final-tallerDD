@@ -1,5 +1,5 @@
 Flow report for computer_top
-Fri Jun 13 00:46:09 2025
+Fri Jun 13 01:22:29 2025
 Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +-----------------------------+------------------------------------------------+
-; Flow Status                 ; Successful - Fri Jun 13 00:46:09 2025          ;
+; Flow Status                 ; Flow Failed - Fri Jun 13 01:22:29 2025         ;
 ; Quartus Prime Version       ; 23.1std.1 Build 993 05/14/2024 SC Lite Edition ;
 ; Revision Name               ; computer_top                                   ;
 ; Top-level Entity Name       ; computer_top                                   ;
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/13/2025 00:46:04 ;
+; Start date & time ; 06/13/2025 01:22:24 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; computer_top        ;
 +-------------------+---------------------+
@@ -74,23 +74,28 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 238300909352641.174979716426140        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 238300909352641.174979934423724        ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; rom            ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; ram            ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; testbench      ;
-; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; rom                                    ; --            ; --          ; eda_simulation ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; ram                                    ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                      ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                  ; Questa Intel FPGA (SystemVerilog)      ; <None>        ; --          ; --             ;
 ; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --            ; --          ; eda_simulation ;
 ; EDA_TEST_BENCH_FILE                  ; rom_tb.sv                              ; --            ; --          ; rom            ;
+; EDA_TEST_BENCH_FILE                  ; ram_tb.sv                              ; --            ; --          ; ram            ;
 ; EDA_TEST_BENCH_FILE                  ; testbench.sv                           ; --            ; --          ; testbench      ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; rom                                    ; --            ; --          ; rom            ;
+; EDA_TEST_BENCH_MODULE_NAME           ; ram                                    ; --            ; --          ; ram            ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; testbench                              ; --            ; --          ; testbench      ;
 ; EDA_TEST_BENCH_NAME                  ; testbench                              ; --            ; --          ; eda_simulation ;
 ; EDA_TEST_BENCH_NAME                  ; rom                                    ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_NAME                  ; ram                                    ; --            ; --          ; eda_simulation ;
 ; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --          ; --             ;
 ; MISC_FILE                            ; rom_bb.v                               ; --            ; --          ; --             ;
+; MISC_FILE                            ; ram_bb.v                               ; --            ; --          ; --             ;
 ; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; --          ; Top            ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; --          ; Top            ;
 ; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; --          ; Top            ;
@@ -105,8 +110,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:06     ; 1.0                     ; 4797 MB             ; 00:00:12                           ;
-; Total                  ; 00:00:06     ; --                      ; --                  ; 00:00:12                           ;
+; Analysis & Elaboration ; 00:00:05     ; 1.0                     ; 4783 MB             ; 00:00:13                           ;
+; Total                  ; 00:00:05     ; --                      ; --                  ; 00:00:13                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -1,0 +1,8 @@
+module ram_tb();
+
+	logic clk, wren, rst;
+	logic [7:0] address, data, q
+	
+	ram mem(address, clk, wren, q);
+	
+endmodule
