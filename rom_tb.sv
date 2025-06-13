@@ -1,0 +1,10 @@
+module rom_tb();
+	
+	logic [7:0] address;
+	logic [31:0] q;
+	logic clk, rst;
+	
+	rom mem(address, clk, q);
+	counter cont(clk, rst, 1'b1, address);
+	
+endmodule

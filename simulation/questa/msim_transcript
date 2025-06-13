@@ -1,0 +1,275 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2023.3 win64 Jul 17 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do computer_top_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2023.3 Lib Mapping Utility 2023.07 Jul 17 2023
+# vmap work rtl_work 
+# Copying c:/intelfpga/23.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+D:/Work/2025\ I/Taller\ de\ Diseno\ Digital/proyecto-final-tallerDD {D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/arm.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 00:46:15 on Jun 13,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD" D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/arm.sv 
+# -- Compiling module arm
+# 
+# Top level modules:
+# 	arm
+# End time: 00:46:15 on Jun 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Work/2025\ I/Taller\ de\ Diseno\ Digital/proyecto-final-tallerDD {D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/computer_top.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 00:46:16 on Jun 13,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD" D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/computer_top.sv 
+# -- Compiling module computer_top
+# 
+# Top level modules:
+# 	computer_top
+# End time: 00:46:16 on Jun 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Work/2025\ I/Taller\ de\ Diseno\ Digital/proyecto-final-tallerDD {D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/controller.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 00:46:16 on Jun 13,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD" D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 00:46:16 on Jun 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Work/2025\ I/Taller\ de\ Diseno\ Digital/proyecto-final-tallerDD {D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/decoder.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 00:46:16 on Jun 13,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD" D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 00:46:16 on Jun 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Work/2025\ I/Taller\ de\ Diseno\ Digital/proyecto-final-tallerDD {D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/condlogic.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 00:46:16 on Jun 13,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD" D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/condlogic.sv 
+# -- Compiling module condlogic
+# 
+# Top level modules:
+# 	condlogic
+# End time: 00:46:16 on Jun 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Work/2025\ I/Taller\ de\ Diseno\ Digital/proyecto-final-tallerDD {D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/datapath.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 00:46:16 on Jun 13,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD" D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/datapath.sv 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 00:46:16 on Jun 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Work/2025\ I/Taller\ de\ Diseno\ Digital/proyecto-final-tallerDD {D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/regfile.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 00:46:16 on Jun 13,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD" D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/regfile.sv 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 00:46:16 on Jun 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Work/2025\ I/Taller\ de\ Diseno\ Digital/proyecto-final-tallerDD {D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/adder.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 00:46:16 on Jun 13,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD" D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/adder.sv 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 00:46:16 on Jun 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Work/2025\ I/Taller\ de\ Diseno\ Digital/proyecto-final-tallerDD {D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/extend.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 00:46:16 on Jun 13,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD" D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/extend.sv 
+# -- Compiling module extend
+# 
+# Top level modules:
+# 	extend
+# End time: 00:46:16 on Jun 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Work/2025\ I/Taller\ de\ Diseno\ Digital/proyecto-final-tallerDD {D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/flopenr.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 00:46:16 on Jun 13,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD" D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/flopenr.sv 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 00:46:16 on Jun 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Work/2025\ I/Taller\ de\ Diseno\ Digital/proyecto-final-tallerDD {D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/mux2.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 00:46:16 on Jun 13,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD" D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/mux2.sv 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 00:46:16 on Jun 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Work/2025\ I/Taller\ de\ Diseno\ Digital/proyecto-final-tallerDD {D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/dmem.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 00:46:16 on Jun 13,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD" D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/dmem.sv 
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# End time: 00:46:16 on Jun 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Work/2025\ I/Taller\ de\ Diseno\ Digital/proyecto-final-tallerDD {D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/alu.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 00:46:16 on Jun 13,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD" D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 00:46:17 on Jun 13,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Work/2025\ I/Taller\ de\ Diseno\ Digital/proyecto-final-tallerDD {D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/imem.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 00:46:17 on Jun 13,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD" D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 00:46:17 on Jun 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+D:/Work/2025\ I/Taller\ de\ Diseno\ Digital/proyecto-final-tallerDD {D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/rom_tb.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 00:46:17 on Jun 13,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD" D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/rom_tb.sv 
+# -- Compiling module rom_tb
+# 
+# Top level modules:
+# 	rom_tb
+# End time: 00:46:17 on Jun 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  rom
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" rom 
+# Start time: 00:46:17 on Jun 13,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Error: (vopt-13130) Failed to find design unit 'rom'.
+#         Searched libraries:
+#             altera_ver
+#             lpm_ver
+#             sgate_ver
+#             altera_mf_ver
+#             altera_lnsim_ver
+#             cyclonev_ver
+#             cyclonev_hssi_ver
+#             cyclonev_pcie_hip_ver
+#             rtl_work
+#             work
+#             work
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./computer_top_run_msim_rtl_verilog.do PAUSED at line 25
+vsim work.rom_tb
+# vsim work.rom_tb 
+# Start time: 00:46:17 on Jun 13,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/rom_tb.sv(7): Module 'rom' is not defined.
+#  For instance 'mem' at path 'rom_tb'
+# ** Error: D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/rom_tb.sv(8): Module 'counter' is not defined.
+#  For instance 'cont' at path 'rom_tb'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=3, Warnings=1.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./computer_top_run_msim_rtl_verilog.do PAUSED at line 25
+vsim work.rom_tb
+# vsim work.rom_tb 
+# Start time: 00:46:17 on Jun 13,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/rom_tb.sv(7): Module 'rom' is not defined.
+#  For instance 'mem' at path 'rom_tb'
+# ** Error: D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/rom_tb.sv(8): Module 'counter' is not defined.
+#  For instance 'cont' at path 'rom_tb'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=5, Warnings=1.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./computer_top_run_msim_rtl_verilog.do PAUSED at line 25
+vsim -L altera_mf_ver -L lpm_ver ram_tb
+# vsim -L altera_mf_ver -L lpm_ver ram_tb 
+# Start time: 00:46:17 on Jun 13,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-13130) Failed to find design unit 'ram_tb'.
+#         Searched libraries:
+#             altera_mf_ver
+#             lpm_ver
+#             work
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=6, Warnings=1.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./computer_top_run_msim_rtl_verilog.do PAUSED at line 25
+vsim -L altera_mf_ver -L lpm_ver rom_tb
+# vsim -L altera_mf_ver -L lpm_ver rom_tb 
+# Start time: 00:46:17 on Jun 13,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/rom_tb.sv(7): Module 'rom' is not defined.
+#  For instance 'mem' at path 'rom_tb'
+# ** Error: D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/rom_tb.sv(8): Module 'counter' is not defined.
+#  For instance 'cont' at path 'rom_tb'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=8, Warnings=1.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./computer_top_run_msim_rtl_verilog.do PAUSED at line 25
+vsim -L altera_mf_ver -L lpm_ver rom_tb
+# vsim -L altera_mf_ver -L lpm_ver rom_tb 
+# Start time: 00:46:17 on Jun 13,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/rom_tb.sv(7): Module 'rom' is not defined.
+#  For instance 'mem' at path 'rom_tb'
+# ** Error: D:/Work/2025 I/Taller de Diseno Digital/proyecto-final-tallerDD/rom_tb.sv(8): Module 'counter' is not defined.
+#  For instance 'cont' at path 'rom_tb'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=10, Warnings=1.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./computer_top_run_msim_rtl_verilog.do PAUSED at line 25
+# End time: 00:51:18 on Jun 13,2025, Elapsed time: 0:05:01
+# Errors: 10, Warnings: 1
