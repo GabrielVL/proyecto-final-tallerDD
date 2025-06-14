@@ -1,0 +1,47 @@
+module mem_map (
+    input  logic        clk, we,
+    input  logic [31:0] a, wd,
+    output logic [31:0] rd
+);
+    logic [15:0] paddle_x, ball_x, ball_y, ball_vx, ball_vy, score;
+    logic [7:0]  lives;
+    logic [31:0] ps2_data, vga_control;
+
+    // Register writes
+    always_ff @(posedge clk) begin
+        if (we) begin
+            case (a)
+                32'h1000: paddle_x <= wd[15:0];
+                32'h1004: ball_x <= wd[15:0];
+                32'h1008: ball_y <= wd[15:0];
+                32'h100C: ball_vx <= wd[15:0];
+                32'h1010: ball_vy <= wd[15:0];
+                32'h1014: score <= wd[15:0];
+                32'h1018: lives <= wd[7:0];
+                32'h4000: vga_control <= wd;
+                // 0x2000–0x2FFF handled by ram.v
+            endcase
+        end
+    end
+
+    // Register reads
+    always_comb begin
+        case (a)
+            32'h1000: rd = {16'b0, paddle_x};
+            32'h1004: rd = {16'b0, ball_x};
+            32'h1008: rd = {16'b0, ball_y};
+            32'h100C: rd = {{16{ball_vx[15]}}, ball_vx}; // Sign-extend
+            32'h1010: rd = {{16{ball_vy[15]}}, ball_vy};
+            32'h1014: rd = {16'b0, score};
+            32'h1018: rd = {24'b0, lives};
+            32'h3000: rd = ps2_data;
+            32'h4000: rd = vga_control;
+            default:  rd = 32'h0; // Unmapped addresses (including 0x2000–0x2FFF) return 0
+        endcase
+    end
+
+    // Mock PS/2 data (replace with real controller)
+    always_ff @(posedge clk) begin
+        ps2_data <= 32'h00000003; // Bit 0: left, bit 1: right
+    end
+endmodule

@@ -16,10 +16,10 @@
 <TH>Output only Bidir</TH>
 </TR>
 <TR >
-<TD >dmem</TD>
+<TD >main_memory_map</TD>
 <TD >66</TD>
 <TD >0</TD>
-<TD >26</TD>
+<TD >0</TD>
 <TD >0</TD>
 <TD >32</TD>
 <TD >0</TD>
@@ -32,10 +32,10 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >imem</TD>
-<TD >32</TD>
+<TD >instruction_rom|altsyncram_component|auto_generated</TD>
+<TD >9</TD>
 <TD >0</TD>
-<TD >26</TD>
+<TD >0</TD>
 <TD >0</TD>
 <TD >32</TD>
 <TD >0</TD>
@@ -48,7 +48,71 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >processor|dp|resmux</TD>
+<TD >instruction_rom</TD>
+<TD >9</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >32</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >arm_processor|control_unit|flag_reg</TD>
+<TD >7</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >4</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >arm_processor|control_unit</TD>
+<TD >15</TD>
+<TD >1</TD>
+<TD >1</TD>
+<TD >1</TD>
+<TD >4</TD>
+<TD >1</TD>
+<TD >1</TD>
+<TD >1</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >arm_processor|decode_unit</TD>
+<TD >32</TD>
+<TD >2</TD>
+<TD >24</TD>
+<TD >2</TD>
+<TD >15</TD>
+<TD >2</TD>
+<TD >2</TD>
+<TD >2</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >arm_processor|processor|resmux</TD>
 <TD >65</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -64,8 +128,8 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >processor|dp|alu</TD>
-<TD >66</TD>
+<TD >arm_processor|processor|alu</TD>
+<TD >67</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -80,7 +144,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >processor|dp|srcbmux</TD>
+<TD >arm_processor|processor|srcbmux</TD>
 <TD >65</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -96,7 +160,23 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >processor|dp|ext</TD>
+<TD >arm_processor|processor|srcamux</TD>
+<TD >65</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >32</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >arm_processor|processor|ext</TD>
 <TD >26</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -112,8 +192,8 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >processor|dp|rf</TD>
-<TD >46</TD>
+<TD >arm_processor|processor|rf</TD>
+<TD >47</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -128,7 +208,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >processor|dp|ra2mux</TD>
+<TD >arm_processor|processor|ra2mux</TD>
 <TD >9</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -144,7 +224,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >processor|dp|ra1mux</TD>
+<TD >arm_processor|processor|ra1mux</TD>
 <TD >9</TD>
 <TD >4</TD>
 <TD >0</TD>
@@ -160,7 +240,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >processor|dp|pcmux</TD>
+<TD >arm_processor|processor|pcmux</TD>
 <TD >65</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -176,7 +256,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >processor|dp|pcadd2</TD>
+<TD >arm_processor|processor|pcadd2</TD>
 <TD >64</TD>
 <TD >32</TD>
 <TD >0</TD>
@@ -192,7 +272,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >processor|dp|pcadd1</TD>
+<TD >arm_processor|processor|pcadd1</TD>
 <TD >64</TD>
 <TD >32</TD>
 <TD >0</TD>
@@ -208,15 +288,15 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >processor|dp|pcreg</TD>
+<TD >arm_processor|processor|pcreg</TD>
 <TD >35</TD>
-<TD >1</TD>
 <TD >0</TD>
-<TD >1</TD>
+<TD >0</TD>
+<TD >0</TD>
 <TD >32</TD>
-<TD >1</TD>
-<TD >1</TD>
-<TD >1</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -224,8 +304,8 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >processor|dp</TD>
-<TD >76</TD>
+<TD >arm_processor|processor</TD>
+<TD >79</TD>
 <TD >0</TD>
 <TD >8</TD>
 <TD >0</TD>
@@ -240,95 +320,15 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >processor|c|cl|flagregN</TD>
-<TD >5</TD>
+<TD >arm_processor</TD>
+<TD >34</TD>
+<TD >64</TD>
 <TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >2</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-</TR>
-<TR >
-<TD >processor|c|cl|flagregZ</TD>
-<TD >5</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >2</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-</TR>
-<TR >
-<TD >processor|c|cl</TD>
-<TD >15</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >3</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-</TR>
-<TR >
-<TD >processor|c|dec</TD>
-<TD >12</TD>
-<TD >1</TD>
-<TD >0</TD>
-<TD >1</TD>
-<TD >13</TD>
-<TD >1</TD>
-<TD >1</TD>
-<TD >1</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-</TR>
-<TR >
-<TD >processor|c</TD>
-<TD >26</TD>
-<TD >0</TD>
-<TD >4</TD>
-<TD >0</TD>
-<TD >11</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-</TR>
-<TR >
-<TD >processor</TD>
-<TD >66</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >97</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
+<TD >64</TD>
+<TD >129</TD>
+<TD >64</TD>
+<TD >64</TD>
+<TD >64</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>

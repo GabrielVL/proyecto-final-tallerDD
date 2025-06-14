@@ -1,0 +1,67 @@
+module computer_top_tb;
+    logic clk, reset;
+    logic [31:0] WriteData, DataAdr;
+    logic MemWrite;
+
+    // Instantiate the design under test
+    computer_top dut (
+        .clk(clk),
+        .reset(reset),
+        .WriteData(WriteData),
+        .DataAdr(DataAdr),
+        .MemWrite(MemWrite)
+    );
+
+    // Clock generation
+    initial begin
+        clk = 0;
+        forever #5 clk = ~clk; // 10ns clock period (100 MHz)
+    end
+
+    // Test stimulus
+    initial begin
+        // Initialize signals
+        reset = 1;
+        #20 reset = 0; // Reset for 20ns
+
+        // Test 1: Instruction fetch and basic execution
+        #50;
+        $display("Time %0t: PC = %h, Instr = %h", $time, dut.processor.dp.pcreg.q, dut.Instr);
+        if (dut.Instr !== 32'h010aa0e3) // Expected first instr from rom_data.mif (MOV r10, #0xA)
+            $display("Error: Incorrect instruction fetched");
+
+        // Test 2: Write to register (e.g., simulate MOV r0, #0x1000)
+        #100;
+        $display("Time %0t: DataAdr = %h, WriteData = %h, MemWrite = %b", $time, DataAdr, WriteData, MemWrite);
+        if (DataAdr !== 32'h1000 || WriteData !== 32'h00001000 || MemWrite !== 1)
+            $display("Error: Register write failed");
+
+        // Test 3: Write to RAM (brick region)
+        #100;
+        DataAdr = 32'h2000; // Brick address
+        WriteData = 32'h00000001; // Set brick state
+        MemWrite = 1;
+        #20 MemWrite = 0;
+        #50;
+        $display("Time %0t: DataAdr = %h, ReadData = %h", $time, DataAdr, dut.ram_inst.q);
+        if (dut.ram_inst.q !== 32'h00000001)
+            $display("Error: RAM write failed");
+
+        // Test 4: Simulate RSB (rsb r7, r7, #0)
+        // Assume datapath sets r7 = 0x5, RSB should result in -0x5
+        #100;
+        $display("Time %0t: ALUResult = %h, WriteData = %h", $time, dut.processor.dp.ALUResult, dut.processor.dp.WriteData);
+        if (dut.processor.dp.ALUResult !== 32'hfffffffb) // -5 in 2's complement
+            $display("Error: RSB instruction failed");
+
+        // End simulation
+        #500 $finish;
+    end
+
+    // Add waves for debugging
+    initial begin
+        $dumpfile("computer_top_tb.vcd");
+        $dumpvars(0, computer_top_tb);
+    end
+
+endmodule
