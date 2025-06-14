@@ -12,149 +12,149 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/rom.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:14:57 on Jun 14,2025
+# Start time: 15:14:17 on Jun 14,2025
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/rom.v 
 # -- Compiling module rom
 # 
 # Top level modules:
 # 	rom
-# End time: 02:14:57 on Jun 14,2025, Elapsed time: 0:00:00
+# End time: 15:14:17 on Jun 14,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:14:57 on Jun 14,2025
+# Start time: 15:14:17 on Jun 14,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm.sv 
 # -- Compiling module arm
 # 
 # Top level modules:
 # 	arm
-# End time: 02:14:57 on Jun 14,2025, Elapsed time: 0:00:00
+# End time: 15:14:17 on Jun 14,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:14:57 on Jun 14,2025
+# Start time: 15:14:17 on Jun 14,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv 
 # -- Compiling module computer_top
 # 
 # Top level modules:
 # 	computer_top
-# End time: 02:14:58 on Jun 14,2025, Elapsed time: 0:00:01
+# End time: 15:14:17 on Jun 14,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/decoder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:14:58 on Jun 14,2025
+# Start time: 15:14:17 on Jun 14,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/decoder.sv 
 # -- Compiling module decoder
 # 
 # Top level modules:
 # 	decoder
-# End time: 02:14:58 on Jun 14,2025, Elapsed time: 0:00:00
+# End time: 15:14:17 on Jun 14,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/condlogic.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:14:58 on Jun 14,2025
+# Start time: 15:14:17 on Jun 14,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/condlogic.sv 
 # -- Compiling module condlogic
 # 
 # Top level modules:
 # 	condlogic
-# End time: 02:14:58 on Jun 14,2025, Elapsed time: 0:00:00
+# End time: 15:14:17 on Jun 14,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:14:58 on Jun 14,2025
+# Start time: 15:14:17 on Jun 14,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv 
 # -- Compiling module datapath
 # 
 # Top level modules:
 # 	datapath
-# End time: 02:14:58 on Jun 14,2025, Elapsed time: 0:00:00
+# End time: 15:14:17 on Jun 14,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/regfile.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:14:58 on Jun 14,2025
+# Start time: 15:14:17 on Jun 14,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/regfile.sv 
 # -- Compiling module regfile
 # 
 # Top level modules:
 # 	regfile
-# End time: 02:14:58 on Jun 14,2025, Elapsed time: 0:00:00
+# End time: 15:14:17 on Jun 14,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/adder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:14:58 on Jun 14,2025
+# Start time: 15:14:17 on Jun 14,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/adder.sv 
 # -- Compiling module adder
 # 
 # Top level modules:
 # 	adder
-# End time: 02:14:58 on Jun 14,2025, Elapsed time: 0:00:00
+# End time: 15:14:18 on Jun 14,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/extend.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:14:58 on Jun 14,2025
+# Start time: 15:14:18 on Jun 14,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/extend.sv 
 # -- Compiling module extend
 # 
 # Top level modules:
 # 	extend
-# End time: 02:14:58 on Jun 14,2025, Elapsed time: 0:00:00
+# End time: 15:14:18 on Jun 14,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/flopenr.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:14:58 on Jun 14,2025
+# Start time: 15:14:18 on Jun 14,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/flopenr.sv 
 # -- Compiling module flopenr
 # 
 # Top level modules:
 # 	flopenr
-# End time: 02:14:58 on Jun 14,2025, Elapsed time: 0:00:00
+# End time: 15:14:18 on Jun 14,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/mux2.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:14:58 on Jun 14,2025
+# Start time: 15:14:18 on Jun 14,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/mux2.sv 
 # -- Compiling module mux2
 # 
 # Top level modules:
 # 	mux2
-# End time: 02:14:58 on Jun 14,2025, Elapsed time: 0:00:00
+# End time: 15:14:18 on Jun 14,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/alu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:14:58 on Jun 14,2025
+# Start time: 15:14:18 on Jun 14,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/alu.sv 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 02:14:58 on Jun 14,2025, Elapsed time: 0:00:00
+# End time: 15:14:18 on Jun 14,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/mem_map.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:14:58 on Jun 14,2025
+# Start time: 15:14:18 on Jun 14,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/mem_map.sv 
 # -- Compiling module mem_map
 # 
 # Top level modules:
 # 	mem_map
-# End time: 02:14:58 on Jun 14,2025, Elapsed time: 0:00:00
+# End time: 15:14:18 on Jun 14,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:14:58 on Jun 14,2025
+# Start time: 15:14:18 on Jun 14,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top_tb.sv 
 # -- Compiling module computer_top_tb
 # 
 # Top level modules:
 # 	computer_top_tb
-# End time: 02:14:58 on Jun 14,2025, Elapsed time: 0:00:00
+# End time: 15:14:18 on Jun 14,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  computer_top_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" computer_top_tb 
-# Start time: 02:14:58 on Jun 14,2025
+# Start time: 15:14:18 on Jun 14,2025
 # Loading sv_std.std
 # Loading work.computer_top_tb
 # Loading work.computer_top
@@ -174,8 +174,6 @@
 # Loading altera_mf_ver.altsyncram_body
 # Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
 # Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
-# ** Warning: (vsim-3839) C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv(42): Variable '/computer_top_tb/dut/ReadData', driven via a port connection, is multiply driven. See C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv(15).
-#    Time: 0 ps  Iteration: 0  Instance: /computer_top_tb/dut/main_memory_map File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/mem_map.sv
 # 
 # add wave *
 # view structure
@@ -183,489 +181,30 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# Time 0: Testbench - Reset: 1 (Inicialmente alto)
-# Time 0: arm - Stall = x, PCSrc (from controller) = x, PCS_ALU_SrcA = x
-# Time 0: arm - PC = xxxxxxxx, Instr = xxxxxxxx, Instr[23] = x (received by arm)
-# Time 0: decoder - Op=xx, Funct=xxxxxx, Rd=xxxx, FullInstr=xxxxxxxx
-# Time 0: decoder - RegW=x, MemW=x, ALUSrc=x, ImmSrc=xx
-# Time 0: decoder - MemtoReg=x, ALUControl=xxx, FlagW=xx
-# Time 0: decoder - PCS (final) = x, PCS_ALU_SrcA = x
-# Time 0: datapath - Instr (full)=xxxxxxxx, Instr[23]=x (before extend)
-# Time 0: alu - a=xxxxxxxx, b=xxxxxxxx, ALUControl=xxx
-# Time 0: alu - Result=xxxxxxxx, neg=x, zero=x, carry=x, overflow=x
-# Time 0: extend - Instr[23:0]=xxxxxx, ImmSrc=xx
-# Time 0: extend - Instr[23]=x (MSB of 24-bit immediate)
-# Time 0: extend - ExtImm=xxxxxxxx (Result of extension)
-# Time 0: extend - Instr[23:0]=000000, ImmSrc=xx
-# Time 0: extend - Instr[23]=0 (MSB of 24-bit immediate)
-# Time 0: extend - ExtImm=xxxxxxxx (Result of extension)
-# Time 0: datapath - Instr (full)=00000000, Instr[23]=0 (before extend)
-# Time 0: arm - Stall = 0, PCSrc (from controller) = x, PCS_ALU_SrcA = x
-# Time 0: arm - PC = xxxxxxxx, Instr = 00000000, Instr[23] = 0 (received by arm)
-# Time 0: decoder - Op=00, Funct=000000, Rd=0000, FullInstr=00000000
-# Time 0: decoder - RegW=1, MemW=0, ALUSrc=0, ImmSrc=00
-# Time 0: decoder - MemtoReg=0, ALUControl=000, FlagW=00
-# Time 0: decoder - PCS (final) = 0, PCS_ALU_SrcA = 0
-# Time 0: Testbench - CAMBIO en Reset: 1
-# Time 0: alu - a=xxxxxxxx, b=xxxxxxxx, ALUControl=000
-# Time 0: alu - Result=xxxxxxxx, neg=x, zero=x, carry=x, overflow=x
-# Time 0: extend - Instr[23:0]=000000, ImmSrc=00
-# Time 0: extend - Instr[23]=0 (MSB of 24-bit immediate)
-# Time 0: extend - ExtImm=00000000 (Result of extension)
-# Time 0: arm - Stall = 0, PCSrc (from controller) = x, PCS_ALU_SrcA = 0
-# Time 0: arm - PC = xxxxxxxx, Instr = 00000000, Instr[23] = 0 (received by arm)
-# Time 0: arm - Stall = 0, PCSrc (from controller) = 0, PCS_ALU_SrcA = 0
-# Time 0: arm - PC = xxxxxxxx, Instr = 00000000, Instr[23] = 0 (received by arm)
-# Time 0: alu - a=00000000, b=00000000, ALUControl=000
-# Time 0: alu - Result=00000000, neg=0, zero=1, carry=x, overflow=x
-# Time 0: arm - Stall = 0, PCSrc (from controller) = 0, PCS_ALU_SrcA = 0
-# Time 0: arm - PC = 00000000, Instr = 00000000, Instr[23] = 0 (received by arm)
-# Time 5000: condlogic - cycle_count =          x
-# Time 5000: condlogic - Cond = 0000, ALUFlags = 01xx, FlagW = 00
-# Time 5000: condlogic - PCS = 0, RegW = 0, MemW = 0
-# Time 5000: condlogic - condex = 0, Stall = 0
-# Time 5000: condlogic - PCSrc = 0, RegWrite = 0, MemWrite = 0
-# Time 10000: Testbench - Reset: 0 (Liberado)
-# Time 10000: Testbench - CAMBIO en Reset: 0
-# Time 15000: condlogic - cycle_count =          0
-# Time 15000: condlogic - Cond = 0000, ALUFlags = 01xx, FlagW = 00
-# Time 15000: condlogic - PCS = 0, RegW = 0, MemW = 0
-# Time 15000: condlogic - condex = 0, Stall = 0
-# Time 15000: condlogic - PCSrc = 0, RegWrite = 0, MemWrite = 0
-# Time 15000: extend - Instr[23:0]=0aa0e3, ImmSrc=00
-# Time 15000: extend - Instr[23]=0 (MSB of 24-bit immediate)
-# Time 15000: extend - ExtImm=000000e3 (Result of extension)
-# Time 15000: datapath - Instr (full)=010aa0e3, Instr[23]=0 (before extend)
-# Time 15000: decoder - Op=00, Funct=010000, Rd=1010, FullInstr=010aa0e3
-# Time 15000: decoder - RegW=0, MemW=0, ALUSrc=0, ImmSrc=00
-# Time 15000: decoder - MemtoReg=0, ALUControl=111, FlagW=11
-# Time 15000: decoder - PCS (final) = 0, PCS_ALU_SrcA = 0
-# Time 15000: arm - Stall = 0, PCSrc (from controller) = 0, PCS_ALU_SrcA = 0
-# Time 15000: arm - PC = 00000004, Instr = 010aa0e3, Instr[23] = 0 (received by arm)
-# Time 15000: alu - a=00000000, b=00000000, ALUControl=111
-# Time 15000: alu - Result=00000000, neg=0, zero=1, carry=1, overflow=0
-# Time 25000: condlogic - cycle_count =          1
-# Time 25000: condlogic - Cond = 0000, ALUFlags = 0110, FlagW = 11
-# Time 25000: condlogic - PCS = 0, RegW = 0, MemW = 0
-# Time 25000: condlogic - condex = 0, Stall = 0
-# Time 25000: condlogic - PCSrc = 0, RegWrite = 0, MemWrite = 0
-# Time 25000: arm - Stall = 0, PCSrc (from controller) = 0, PCS_ALU_SrcA = 0
-# Time 25000: arm - PC = 00000008, Instr = 010aa0e3, Instr[23] = 0 (received by arm)
-# Time 35000: condlogic - cycle_count =          2
-# Time 35000: condlogic - Cond = 0000, ALUFlags = 0110, FlagW = 11
-# Time 35000: condlogic - PCS = 0, RegW = 0, MemW = 0
-# Time 35000: condlogic - condex = 1, Stall = 0
-# Time 35000: condlogic - PCSrc = 0, RegWrite = 0, MemWrite = 0
-# Time 35000: extend - Instr[23:0]=1fa0e3, ImmSrc=00
-# Time 35000: extend - Instr[23]=0 (MSB of 24-bit immediate)
-# Time 35000: extend - ExtImm=000000e3 (Result of extension)
-# Time 35000: datapath - Instr (full)=461fa0e3, Instr[23]=0 (before extend)
-# Time 35000: decoder - Op=01, Funct=100001, Rd=1010, FullInstr=461fa0e3
-# Time 35000: decoder - RegW=1, MemW=0, ALUSrc=1, ImmSrc=01
-# Time 35000: decoder - MemtoReg=1, ALUControl=011, FlagW=00
-# Time 35000: decoder - PCS (final) = 0, PCS_ALU_SrcA = 0
-# Time 35000: arm - Stall = 0, PCSrc (from controller) = 0, PCS_ALU_SrcA = 0
-# Time 35000: arm - PC = 0000000c, Instr = 461fa0e3, Instr[23] = 0 (received by arm)
-# Time 35000: extend - Instr[23:0]=1fa0e3, ImmSrc=01
-# Time 35000: extend - Instr[23]=0 (MSB of 24-bit immediate)
-# Time 35000: extend - ExtImm=000000e3 (Result of extension)
-# Time 35000: alu - a=00000000, b=000000e3, ALUControl=011
-# Time 35000: alu - Result=000000e3, neg=0, zero=0, carry=0, overflow=0
-# Time 45000: condlogic - cycle_count =          3
-# Time 45000: condlogic - Cond = 0100, ALUFlags = 0000, FlagW = 00
-# Time 45000: condlogic - PCS = 0, RegW = 0, MemW = 0
-# Time 45000: condlogic - condex = 0, Stall = 0
-# Time 45000: condlogic - PCSrc = 0, RegWrite = 0, MemWrite = 0
-# Time 45000: extend - Instr[23:0]=1080e5, ImmSrc=01
-# Time 45000: extend - Instr[23]=0 (MSB of 24-bit immediate)
-# Time 45000: extend - ExtImm=000000e5 (Result of extension)
-# Time 45000: datapath - Instr (full)=001080e5, Instr[23]=0 (before extend)
-# Time 45000: decoder - Op=00, Funct=000001, Rd=1000, FullInstr=001080e5
-# Time 45000: decoder - RegW=1, MemW=0, ALUSrc=0, ImmSrc=00
-# Time 45000: decoder - MemtoReg=0, ALUControl=000, FlagW=11
-# Time 45000: decoder - PCS (final) = 0, PCS_ALU_SrcA = 0
-# Time 45000: arm - Stall = 0, PCSrc (from controller) = 0, PCS_ALU_SrcA = 0
-# Time 45000: arm - PC = 00000010, Instr = 001080e5, Instr[23] = 0 (received by arm)
-# Time 45000: extend - Instr[23:0]=1080e5, ImmSrc=00
-# Time 45000: extend - Instr[23]=0 (MSB of 24-bit immediate)
-# Time 45000: extend - ExtImm=000000e5 (Result of extension)
-# Time 45000: alu - a=00000000, b=00000000, ALUControl=000
-# Time 45000: alu - Result=00000000, neg=0, zero=1, carry=x, overflow=x
-# Time 55000: condlogic - cycle_count =          4
-# Time 55000: condlogic - Cond = 0000, ALUFlags = 01xx, FlagW = 11
-# Time 55000: condlogic - PCS = 0, RegW = 1, MemW = 0
-# Time 55000: condlogic - condex = 1, Stall = 0
-# Time 55000: condlogic - PCSrc = 0, RegWrite = 1, MemWrite = 0
-# Time 55000: extend - Instr[23:0]=029fe5, ImmSrc=00
-# Time 55000: extend - Instr[23]=0 (MSB of 24-bit immediate)
-# Time 55000: extend - ExtImm=000000e5 (Result of extension)
-# Time 55000: datapath - Instr (full)=6c029fe5, Instr[23]=0 (before extend)
-# Time 55000: decoder - Op=11, Funct=000000, Rd=1001, FullInstr=6c029fe5
-# Time 55000: decoder - RegW=0, MemW=0, ALUSrc=0, ImmSrc=00
-# Time 55000: decoder - MemtoReg=0, ALUControl=000, FlagW=00
-# Time 55000: decoder - PCS (final) = 0, PCS_ALU_SrcA = 0
-# Time 55000: arm - Stall = 0, PCSrc (from controller) = 0, PCS_ALU_SrcA = 0
-# Time 55000: arm - PC = 00000014, Instr = 6c029fe5, Instr[23] = 0 (received by arm)
-# Time 65000: condlogic - cycle_count =          5
-# Time 65000: condlogic - Cond = 0110, ALUFlags = 01xx, FlagW = 00
-# Time 65000: condlogic - PCS = 0, RegW = 0, MemW = 0
-# Time 65000: condlogic - condex = 0, Stall = 0
-# Time 65000: condlogic - PCSrc = 0, RegWrite = 0, MemWrite = 0
-# Time 65000: extend - Instr[23:0]=1fa0e3, ImmSrc=00
-# Time 65000: extend - Instr[23]=0 (MSB of 24-bit immediate)
-# Time 65000: extend - ExtImm=000000e3 (Result of extension)
-# Time 65000: datapath - Instr (full)=4f1fa0e3, Instr[23]=0 (before extend)
-# Time 65000: decoder - Op=11, Funct=110001, Rd=1010, FullInstr=4f1fa0e3
-# Time 65000: decoder - RegW=0, MemW=0, ALUSrc=0, ImmSrc=00
-# Time 65000: decoder - MemtoReg=0, ALUControl=000, FlagW=00
-# Time 65000: decoder - PCS (final) = 0, PCS_ALU_SrcA = 0
-# Time 65000: arm - Stall = 0, PCSrc (from controller) = 0, PCS_ALU_SrcA = 0
-# Time 65000: arm - PC = 00000018, Instr = 4f1fa0e3, Instr[23] = 0 (received by arm)
-# Time 75000: condlogic - cycle_count =          6
-# Time 75000: condlogic - Cond = 0100, ALUFlags = 01xx, FlagW = 00
-# Time 75000: condlogic - PCS = 0, RegW = 0, MemW = 0
-# Time 75000: condlogic - condex = x, Stall = 0
-# Time 75000: condlogic - PCSrc = 0, RegWrite = 0, MemWrite = 0
-# Time 75000: extend - Instr[23:0]=1080e5, ImmSrc=00
-# Time 75000: extend - Instr[23]=0 (MSB of 24-bit immediate)
-# Time 75000: extend - ExtImm=000000e5 (Result of extension)
-# Time 75000: datapath - Instr (full)=001080e5, Instr[23]=0 (before extend)
-# Time 75000: decoder - Op=00, Funct=000001, Rd=1000, FullInstr=001080e5
-# Time 75000: decoder - RegW=1, MemW=0, ALUSrc=0, ImmSrc=00
-# Time 75000: decoder - MemtoReg=0, ALUControl=000, FlagW=11
-# Time 75000: decoder - PCS (final) = 0, PCS_ALU_SrcA = 0
-# Time 75000: arm - Stall = 0, PCSrc (from controller) = 0, PCS_ALU_SrcA = 0
-# Time 75000: arm - PC = 0000001c, Instr = 001080e5, Instr[23] = 0 (received by arm)
-# Time 85000: condlogic - cycle_count =          7
-# Time 85000: condlogic - Cond = 0000, ALUFlags = 01xx, FlagW = 11
-# Time 85000: condlogic - PCS = 0, RegW = x, MemW = 0
-# Time 85000: condlogic - condex = x, Stall = 0
-# Time 85000: condlogic - PCSrc = 0, RegWrite = x, MemWrite = 0
-# Time 85000: extend - Instr[23:0]=029fe5, ImmSrc=00
-# Time 85000: extend - Instr[23]=0 (MSB of 24-bit immediate)
-# Time 85000: extend - ExtImm=000000e5 (Result of extension)
-# Time 85000: datapath - Instr (full)=64029fe5, Instr[23]=0 (before extend)
-# Time 85000: decoder - Op=01, Funct=000000, Rd=1001, FullInstr=64029fe5
-# Time 85000: decoder - RegW=0, MemW=1, ALUSrc=1, ImmSrc=01
-# Time 85000: decoder - MemtoReg=0, ALUControl=011, FlagW=00
-# Time 85000: decoder - PCS (final) = 0, PCS_ALU_SrcA = 0
-# Time 85000: arm - Stall = 0, PCSrc (from controller) = 0, PCS_ALU_SrcA = 0
-# Time 85000: arm - PC = 00000020, Instr = 64029fe5, Instr[23] = 0 (received by arm)
-# Time 85000: extend - Instr[23:0]=029fe5, ImmSrc=01
-# Time 85000: extend - Instr[23]=0 (MSB of 24-bit immediate)
-# Time 85000: extend - ExtImm=00000fe5 (Result of extension)
-# Time 85000: alu - a=00000000, b=000000e5, ALUControl=011
-# Time 85000: alu - Result=000000e5, neg=0, zero=0, carry=0, overflow=0
-# Time 85000: alu - a=00000000, b=00000fe5, ALUControl=011
-# Time 85000: alu - Result=00000fe5, neg=0, zero=0, carry=0, overflow=0
-# Time 95000: condlogic - cycle_count =          8
-# Time 95000: condlogic - Cond = 0110, ALUFlags = 0000, FlagW = 00
-# Time 95000: condlogic - PCS = 0, RegW = 0, MemW = 0
-# Time 95000: condlogic - condex = 0, Stall = 0
-# Time 95000: condlogic - PCSrc = 0, RegWrite = 0, MemWrite = 0
-# Time 95000: extend - Instr[23:0]=1ea0e3, ImmSrc=01
-# Time 95000: extend - Instr[23]=0 (MSB of 24-bit immediate)
-# Time 95000: extend - ExtImm=000000e3 (Result of extension)
-# Time 95000: datapath - Instr (full)=191ea0e3, Instr[23]=0 (before extend)
-# Time 95000: decoder - Op=10, Funct=010001, Rd=1010, FullInstr=191ea0e3
-# Time 95000: decoder - RegW=0, MemW=0, ALUSrc=0, ImmSrc=10
-# Time 95000: decoder - MemtoReg=0, ALUControl=000, FlagW=00
-# Time 95000: decoder - PCS (final) = 1, PCS_ALU_SrcA = 1
-# Time 95000: arm - Stall = 0, PCSrc (from controller) = 0, PCS_ALU_SrcA = 0
-# Time 95000: arm - PC = 00000024, Instr = 191ea0e3, Instr[23] = 0 (received by arm)
-# Time 95000: extend - Instr[23:0]=1ea0e3, ImmSrc=10
-# Time 95000: extend - Instr[23]=0 (MSB of 24-bit immediate)
-# Time 95000: extend - ExtImm=007a838c (Result of extension)
-# Time 95000: alu - a=0000002c, b=00000000, ALUControl=000
-# Time 95000: alu - Result=00000000, neg=0, zero=1, carry=x, overflow=x
-# Time 95000: arm - Stall = 0, PCSrc (from controller) = 0, PCS_ALU_SrcA = 1
-# Time 95000: arm - PC = 00000024, Instr = 191ea0e3, Instr[23] = 0 (received by arm)
-# Time 95000: arm - Stall = 0, PCSrc (from controller) = x, PCS_ALU_SrcA = 1
-# Time 95000: arm - PC = 00000024, Instr = 191ea0e3, Instr[23] = 0 (received by arm)
-# Time 105000: condlogic - cycle_count =          9
-# Time 105000: condlogic - Cond = 0001, ALUFlags = 01xx, FlagW = 00
-# Time 105000: condlogic - PCS = x, RegW = 0, MemW = 0
-# Time 105000: condlogic - condex = x, Stall = 0
-# Time 105000: condlogic - PCSrc = x, RegWrite = 0, MemWrite = 0
-# Time 105000: extend - Instr[23:0]=1080e5, ImmSrc=10
-# Time 105000: extend - Instr[23]=0 (MSB of 24-bit immediate)
-# Time 105000: extend - ExtImm=00420394 (Result of extension)
-# Time 105000: datapath - Instr (full)=001080e5, Instr[23]=0 (before extend)
-# Time 105000: decoder - Op=00, Funct=000001, Rd=1000, FullInstr=001080e5
-# Time 105000: decoder - RegW=1, MemW=0, ALUSrc=0, ImmSrc=00
-# Time 105000: decoder - MemtoReg=0, ALUControl=000, FlagW=11
-# Time 105000: decoder - PCS (final) = 0, PCS_ALU_SrcA = 0
-# Time 105000: alu - a=xxxxxxxx, b=00000000, ALUControl=000
-# Time 105000: alu - Result=00000000, neg=0, zero=1, carry=x, overflow=x
-# Time 105000: arm - Stall = 0, PCSrc (from controller) = x, PCS_ALU_SrcA = 1
-# Time 105000: arm - PC = 000000XX, Instr = 001080e5, Instr[23] = 0 (received by arm)
-# Time 105000: extend - Instr[23:0]=1080e5, ImmSrc=00
-# Time 105000: extend - Instr[23]=0 (MSB of 24-bit immediate)
-# Time 105000: extend - ExtImm=000000e5 (Result of extension)
-# Time 105000: alu - a=00000000, b=00000000, ALUControl=000
-# Time 105000: alu - Result=00000000, neg=0, zero=1, carry=x, overflow=x
-# Time 105000: arm - Stall = 0, PCSrc (from controller) = x, PCS_ALU_SrcA = 0
-# Time 105000: arm - PC = 000000XX, Instr = 001080e5, Instr[23] = 0 (received by arm)
-# Time 105000: arm - Stall = 0, PCSrc (from controller) = 0, PCS_ALU_SrcA = 0
-# Time 105000: arm - PC = 000000XX, Instr = 001080e5, Instr[23] = 0 (received by arm)
-# Time 115000: condlogic - cycle_count =         10
-# Time 115000: condlogic - Cond = 0000, ALUFlags = 01xx, FlagW = 11
-# Time 115000: condlogic - PCS = 0, RegW = x, MemW = 0
-# Time 115000: condlogic - condex = x, Stall = 0
-# Time 115000: condlogic - PCSrc = 0, RegWrite = x, MemWrite = 0
-# Time 115000: extend - Instr[23:0]=029fe5, ImmSrc=00
-# Time 115000: extend - Instr[23]=0 (MSB of 24-bit immediate)
-# Time 115000: extend - ExtImm=000000e5 (Result of extension)
-# Time 115000: datapath - Instr (full)=5c029fe5, Instr[23]=0 (before extend)
-# Time 115000: decoder - Op=11, Funct=000000, Rd=1001, FullInstr=5c029fe5
-# Time 115000: decoder - RegW=0, MemW=0, ALUSrc=0, ImmSrc=00
-# Time 115000: decoder - MemtoReg=0, ALUControl=000, FlagW=00
-# Time 115000: decoder - PCS (final) = 0, PCS_ALU_SrcA = 0
-# Time 115000: arm - Stall = 0, PCSrc (from controller) = 0, PCS_ALU_SrcA = 0
-# Time 115000: arm - PC = xxxxxxxx, Instr = 5c029fe5, Instr[23] = 0 (received by arm)
-# Time 125000: condlogic - cycle_count =         11
-# Time 125000: condlogic - Cond = 0101, ALUFlags = 01xx, FlagW = 00
-# Time 125000: condlogic - PCS = 0, RegW = 0, MemW = 0
-# Time 125000: condlogic - condex = x, Stall = 0
-# Time 125000: condlogic - PCSrc = 0, RegWrite = 0, MemWrite = 0
-# Time 125000: alu - a=xxxxxxxx, b=xxxxxxxx, ALUControl=000
-# Time 125000: alu - Result=xxxxxxxx, neg=x, zero=x, carry=x, overflow=x
-# Time 125000: extend - Instr[23:0]=xxxxxx, ImmSrc=00
-# Time 125000: extend - Instr[23]=x (MSB of 24-bit immediate)
-# Time 125000: extend - ExtImm=000000xx (Result of extension)
-# Time 125000: datapath - Instr (full)=xxxxxxxx, Instr[23]=x (before extend)
-# Time 125000: decoder - Op=xx, Funct=xxxxxx, Rd=xxxx, FullInstr=xxxxxxxx
-# Time 125000: decoder - RegW=x, MemW=x, ALUSrc=x, ImmSrc=xx
-# Time 125000: decoder - MemtoReg=x, ALUControl=xxx, FlagW=xx
-# Time 125000: decoder - PCS (final) = x, PCS_ALU_SrcA = x
-# Time 125000: arm - Stall = 0, PCSrc (from controller) = 0, PCS_ALU_SrcA = 0
-# Time 125000: arm - PC = xxxxxxxx, Instr = xxxxxxxx, Instr[23] = x (received by arm)
-# Time 125000: alu - a=xxxxxxxx, b=xxxxxxxx, ALUControl=xxx
-# Time 125000: alu - Result=xxxxxxxx, neg=x, zero=x, carry=x, overflow=x
-# Time 125000: extend - Instr[23:0]=xxxxxx, ImmSrc=xx
-# Time 125000: extend - Instr[23]=x (MSB of 24-bit immediate)
-# Time 125000: extend - ExtImm=xxxxxxxx (Result of extension)
-# Time 125000: arm - Stall = 0, PCSrc (from controller) = 0, PCS_ALU_SrcA = x
-# Time 125000: arm - PC = xxxxxxxx, Instr = xxxxxxxx, Instr[23] = x (received by arm)
-# Time 125000: arm - Stall = 0, PCSrc (from controller) = x, PCS_ALU_SrcA = x
-# Time 125000: arm - PC = xxxxxxxx, Instr = xxxxxxxx, Instr[23] = x (received by arm)
-# Time 135000: condlogic - cycle_count =         12
-# Time 135000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 135000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 135000: condlogic - condex = x, Stall = 0
-# Time 135000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 145000: condlogic - cycle_count =         13
-# Time 145000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 145000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 145000: condlogic - condex = x, Stall = 0
-# Time 145000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 155000: condlogic - cycle_count =         14
-# Time 155000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 155000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 155000: condlogic - condex = x, Stall = 0
-# Time 155000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 165000: condlogic - cycle_count =         15
-# Time 165000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 165000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 165000: condlogic - condex = x, Stall = 0
-# Time 165000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 175000: condlogic - cycle_count =         16
-# Time 175000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 175000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 175000: condlogic - condex = x, Stall = 0
-# Time 175000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 185000: condlogic - cycle_count =         17
-# Time 185000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 185000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 185000: condlogic - condex = x, Stall = 0
-# Time 185000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 195000: condlogic - cycle_count =         18
-# Time 195000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 195000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 195000: condlogic - condex = x, Stall = 0
-# Time 195000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 205000: condlogic - cycle_count =         19
-# Time 205000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 205000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 205000: condlogic - condex = x, Stall = 0
-# Time 205000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 215000: condlogic - cycle_count =         20
-# Time 215000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 215000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 215000: condlogic - condex = x, Stall = 0
-# Time 215000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 225000: condlogic - cycle_count =         21
-# Time 225000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 225000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 225000: condlogic - condex = x, Stall = 0
-# Time 225000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 235000: condlogic - cycle_count =         22
-# Time 235000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 235000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 235000: condlogic - condex = x, Stall = 0
-# Time 235000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 245000: condlogic - cycle_count =         23
-# Time 245000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 245000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 245000: condlogic - condex = x, Stall = 0
-# Time 245000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 255000: condlogic - cycle_count =         24
-# Time 255000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 255000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 255000: condlogic - condex = x, Stall = 0
-# Time 255000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 265000: condlogic - cycle_count =         25
-# Time 265000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 265000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 265000: condlogic - condex = x, Stall = 0
-# Time 265000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 275000: condlogic - cycle_count =         26
-# Time 275000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 275000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 275000: condlogic - condex = x, Stall = 0
-# Time 275000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 285000: condlogic - cycle_count =         27
-# Time 285000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 285000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 285000: condlogic - condex = x, Stall = 0
-# Time 285000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 295000: condlogic - cycle_count =         28
-# Time 295000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 295000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 295000: condlogic - condex = x, Stall = 0
-# Time 295000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 305000: condlogic - cycle_count =         29
-# Time 305000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 305000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 305000: condlogic - condex = x, Stall = 0
-# Time 305000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 315000: condlogic - cycle_count =         30
-# Time 315000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 315000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 315000: condlogic - condex = x, Stall = 0
-# Time 315000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 325000: condlogic - cycle_count =         31
-# Time 325000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 325000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 325000: condlogic - condex = x, Stall = 0
-# Time 325000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 335000: condlogic - cycle_count =         32
-# Time 335000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 335000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 335000: condlogic - condex = x, Stall = 0
-# Time 335000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 345000: condlogic - cycle_count =         33
-# Time 345000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 345000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 345000: condlogic - condex = x, Stall = 0
-# Time 345000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 355000: condlogic - cycle_count =         34
-# Time 355000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 355000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 355000: condlogic - condex = x, Stall = 0
-# Time 355000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 365000: condlogic - cycle_count =         35
-# Time 365000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 365000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 365000: condlogic - condex = x, Stall = 0
-# Time 365000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 375000: condlogic - cycle_count =         36
-# Time 375000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 375000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 375000: condlogic - condex = x, Stall = 0
-# Time 375000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 385000: condlogic - cycle_count =         37
-# Time 385000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 385000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 385000: condlogic - condex = x, Stall = 0
-# Time 385000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 395000: condlogic - cycle_count =         38
-# Time 395000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 395000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 395000: condlogic - condex = x, Stall = 0
-# Time 395000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 405000: condlogic - cycle_count =         39
-# Time 405000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 405000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 405000: condlogic - condex = x, Stall = 0
-# Time 405000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 415000: condlogic - cycle_count =         40
-# Time 415000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 415000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 415000: condlogic - condex = x, Stall = 0
-# Time 415000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 425000: condlogic - cycle_count =         41
-# Time 425000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 425000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 425000: condlogic - condex = x, Stall = 0
-# Time 425000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 435000: condlogic - cycle_count =         42
-# Time 435000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 435000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 435000: condlogic - condex = x, Stall = 0
-# Time 435000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 445000: condlogic - cycle_count =         43
-# Time 445000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 445000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 445000: condlogic - condex = x, Stall = 0
-# Time 445000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 455000: condlogic - cycle_count =         44
-# Time 455000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 455000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 455000: condlogic - condex = x, Stall = 0
-# Time 455000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 465000: condlogic - cycle_count =         45
-# Time 465000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 465000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 465000: condlogic - condex = x, Stall = 0
-# Time 465000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 475000: condlogic - cycle_count =         46
-# Time 475000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 475000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 475000: condlogic - condex = x, Stall = 0
-# Time 475000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 485000: condlogic - cycle_count =         47
-# Time 485000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 485000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 485000: condlogic - condex = x, Stall = 0
-# Time 485000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 495000: condlogic - cycle_count =         48
-# Time 495000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 495000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 495000: condlogic - condex = x, Stall = 0
-# Time 495000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Error: Tiempo 500000: Fetch de la primera instrucción inesperado. Esperado PC=0x00000000, Instr=0x010aa0e3. Obtenido PC=xxxxxxxx, Instr=xxxxxxxx
-# Time 505000: condlogic - cycle_count =         49
-# Time 505000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 505000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 505000: condlogic - condex = x, Stall = 0
-# Time 505000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Error: Tiempo 510000: Fetch de la segunda instrucción inesperado. Esperado PC=0x00000004, Instr=0x461fa0e3. Obtenido PC=xxxxxxxx, Instr=xxxxxxxx
-# Time 515000: condlogic - cycle_count =         50
-# Time 515000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 515000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 515000: condlogic - condex = x, Stall = 0
-# Time 515000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 525000: condlogic - cycle_count =         51
-# Time 525000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 525000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 525000: condlogic - condex = x, Stall = 0
-# Time 525000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Error: Tiempo 530000: Fetch de la tercera instrucción inesperado. Esperado PC=0x00000008, Instr=0x001080e5. Obtenido PC=xxxxxxxx, Instr=xxxxxxxx
-# Error: Tiempo 530000: Escritura de STR falló. Esperado WriteData=0x00000118, DataAdr=0x2000, MemWrite=1. Obtenido WriteData=xxxxxxxx, DataAdr=xxxxxxxx, MemWrite=x
-# Time 535000: condlogic - cycle_count =         52
-# Time 535000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 535000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 535000: condlogic - condex = x, Stall = 0
-# Time 535000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# Time 545000: condlogic - cycle_count =         53
-# Time 545000: condlogic - Cond = xxxx, ALUFlags = xxxx, FlagW = xx
-# Time 545000: condlogic - PCS = x, RegW = x, MemW = x
-# Time 545000: condlogic - condex = x, Stall = 0
-# Time 545000: condlogic - PCSrc = x, RegWrite = x, MemWrite = x
-# ** Note: $finish    : C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top_tb.sv(74)
-#    Time: 550 ns  Iteration: 0  Instance: /computer_top_tb
+# Time 0: regfile - r8 = xxxxxxxx, r5 = xxxxxxxx
+# Time 0: datapath - RD1 = xxxxxxxx, RD2 = xxxxxxxx, WriteData = xxxxxxxx, ALUResult = xxxxxxxx
+# Time 0: datapath - RD1 = xxxxxxxx, RD2 = xxxxxxxx, WriteData = xxxxxxxx, ALUResult = 00000000
+# Time 0: datapath - RD1 = xxxxxxxx, RD2 = xxxxxxxx, WriteData = xxxxxxxx, ALUResult = xxxxxxxx
+# Time 5000: datapath - RD1 = 00000000, RD2 = 00000000, WriteData = 00000000, ALUResult = xxxxxxxx
+# Time 5000: regfile - r8 = 00000118, r5 = fffffee8
+# Time 5000: datapath - RD1 = 00000000, RD2 = 00000000, WriteData = 00000000, ALUResult = 00000000
+# Time 15000: datapath - RD1 = xxxxxxxx, RD2 = xxxxxxxx, WriteData = xxxxxxxx, ALUResult = 00000000
+# Time 15000: datapath - RD1 = xxxxxxxx, RD2 = xxxxxxxx, WriteData = xxxxxxxx, ALUResult = xxxxxxxx
+# Error: Tiempo 25000: Fetch de la primera instrucción inesperado. Esperado PC=0x00000000, Instr=0x010aa0e3. Obtenido PC=00000004, Instr=xxxxxxxx
+# Time 25000: datapath - RD1 = 00000000, RD2 = 00000000, WriteData = 00000000, ALUResult = xxxxxxxx
+# Time 25000: datapath - RD1 = 00000000, RD2 = 00000000, WriteData = 00000000, ALUResult = 00000000
+# Error: Tiempo 35000: Fetch de la segunda instrucción inesperado. Esperado PC=0x00000004, Instr=0x461fa0e3. Obtenido PC=00000008, Instr=010aa0e3
+# Time 35000: datapath - RD1 = 00000014, RD2 = 00000000, WriteData = 00000000, ALUResult = 00000000
+# Time 35000: datapath - RD1 = 00000014, RD2 = 00000000, WriteData = 00000000, ALUResult = 00000014
+# Error: Tiempo 45000: Fetch de la tercera instrucción inesperado. Esperado PC=0x00000008, Instr=0x001080e5. Obtenido PC=0000000c, Instr=461fa0e3
+# Error: Tiempo 45000: Escritura de STR falló. Esperado WriteData=0x00000118, DataAdr=0x2000, MemWrite=1. Obtenido WriteData=00000000, DataAdr=00000014, MemWrite=0
+# Time 45000: datapath - RD1 = 00000000, RD2 = fffffee8, WriteData = fffffee8, ALUResult = 00000014
+# Time 45000: datapath - RD1 = 00000000, RD2 = fffffee8, WriteData = fffffee8, ALUResult = 00000118
+# Time 45000: datapath - RD1 = 00000000, RD2 = fffffee8, WriteData = fffffee8, ALUResult = fffffee8
+# Simulation finished with           4 errors
+# ** Note: $finish    : C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top_tb.sv(55)
+#    Time: 55 ns  Iteration: 0  Instance: /computer_top_tb
 # 1
-# Break in Module computer_top_tb at C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top_tb.sv line 74
-# End time: 02:20:25 on Jun 14,2025, Elapsed time: 0:05:27
-# Errors: 0, Warnings: 1
+# Break in Module computer_top_tb at C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top_tb.sv line 55
+# End time: 15:17:03 on Jun 14,2025, Elapsed time: 0:02:45
+# Errors: 0, Warnings: 0

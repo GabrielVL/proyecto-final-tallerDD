@@ -1,68 +1,118 @@
 module datapath (
     input  logic        clk, reset,
     input  logic        Stall,
-    input  logic [1:0]  RegSrc, ImmSrc,
-    input  logic        RegWrite, ALUSrc,
+    input  logic [1:0]  RegSrc,
+    input  logic [1:0]  ImmSrc,
+    input  logic        RegWrite,
+    input  logic        ALUSrc,
     input  logic [2:0]  ALUControl,
-    input  logic        MemtoReg, PCSrc,
-    input  logic        PCS_ALU_SrcA, // NUEVA SEÑAL: para controlar el mux de SrcA
+    input  logic        MemtoReg,
+    input  logic        PCSrc,
+    input  logic        PCS_ALU_SrcA,
     output logic [3:0]  ALUFlags,
-    output logic [31:0] PC, ALUResult, WriteData,
-    input  logic [31:0] Instr, // Instruction input to datapath
+    output logic [31:0] PC,
+    output logic [31:0] ALUResult,
+    output logic [31:0] WriteData,
+    input  logic [31:0] Instr,
     input  logic [31:0] ReadData
 );
+    // Signal declarations
     logic [31:0] PCNext, PCPlus4, PCPlus8;
-    logic [31:0] ExtImm, SrcA_regfile, SrcB, Result; // Renombrado SrcA a SrcA_regfile para el output del regfile
-    logic [3:0]  RA1, RA2;
-    logic [31:0] SrcA; // Definición de SrcA para la conexión al ALU
+    logic [31:0] ExtImm, SrcA, SrcB, Result;
+    logic [31:0] RD1, RD2;
+    logic [3:0]  RA1, RA2, Rd;
+    
+    // Debug outputs
+    always_comb begin
+        $display("Time %0t: datapath - RD1 = %h, RD2 = %h, WriteData = %h, ALUResult = %h", $time, RD1, RD2, WriteData, ALUResult);
+    end
 
-    // PC Logic with Stall and CORRECTED PCSrc
-    flopenr #(32) pcreg (.clk(clk), .reset(reset), .en(~Stall), .d(PCNext), .q(PC));
-    adder #(32) pcadd1 (.a(PC), .b(32'd4), .y(PCPlus4));
-    adder #(32) pcadd2 (.a(PCPlus4), .b(32'd4), .y(PCPlus8)); // PC+8 para direccionamiento de ramas
-    mux2 #(32) pcmux (.d0(PCPlus4), .d1(ALUResult), .s(PCSrc), .y(PCNext)); // Usa PCSrc input
+    // PC Logic
+    flopenr #(32) PCReg (
+        .clk(clk),
+        .reset(reset),
+        .en(~Stall),
+        .d(PCNext),
+        .q(PC)
+    );
 
-    // Register File Logic with Stall
-    mux2 #(4) ra1mux (.d0(Instr[19:16]), .d1(4'd15), .s(RegSrc[0]), .y(RA1));
-    mux2 #(4) ra2mux (.d0(Instr[3:0]), .d1(Instr[15:12]), .s(RegSrc[1]), .y(RA2));
+    adder #(32) PCAdd4 (
+        .a(PC),
+        .b(32'h4),
+        .y(PCPlus4)
+    );
+
+    adder #(32) PCAdd8 (
+        .a(PCPlus4),
+        .b(32'h4),
+        .y(PCPlus8)
+    );
+
+    mux2 #(32) PCMux (
+        .d0(PCPlus4),
+        .d1(ALUResult),
+        .s(PCSrc),
+        .y(PCNext)
+    );
+
+    // Register File Address Selection
+    assign RA1 = RegSrc[0] ? 4'hF : Instr[19:16]; // Rn or PC
+    assign RA2 = RegSrc[1] ? Instr[15:12] : Instr[3:0]; // Rd or Rm
+    assign Rd = Instr[15:12]; // Write address
+
+    // Register File
     regfile rf (
         .clk(clk),
         .reset(reset),
-        .we3(RegWrite & ~Stall),
-        .ra1(RA1),
-        .ra2(RA2),
-        .wa3(Instr[15:12]),
-        .wd3(Result),
-        .rd1(SrcA_regfile), // Salida del regfile para SrcA
-        .rd2(WriteData)
+        .we3(RegWrite),
+        .ra1(RA1),      // 4 bits
+        .ra2(RA2),      // 4 bits
+        .wa3(Rd),       // 4 bits
+        .wd3(Result),   // 32 bits
+        .r15(PCPlus8),  // 32 bits
+        .rd1(RD1),      // 32 bits
+        .rd2(RD2)       // 32 bits
     );
 
     // Immediate Extension
     extend ext (
-        .Instr(Instr[23:0]), // Pass only relevant bits to extend
+        .Instr(Instr[23:0]),
         .ImmSrc(ImmSrc),
         .ExtImm(ExtImm)
     );
 
-    // FIX: Mux para SrcA
-    // Selecciona entre el valor del registro (SrcA_regfile) y PC+8 para ramas
-    mux2 #(32) srcamux (.d0(SrcA_regfile), .d1(PCPlus8), .s(PCS_ALU_SrcA), .y(SrcA));
+    // ALU Source Selection
+    mux2 #(32) SrcAMux (
+        .d0(RD1),
+        .d1(PC),
+        .s(PCS_ALU_SrcA),
+        .y(SrcA)
+    );
 
-    // ALU Logic
-    mux2 #(32) srcbmux (.d0(WriteData), .d1(ExtImm), .s(ALUSrc), .y(SrcB));
-    alu alu (
-        .a(SrcA), // Conectado a la salida del mux SrcA
+    mux2 #(32) SrcBMux (
+        .d0(RD2),
+        .d1(ExtImm),
+        .s(ALUSrc),
+        .y(SrcB)
+    );
+
+    // ALU
+    alu alu_inst (
+        .a(SrcA),
         .b(SrcB),
         .ALUControl(ALUControl),
         .Result(ALUResult),
         .ALUFlags(ALUFlags)
     );
 
-    // Result Selection
-    mux2 #(32) resmux (.d0(ALUResult), .d1(ReadData), .s(MemtoReg), .y(Result));
+    // Write Data
+    assign WriteData = RD2;
 
-    // New Debugging display for Instr and Instr[23] within datapath
-    always_comb begin
-        $display("Time %0t: datapath - Instr (full)=%h, Instr[23]=%b (before extend)", $time, Instr, Instr[23]);
-    end
+    // Result Selection
+    mux2 #(32) ResMux (
+        .d0(ALUResult),
+        .d1(ReadData),
+        .s(MemtoReg),
+        .y(Result)
+    );
 endmodule
