@@ -1,5 +1,5 @@
 Analysis & Elaboration report for computer_top
-Sun Jun 15 16:43:54 2025
+Sun Jun 15 17:52:48 2025
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -132,7 +132,7 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Sun Jun 15 16:43:54 2025       ;
+; Analysis & Elaboration Status ; Successful - Sun Jun 15 17:52:48 2025       ;
 ; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                 ; computer_top                                ;
 ; Top-level Entity Name         ; computer_top                                ;
@@ -1392,7 +1392,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sun Jun 15 16:43:31 2025
+    Info: Processing started: Sun Jun 15 17:52:23 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off proyectofinal -c computer_top --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -1447,7 +1447,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file full_su
 Info (12021): Found 1 design units, including 1 entities, in source file full_adder_1b.sv
     Info (12023): Found entity 1: full_adder_1b File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_adder_1b.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file multiplier_nb.sv
-    Info (12023): Found entity 1: multiplier_nb File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 28
+    Info (12023): Found entity 1: multiplier_nb File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file rom_tb.sv
     Info (12023): Found entity 1: rom_tb File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/rom_tb.sv Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file ram_tb.sv
@@ -1495,67 +1495,67 @@ Info (12128): Elaborating entity "full_adder_1b" for hierarchy "arm:arm_inst|dat
 Info (12128): Elaborating entity "full_subtractor_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|full_subtractor_nb:subtractor_inst" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/alu.sv Line: 32
 Info (12128): Elaborating entity "full_subtractor_1b" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|full_subtractor_nb:subtractor_inst|full_subtractor_1b:gen_subtractor[0].subtractor" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_subtractor_nb.sv Line: 29
 Info (12128): Elaborating entity "multiplier_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/alu.sv Line: 41
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 31 to match size of target (30) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 30 to match size of target (29) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 29 to match size of target (28) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 28 to match size of target (27) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 27 to match size of target (26) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 26 to match size of target (25) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 25 to match size of target (24) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 24 to match size of target (23) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 23 to match size of target (22) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 22 to match size of target (21) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 21 to match size of target (20) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 20 to match size of target (19) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 19 to match size of target (18) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 18 to match size of target (17) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 17 to match size of target (16) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 16 to match size of target (15) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 15 to match size of target (14) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 14 to match size of target (13) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 13 to match size of target (12) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 12 to match size of target (11) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 11 to match size of target (10) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 10 to match size of target (9) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 9 to match size of target (8) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 8 to match size of target (7) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 7 to match size of target (6) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 6 to match size of target (5) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 5 to match size of target (4) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 4 to match size of target (3) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 3 to match size of target (2) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 2 to match size of target (1) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[1].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[2].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[3].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[4].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[5].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[6].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[7].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[8].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[9].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[10].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[11].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[12].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[13].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[14].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[15].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[16].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[17].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[18].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[19].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[20].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[21].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[22].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[23].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[24].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[25].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[26].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[27].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[28].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[29].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[30].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[31].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 31 to match size of target (30) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 30 to match size of target (29) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 29 to match size of target (28) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 28 to match size of target (27) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 27 to match size of target (26) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 26 to match size of target (25) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 25 to match size of target (24) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 24 to match size of target (23) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 23 to match size of target (22) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 22 to match size of target (21) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 21 to match size of target (20) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 20 to match size of target (19) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 19 to match size of target (18) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 18 to match size of target (17) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 17 to match size of target (16) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 16 to match size of target (15) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 15 to match size of target (14) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 14 to match size of target (13) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 13 to match size of target (12) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 12 to match size of target (11) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 11 to match size of target (10) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 10 to match size of target (9) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 9 to match size of target (8) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 8 to match size of target (7) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 7 to match size of target (6) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 6 to match size of target (5) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 5 to match size of target (4) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 4 to match size of target (3) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 3 to match size of target (2) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(32): truncated value with size 2 to match size of target (1) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 32
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[1].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[2].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[3].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[4].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[5].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[6].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[7].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[8].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[9].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[10].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[11].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[12].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[13].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[14].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[15].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[16].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[17].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[18].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[19].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[20].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[21].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[22].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[23].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[24].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[25].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[26].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[27].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[28].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[29].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[30].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[31].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 41
 Info (12128): Elaborating entity "rom" for hierarchy "arm:arm_inst|rom:rom_inst" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm.sv Line: 59
 Info (12128): Elaborating entity "altsyncram" for hierarchy "arm:arm_inst|rom:rom_inst|altsyncram:altsyncram_component" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/rom.v Line: 82
 Info (12130): Elaborated megafunction instantiation "arm:arm_inst|rom:rom_inst|altsyncram:altsyncram_component" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/rom.v Line: 82
@@ -1623,9 +1623,9 @@ Info (12128): Elaborating entity "mux_nfb" for hierarchy "arm:arm_inst|ram:ram_i
 Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (144001): Generated suppressed messages file C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/output_files/computer_top.map.smsg
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 37 warnings
-    Info: Peak virtual memory: 4830 megabytes
-    Info: Processing ended: Sun Jun 15 16:43:54 2025
-    Info: Elapsed time: 00:00:23
+    Info: Peak virtual memory: 4829 megabytes
+    Info: Processing ended: Sun Jun 15 17:52:48 2025
+    Info: Elapsed time: 00:00:25
     Info: Total CPU time (on all processors): 00:00:32
 
 
