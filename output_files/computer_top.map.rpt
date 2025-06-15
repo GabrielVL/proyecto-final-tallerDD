@@ -1,5 +1,5 @@
 Analysis & Elaboration report for computer_top
-Sat Jun 14 15:14:08 2025
+Sun Jun 15 16:43:54 2025
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -10,20 +10,103 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   2. Analysis & Elaboration Summary
   3. Parallel Compilation
   4. Analysis & Elaboration IP Cores Summary
-  5. Source assignments for rom:rom_inst|altsyncram:altsyncram_component|altsyncram_4mf1:auto_generated
-  6. Parameter Settings for User Entity Instance: arm:arm_processor|datapath:dp|flopenr:PCReg
-  7. Parameter Settings for User Entity Instance: arm:arm_processor|datapath:dp|adder:PCAdd4
-  8. Parameter Settings for User Entity Instance: arm:arm_processor|datapath:dp|adder:PCAdd8
-  9. Parameter Settings for User Entity Instance: arm:arm_processor|datapath:dp|mux2:PCMux
- 10. Parameter Settings for User Entity Instance: arm:arm_processor|datapath:dp|mux2:SrcAMux
- 11. Parameter Settings for User Entity Instance: arm:arm_processor|datapath:dp|mux2:SrcBMux
- 12. Parameter Settings for User Entity Instance: arm:arm_processor|datapath:dp|mux2:ResMux
- 13. Parameter Settings for User Entity Instance: rom:rom_inst|altsyncram:altsyncram_component
- 14. altsyncram Parameter Settings by Entity Instance
- 15. Analysis & Elaboration Settings
- 16. Port Connectivity Checks: "arm:arm_processor|datapath:dp|adder:PCAdd8"
- 17. Port Connectivity Checks: "arm:arm_processor|datapath:dp|adder:PCAdd4"
- 18. Analysis & Elaboration Messages
+  5. Source assignments for arm:arm_inst|rom:rom_inst|altsyncram:altsyncram_component|altsyncram_4mf1:auto_generated
+  6. Source assignments for arm:arm_inst|ram:ram_inst|altsyncram:altsyncram_component|altsyncram_blo2:auto_generated
+  7. Source assignments for rom:rom_inst|altsyncram:altsyncram_component|altsyncram_4mf1:auto_generated
+  8. Parameter Settings for User Entity Instance: arm:arm_inst|controller:controlUnit|condlogic:cl|flopenr:flagreg1
+  9. Parameter Settings for User Entity Instance: arm:arm_inst|controller:controlUnit|condlogic:cl|flopenr:flagreg0
+ 10. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|adder:branch_adder
+ 11. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|mux2:pcmux
+ 12. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|flopr:pcreg
+ 13. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|adder:pcadd1
+ 14. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|adder:pcadd2
+ 15. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|mux2:ra1mux
+ 16. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|mux2:ra2mux
+ 17. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|regfile:rf
+ 18. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|mux2:resmux
+ 19. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|mux2:srcbmux
+ 20. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu
+ 21. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|full_adder_nb:adder_inst
+ 22. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|full_subtractor_nb:subtractor_inst
+ 23. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst
+ 24. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[1].adder
+ 25. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[2].adder
+ 26. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[3].adder
+ 27. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[4].adder
+ 28. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[5].adder
+ 29. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[6].adder
+ 30. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[7].adder
+ 31. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[8].adder
+ 32. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[9].adder
+ 33. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[10].adder
+ 34. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[11].adder
+ 35. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[12].adder
+ 36. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[13].adder
+ 37. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[14].adder
+ 38. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[15].adder
+ 39. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[16].adder
+ 40. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[17].adder
+ 41. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[18].adder
+ 42. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[19].adder
+ 43. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[20].adder
+ 44. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[21].adder
+ 45. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[22].adder
+ 46. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[23].adder
+ 47. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[24].adder
+ 48. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[25].adder
+ 49. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[26].adder
+ 50. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[27].adder
+ 51. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[28].adder
+ 52. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[29].adder
+ 53. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[30].adder
+ 54. Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[31].adder
+ 55. Parameter Settings for User Entity Instance: arm:arm_inst|rom:rom_inst|altsyncram:altsyncram_component
+ 56. Parameter Settings for User Entity Instance: arm:arm_inst|ram:ram_inst|altsyncram:altsyncram_component
+ 57. Parameter Settings for User Entity Instance: rom:rom_inst|altsyncram:altsyncram_component
+ 58. altsyncram Parameter Settings by Entity Instance
+ 59. Analysis & Elaboration Settings
+ 60. Port Connectivity Checks: "arm:arm_inst|ram:ram_inst"
+ 61. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[31].adder"
+ 62. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[30].adder"
+ 63. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[29].adder"
+ 64. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[28].adder"
+ 65. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[27].adder"
+ 66. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[26].adder"
+ 67. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[25].adder"
+ 68. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[24].adder"
+ 69. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[23].adder"
+ 70. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[22].adder"
+ 71. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[21].adder"
+ 72. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[20].adder"
+ 73. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[19].adder"
+ 74. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[18].adder"
+ 75. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[17].adder"
+ 76. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[16].adder"
+ 77. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[15].adder"
+ 78. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[14].adder"
+ 79. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[13].adder"
+ 80. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[12].adder"
+ 81. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[11].adder"
+ 82. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[10].adder"
+ 83. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[9].adder"
+ 84. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[8].adder"
+ 85. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[7].adder"
+ 86. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[6].adder"
+ 87. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[5].adder"
+ 88. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[4].adder"
+ 89. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[3].adder"
+ 90. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[2].adder"
+ 91. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[1].adder"
+ 92. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst"
+ 93. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|full_subtractor_nb:subtractor_inst"
+ 94. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|full_adder_nb:adder_inst"
+ 95. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|mux2:ra1mux"
+ 96. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|adder:pcadd2"
+ 97. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|adder:pcadd1"
+ 98. Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit"
+ 99. Port Connectivity Checks: "arm:arm_inst"
+100. Analysis & Elaboration Messages
+101. Analysis & Elaboration Suppressed Messages
 
 
 
@@ -49,7 +132,7 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Sat Jun 14 15:14:08 2025       ;
+; Analysis & Elaboration Status ; Successful - Sun Jun 15 16:43:54 2025       ;
 ; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                 ; computer_top                                ;
 ; Top-level Entity Name         ; computer_top                                ;
@@ -80,13 +163,33 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------+
-; Analysis & Elaboration IP Cores Summary                                                                      ;
-+--------+--------------+---------+--------------+--------------+----------------------------+-----------------+
-; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance            ; IP Include File ;
-+--------+--------------+---------+--------------+--------------+----------------------------+-----------------+
-; Altera ; ROM: 1-PORT  ; 18.1    ; N/A          ; N/A          ; |computer_top|rom:rom_inst ; rom.v           ;
-+--------+--------------+---------+--------------+--------------+----------------------------+-----------------+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Elaboration IP Cores Summary                                                                                   ;
++--------+--------------+---------+--------------+--------------+-----------------------------------------+-----------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                         ; IP Include File ;
++--------+--------------+---------+--------------+--------------+-----------------------------------------+-----------------+
+; Altera ; RAM: 1-PORT  ; 18.1    ; N/A          ; N/A          ; |computer_top|arm:arm_inst|ram:ram_inst ; ram.v           ;
+; Altera ; ROM: 1-PORT  ; 18.1    ; N/A          ; N/A          ; |computer_top|arm:arm_inst|rom:rom_inst ; rom.v           ;
+; Altera ; ROM: 1-PORT  ; 18.1    ; N/A          ; N/A          ; |computer_top|rom:rom_inst              ; rom.v           ;
++--------+--------------+---------+--------------+--------------+-----------------------------------------+-----------------+
+
+
++-----------------------------------------------------------------------------------------------------------------+
+; Source assignments for arm:arm_inst|rom:rom_inst|altsyncram:altsyncram_component|altsyncram_4mf1:auto_generated ;
++---------------------------------+--------------------+------+---------------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                                ;
++---------------------------------+--------------------+------+---------------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                 ;
++---------------------------------+--------------------+------+---------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------+
+; Source assignments for arm:arm_inst|ram:ram_inst|altsyncram:altsyncram_component|altsyncram_blo2:auto_generated ;
++---------------------------------+--------------------+------+---------------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                                ;
++---------------------------------+--------------------+------+---------------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                 ;
++---------------------------------+--------------------+------+---------------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------+
@@ -98,38 +201,48 @@ refer to the applicable agreement for further details.
 +---------------------------------+--------------------+------+--------------------------------------+
 
 
-+------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: arm:arm_processor|datapath:dp|flopenr:PCReg ;
-+----------------+-------+-----------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                            ;
-+----------------+-------+-----------------------------------------------------------------+
-; WIDTH          ; 32    ; Signed Integer                                                  ;
-+----------------+-------+-----------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|controller:controlUnit|condlogic:cl|flopenr:flagreg1 ;
++----------------+-------+---------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                  ;
++----------------+-------+---------------------------------------------------------------------------------------+
+; WIDTH          ; 2     ; Signed Integer                                                                        ;
++----------------+-------+---------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+-----------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: arm:arm_processor|datapath:dp|adder:PCAdd4 ;
-+----------------+-------+----------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                           ;
-+----------------+-------+----------------------------------------------------------------+
-; WIDTH          ; 32    ; Signed Integer                                                 ;
-+----------------+-------+----------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|controller:controlUnit|condlogic:cl|flopenr:flagreg0 ;
++----------------+-------+---------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                  ;
++----------------+-------+---------------------------------------------------------------------------------------+
+; WIDTH          ; 2     ; Signed Integer                                                                        ;
++----------------+-------+---------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+-----------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: arm:arm_processor|datapath:dp|adder:PCAdd8 ;
-+----------------+-------+----------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                           ;
-+----------------+-------+----------------------------------------------------------------+
-; WIDTH          ; 32    ; Signed Integer                                                 ;
-+----------------+-------+----------------------------------------------------------------+
++----------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|adder:branch_adder ;
++----------------+-------+---------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                ;
++----------------+-------+---------------------------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                                      ;
++----------------+-------+---------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|mux2:pcmux ;
++----------------+-------+-------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                        ;
++----------------+-------+-------------------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                              ;
++----------------+-------+-------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +---------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: arm:arm_processor|datapath:dp|mux2:PCMux ;
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|flopr:pcreg ;
 +----------------+-------+--------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                         ;
 +----------------+-------+--------------------------------------------------------------+
@@ -138,33 +251,546 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+-----------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: arm:arm_processor|datapath:dp|mux2:SrcAMux ;
-+----------------+-------+----------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                           ;
-+----------------+-------+----------------------------------------------------------------+
-; WIDTH          ; 32    ; Signed Integer                                                 ;
-+----------------+-------+----------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: arm:arm_processor|datapath:dp|mux2:SrcBMux ;
-+----------------+-------+----------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                           ;
-+----------------+-------+----------------------------------------------------------------+
-; WIDTH          ; 32    ; Signed Integer                                                 ;
-+----------------+-------+----------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
 +----------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: arm:arm_processor|datapath:dp|mux2:ResMux ;
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|adder:pcadd1 ;
 +----------------+-------+---------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                          ;
 +----------------+-------+---------------------------------------------------------------+
 ; WIDTH          ; 32    ; Signed Integer                                                ;
 +----------------+-------+---------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|adder:pcadd2 ;
++----------------+-------+---------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                          ;
++----------------+-------+---------------------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                                ;
++----------------+-------+---------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|mux2:ra1mux ;
++----------------+-------+--------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                         ;
++----------------+-------+--------------------------------------------------------------+
+; WIDTH          ; 4     ; Signed Integer                                               ;
++----------------+-------+--------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|mux2:ra2mux ;
++----------------+-------+--------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                         ;
++----------------+-------+--------------------------------------------------------------+
+; WIDTH          ; 4     ; Signed Integer                                               ;
++----------------+-------+--------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|regfile:rf ;
++----------------+-------+-------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                        ;
++----------------+-------+-------------------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                              ;
+; LOG2_NUM_REGS  ; 4     ; Signed Integer                                              ;
++----------------+-------+-------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|mux2:resmux ;
++----------------+-------+--------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                         ;
++----------------+-------+--------------------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                               ;
++----------------+-------+--------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|mux2:srcbmux ;
++----------------+-------+---------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                          ;
++----------------+-------+---------------------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                                ;
++----------------+-------+---------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu ;
++----------------+-------+----------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                     ;
++----------------+-------+----------------------------------------------------------+
+; n              ; 32    ; Signed Integer                                           ;
++----------------+-------+----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|full_adder_nb:adder_inst ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                              ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; n              ; 32    ; Signed Integer                                                                    ;
++----------------+-------+-----------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|full_subtractor_nb:subtractor_inst ;
++----------------+-------+---------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                        ;
++----------------+-------+---------------------------------------------------------------------------------------------+
+; n              ; 32    ; Signed Integer                                                                              ;
++----------------+-------+---------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst ;
++----------------+-------+----------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                   ;
++----------------+-------+----------------------------------------------------------------------------------------+
+; n              ; 32    ; Signed Integer                                                                         ;
++----------------+-------+----------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[1].adder ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                      ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; n              ; 33    ; Signed Integer                                                                                                            ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[2].adder ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                      ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; n              ; 34    ; Signed Integer                                                                                                            ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[3].adder ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                      ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; n              ; 35    ; Signed Integer                                                                                                            ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[4].adder ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                      ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; n              ; 36    ; Signed Integer                                                                                                            ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[5].adder ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                      ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; n              ; 37    ; Signed Integer                                                                                                            ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[6].adder ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                      ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; n              ; 38    ; Signed Integer                                                                                                            ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[7].adder ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                      ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; n              ; 39    ; Signed Integer                                                                                                            ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[8].adder ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                      ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; n              ; 40    ; Signed Integer                                                                                                            ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[9].adder ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                      ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; n              ; 41    ; Signed Integer                                                                                                            ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[10].adder ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                       ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; n              ; 42    ; Signed Integer                                                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[11].adder ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                       ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; n              ; 43    ; Signed Integer                                                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[12].adder ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                       ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; n              ; 44    ; Signed Integer                                                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[13].adder ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                       ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; n              ; 45    ; Signed Integer                                                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[14].adder ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                       ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; n              ; 46    ; Signed Integer                                                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[15].adder ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                       ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; n              ; 47    ; Signed Integer                                                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[16].adder ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                       ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; n              ; 48    ; Signed Integer                                                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[17].adder ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                       ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; n              ; 49    ; Signed Integer                                                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[18].adder ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                       ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; n              ; 50    ; Signed Integer                                                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[19].adder ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                       ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; n              ; 51    ; Signed Integer                                                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[20].adder ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                       ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; n              ; 52    ; Signed Integer                                                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[21].adder ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                       ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; n              ; 53    ; Signed Integer                                                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[22].adder ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                       ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; n              ; 54    ; Signed Integer                                                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[23].adder ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                       ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; n              ; 55    ; Signed Integer                                                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[24].adder ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                       ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; n              ; 56    ; Signed Integer                                                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[25].adder ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                       ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; n              ; 57    ; Signed Integer                                                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[26].adder ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                       ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; n              ; 58    ; Signed Integer                                                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[27].adder ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                       ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; n              ; 59    ; Signed Integer                                                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[28].adder ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                       ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; n              ; 60    ; Signed Integer                                                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[29].adder ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                       ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; n              ; 61    ; Signed Integer                                                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[30].adder ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                       ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; n              ; 62    ; Signed Integer                                                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[31].adder ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                       ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+; n              ; 63    ; Signed Integer                                                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|rom:rom_inst|altsyncram:altsyncram_component ;
++------------------------------------+----------------------+--------------------------------------------+
+; Parameter Name                     ; Value                ; Type                                       ;
++------------------------------------+----------------------+--------------------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                                    ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                                 ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                               ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                               ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE                             ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                                    ;
+; OPERATION_MODE                     ; ROM                  ; Untyped                                    ;
+; WIDTH_A                            ; 32                   ; Signed Integer                             ;
+; WIDTHAD_A                          ; 8                    ; Signed Integer                             ;
+; NUMWORDS_A                         ; 256                  ; Signed Integer                             ;
+; OUTDATA_REG_A                      ; CLOCK0               ; Untyped                                    ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                                    ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                                    ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                                    ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                                    ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                                    ;
+; WIDTH_B                            ; 1                    ; Untyped                                    ;
+; WIDTHAD_B                          ; 1                    ; Untyped                                    ;
+; NUMWORDS_B                         ; 1                    ; Untyped                                    ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                                    ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                                    ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                                    ;
+; ADDRESS_REG_B                      ; CLOCK1               ; Untyped                                    ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                                    ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                                    ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                                    ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                                    ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                                    ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                                    ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                                    ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                                    ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer                             ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Untyped                                    ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                                    ;
+; BYTE_SIZE                          ; 8                    ; Untyped                                    ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                                    ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                                    ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                                    ;
+; INIT_FILE                          ; rom_data.mif         ; Untyped                                    ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                                    ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped                                    ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                                    ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                                    ;
+; CLOCK_ENABLE_OUTPUT_A              ; BYPASS               ; Untyped                                    ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                                    ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                                    ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                                    ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                                    ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                                    ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                                    ;
+; DEVICE_FAMILY                      ; Cyclone V            ; Untyped                                    ;
+; CBXI_PARAMETER                     ; altsyncram_4mf1      ; Untyped                                    ;
++------------------------------------+----------------------+--------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm_inst|ram:ram_inst|altsyncram:altsyncram_component ;
++------------------------------------+----------------------+--------------------------------------------+
+; Parameter Name                     ; Value                ; Type                                       ;
++------------------------------------+----------------------+--------------------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                                    ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                                 ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                               ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                               ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE                             ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                                    ;
+; OPERATION_MODE                     ; BIDIR_DUAL_PORT      ; Untyped                                    ;
+; WIDTH_A                            ; 8                    ; Signed Integer                             ;
+; WIDTHAD_A                          ; 15                   ; Signed Integer                             ;
+; NUMWORDS_A                         ; 20001                ; Signed Integer                             ;
+; OUTDATA_REG_A                      ; CLOCK0               ; Untyped                                    ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                                    ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                                    ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                                    ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                                    ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                                    ;
+; WIDTH_B                            ; 8                    ; Signed Integer                             ;
+; WIDTHAD_B                          ; 15                   ; Signed Integer                             ;
+; NUMWORDS_B                         ; 20001                ; Signed Integer                             ;
+; INDATA_REG_B                       ; CLOCK0               ; Untyped                                    ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK0               ; Untyped                                    ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                                    ;
+; ADDRESS_REG_B                      ; CLOCK0               ; Untyped                                    ;
+; OUTDATA_REG_B                      ; CLOCK0               ; Untyped                                    ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                                    ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                                    ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                                    ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                                    ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                                    ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                                    ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                                    ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer                             ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Signed Integer                             ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                                    ;
+; BYTE_SIZE                          ; 8                    ; Untyped                                    ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                                    ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                                    ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                                    ;
+; INIT_FILE                          ; ram_data.mif         ; Untyped                                    ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                                    ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped                                    ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                                    ;
+; CLOCK_ENABLE_INPUT_B               ; BYPASS               ; Untyped                                    ;
+; CLOCK_ENABLE_OUTPUT_A              ; BYPASS               ; Untyped                                    ;
+; CLOCK_ENABLE_OUTPUT_B              ; BYPASS               ; Untyped                                    ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                                    ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                                    ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                                    ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                                    ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                                    ;
+; DEVICE_FAMILY                      ; Cyclone V            ; Untyped                                    ;
+; CBXI_PARAMETER                     ; altsyncram_blo2      ; Untyped                                    ;
++------------------------------------+----------------------+--------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -229,24 +855,46 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+------------------------------------------------------------------------------------------+
-; altsyncram Parameter Settings by Entity Instance                                         ;
-+-------------------------------------------+----------------------------------------------+
-; Name                                      ; Value                                        ;
-+-------------------------------------------+----------------------------------------------+
-; Number of entity instances                ; 1                                            ;
-; Entity Instance                           ; rom:rom_inst|altsyncram:altsyncram_component ;
-;     -- OPERATION_MODE                     ; ROM                                          ;
-;     -- WIDTH_A                            ; 32                                           ;
-;     -- NUMWORDS_A                         ; 256                                          ;
-;     -- OUTDATA_REG_A                      ; CLOCK0                                       ;
-;     -- WIDTH_B                            ; 1                                            ;
-;     -- NUMWORDS_B                         ; 1                                            ;
-;     -- ADDRESS_REG_B                      ; CLOCK1                                       ;
-;     -- OUTDATA_REG_B                      ; UNREGISTERED                                 ;
-;     -- RAM_BLOCK_TYPE                     ; AUTO                                         ;
-;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                    ;
-+-------------------------------------------+----------------------------------------------+
++-------------------------------------------------------------------------------------------------------+
+; altsyncram Parameter Settings by Entity Instance                                                      ;
++-------------------------------------------+-----------------------------------------------------------+
+; Name                                      ; Value                                                     ;
++-------------------------------------------+-----------------------------------------------------------+
+; Number of entity instances                ; 3                                                         ;
+; Entity Instance                           ; arm:arm_inst|rom:rom_inst|altsyncram:altsyncram_component ;
+;     -- OPERATION_MODE                     ; ROM                                                       ;
+;     -- WIDTH_A                            ; 32                                                        ;
+;     -- NUMWORDS_A                         ; 256                                                       ;
+;     -- OUTDATA_REG_A                      ; CLOCK0                                                    ;
+;     -- WIDTH_B                            ; 1                                                         ;
+;     -- NUMWORDS_B                         ; 1                                                         ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                                    ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                              ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                                      ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                                 ;
+; Entity Instance                           ; arm:arm_inst|ram:ram_inst|altsyncram:altsyncram_component ;
+;     -- OPERATION_MODE                     ; BIDIR_DUAL_PORT                                           ;
+;     -- WIDTH_A                            ; 8                                                         ;
+;     -- NUMWORDS_A                         ; 20001                                                     ;
+;     -- OUTDATA_REG_A                      ; CLOCK0                                                    ;
+;     -- WIDTH_B                            ; 8                                                         ;
+;     -- NUMWORDS_B                         ; 20001                                                     ;
+;     -- ADDRESS_REG_B                      ; CLOCK0                                                    ;
+;     -- OUTDATA_REG_B                      ; CLOCK0                                                    ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                                      ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                                 ;
+; Entity Instance                           ; rom:rom_inst|altsyncram:altsyncram_component              ;
+;     -- OPERATION_MODE                     ; ROM                                                       ;
+;     -- WIDTH_A                            ; 32                                                        ;
+;     -- NUMWORDS_A                         ; 256                                                       ;
+;     -- OUTDATA_REG_A                      ; CLOCK0                                                    ;
+;     -- WIDTH_B                            ; 1                                                         ;
+;     -- NUMWORDS_B                         ; 1                                                         ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                                    ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                              ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                                      ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                                 ;
++-------------------------------------------+-----------------------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
@@ -336,26 +984,406 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+------------------------------------------------------------------------+
-; Port Connectivity Checks: "arm:arm_processor|datapath:dp|adder:PCAdd8" ;
-+----------+-------+----------+------------------------------------------+
-; Port     ; Type  ; Severity ; Details                                  ;
-+----------+-------+----------+------------------------------------------+
-; b[31..3] ; Input ; Info     ; Stuck at GND                             ;
-; b[1..0]  ; Input ; Info     ; Stuck at GND                             ;
-; b[2]     ; Input ; Info     ; Stuck at VCC                             ;
-+----------+-------+----------+------------------------------------------+
++-------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|ram:ram_inst" ;
++--------+-------+----------+---------------------------+
+; Port   ; Type  ; Severity ; Details                   ;
++--------+-------+----------+---------------------------+
+; data_b ; Input ; Info     ; Stuck at GND              ;
+; wren_b ; Input ; Info     ; Stuck at GND              ;
++--------+-------+----------+---------------------------+
 
 
-+------------------------------------------------------------------------+
-; Port Connectivity Checks: "arm:arm_processor|datapath:dp|adder:PCAdd4" ;
-+----------+-------+----------+------------------------------------------+
-; Port     ; Type  ; Severity ; Details                                  ;
-+----------+-------+----------+------------------------------------------+
-; b[31..3] ; Input ; Info     ; Stuck at GND                             ;
-; b[1..0]  ; Input ; Info     ; Stuck at GND                             ;
-; b[2]     ; Input ; Info     ; Stuck at VCC                             ;
-+----------+-------+----------+------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[31].adder" ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                              ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[30..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin      ; Input ; Info     ; Stuck at GND                                                                                         ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[30].adder" ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                              ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[29..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin      ; Input ; Info     ; Stuck at GND                                                                                         ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[29].adder" ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                              ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[28..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin      ; Input ; Info     ; Stuck at GND                                                                                         ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[28].adder" ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                              ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[27..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin      ; Input ; Info     ; Stuck at GND                                                                                         ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[27].adder" ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                              ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[26..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin      ; Input ; Info     ; Stuck at GND                                                                                         ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[26].adder" ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                              ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[25..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin      ; Input ; Info     ; Stuck at GND                                                                                         ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[25].adder" ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                              ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[24..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin      ; Input ; Info     ; Stuck at GND                                                                                         ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[24].adder" ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                              ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[23..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin      ; Input ; Info     ; Stuck at GND                                                                                         ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[23].adder" ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                              ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[22..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin      ; Input ; Info     ; Stuck at GND                                                                                         ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[22].adder" ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                              ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[21..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin      ; Input ; Info     ; Stuck at GND                                                                                         ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[21].adder" ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                              ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[20..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin      ; Input ; Info     ; Stuck at GND                                                                                         ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[20].adder" ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                              ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[19..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin      ; Input ; Info     ; Stuck at GND                                                                                         ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[19].adder" ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                              ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[18..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin      ; Input ; Info     ; Stuck at GND                                                                                         ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[18].adder" ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                              ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[17..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin      ; Input ; Info     ; Stuck at GND                                                                                         ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[17].adder" ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                              ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[16..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin      ; Input ; Info     ; Stuck at GND                                                                                         ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[16].adder" ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                              ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[15..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin      ; Input ; Info     ; Stuck at GND                                                                                         ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[15].adder" ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                              ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[14..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin      ; Input ; Info     ; Stuck at GND                                                                                         ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[14].adder" ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                              ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[13..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin      ; Input ; Info     ; Stuck at GND                                                                                         ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[13].adder" ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                              ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[12..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin      ; Input ; Info     ; Stuck at GND                                                                                         ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[12].adder" ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                              ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[11..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin      ; Input ; Info     ; Stuck at GND                                                                                         ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[11].adder" ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                              ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[10..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin      ; Input ; Info     ; Stuck at GND                                                                                         ;
++----------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[10].adder" ;
++---------+-------+----------+-------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                               ;
++---------+-------+----------+-------------------------------------------------------------------------------------------------------+
+; b[9..0] ; Input ; Info     ; Stuck at GND                                                                                          ;
+; Cin     ; Input ; Info     ; Stuck at GND                                                                                          ;
++---------+-------+----------+-------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[9].adder" ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                              ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[8..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin     ; Input ; Info     ; Stuck at GND                                                                                         ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[8].adder" ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                              ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[7..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin     ; Input ; Info     ; Stuck at GND                                                                                         ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[7].adder" ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                              ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[6..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin     ; Input ; Info     ; Stuck at GND                                                                                         ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[6].adder" ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                              ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[5..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin     ; Input ; Info     ; Stuck at GND                                                                                         ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[5].adder" ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                              ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[4..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin     ; Input ; Info     ; Stuck at GND                                                                                         ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[4].adder" ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                              ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[3..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin     ; Input ; Info     ; Stuck at GND                                                                                         ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[3].adder" ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                              ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[2..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin     ; Input ; Info     ; Stuck at GND                                                                                         ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[2].adder" ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                              ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------+
+; b[1..0] ; Input ; Info     ; Stuck at GND                                                                                         ;
+; Cin     ; Input ; Info     ; Stuck at GND                                                                                         ;
++---------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[1].adder" ;
++-------+-------+----------+--------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                ;
++-------+-------+----------+--------------------------------------------------------------------------------------------------------+
+; a[32] ; Input ; Info     ; Stuck at GND                                                                                           ;
+; b[0]  ; Input ; Info     ; Stuck at GND                                                                                           ;
+; Cin   ; Input ; Info     ; Stuck at GND                                                                                           ;
++-------+-------+----------+--------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst"                   ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                             ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; Overf  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; Result ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|full_subtractor_nb:subtractor_inst" ;
++------+-------+----------+---------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                   ;
++------+-------+----------+---------------------------------------------------------------------------+
+; Cin  ; Input ; Info     ; Stuck at GND                                                              ;
++------+-------+----------+---------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|alu:alu|full_adder_nb:adder_inst" ;
++------+-------+----------+-----------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                         ;
++------+-------+----------+-----------------------------------------------------------------+
+; Cin  ; Input ; Info     ; Stuck at GND                                                    ;
++------+-------+----------+-----------------------------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|mux2:ra1mux" ;
++------+-------+----------+--------------------------------------------+
+; Port ; Type  ; Severity ; Details                                    ;
++------+-------+----------+--------------------------------------------+
+; d1   ; Input ; Info     ; Stuck at VCC                               ;
++------+-------+----------+--------------------------------------------+
+
+
++-----------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|adder:pcadd2" ;
++----------+-------+----------+-----------------------------------------+
+; Port     ; Type  ; Severity ; Details                                 ;
++----------+-------+----------+-----------------------------------------+
+; b[31..3] ; Input ; Info     ; Stuck at GND                            ;
+; b[1..0]  ; Input ; Info     ; Stuck at GND                            ;
+; b[2]     ; Input ; Info     ; Stuck at VCC                            ;
++----------+-------+----------+-----------------------------------------+
+
+
++-----------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit|adder:pcadd1" ;
++----------+-------+----------+-----------------------------------------+
+; Port     ; Type  ; Severity ; Details                                 ;
++----------+-------+----------+-----------------------------------------+
+; b[31..3] ; Input ; Info     ; Stuck at GND                            ;
+; b[1..0]  ; Input ; Info     ; Stuck at GND                            ;
+; b[2]     ; Input ; Info     ; Stuck at VCC                            ;
++----------+-------+----------+-----------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst|datapath:dpUnit"                                                                    ;
++-------------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port              ; Type   ; Severity ; Details                                                                             ;
++-------------------+--------+----------+-------------------------------------------------------------------------------------+
+; PC[31..8]         ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; ALUResult[31..15] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; WriteData[31..8]  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; ReadData[31..8]   ; Input  ; Info     ; Stuck at GND                                                                        ;
++-------------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm_inst"                                                                                                      ;
++----------------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port           ; Type   ; Severity ; Details                                                                                                  ;
++----------------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; address        ; Input  ; Info     ; Stuck at GND                                                                                             ;
+; debug_arm_regs ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++----------------+--------+----------+----------------------------------------------------------------------------------------------------------+
 
 
 +---------------------------------+
@@ -364,7 +1392,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sat Jun 14 15:13:55 2025
+    Info: Processing started: Sun Jun 15 16:43:31 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off proyectofinal -c computer_top --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -401,29 +1429,137 @@ Info (12021): Found 1 design units, including 1 entities, in source file mux4.sv
 Info (12021): Found 1 design units, including 1 entities, in source file shift.sv
     Info (12023): Found entity 1: shift File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/shift.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file rom.v
-    Info (12023): Found entity 1: rom File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/rom.v Line: 39
+    Info (12023): Found entity 1: rom File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/rom.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file ram.v
-    Info (12023): Found entity 1: ram File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/ram.v Line: 39
+    Info (12023): Found entity 1: ram File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/ram.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file mem_map.sv
     Info (12023): Found entity 1: mem_map File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/mem_map.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file computer_top_tb.sv
     Info (12023): Found entity 1: computer_top_tb File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top_tb.sv Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file condcheck.sv
+    Info (12023): Found entity 1: condcheck File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/condcheck.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file full_subtractor_nb.sv
+    Info (12023): Found entity 1: full_subtractor_nb File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_subtractor_nb.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file full_adder_nb.sv
+    Info (12023): Found entity 1: full_adder_nb File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_adder_nb.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file full_subtractor_1b.sv
+    Info (12023): Found entity 1: full_subtractor_1b File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_subtractor_1b.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file full_adder_1b.sv
+    Info (12023): Found entity 1: full_adder_1b File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_adder_1b.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file multiplier_nb.sv
+    Info (12023): Found entity 1: multiplier_nb File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 28
+Info (12021): Found 1 design units, including 1 entities, in source file rom_tb.sv
+    Info (12023): Found entity 1: rom_tb File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/rom_tb.sv Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file ram_tb.sv
+    Info (12023): Found entity 1: ram_tb File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/ram_tb.sv Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file arm_tb.sv
+    Info (12023): Found entity 1: arm_tb File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm_tb.sv Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file controller_tb.sv
+    Info (12023): Found entity 1: controller_tb File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/controller_tb.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file decoder_tb.sv
+    Info (12023): Found entity 1: decoder_tb File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/decoder_tb.sv Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file tb_flopenr.sv
+    Info (12023): Found entity 1: tb_flopenr File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/tb_flopenr.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_condcheck.sv
+    Info (12023): Found entity 1: tb_condcheck File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/tb_condcheck.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_condlogic.sv
+    Info (12023): Found entity 1: tb_condlogic File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/tb_condlogic.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_regfile.sv
+    Info (12023): Found entity 1: tb_regfile File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/tb_regfile.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_alu.sv
+    Info (12023): Found entity 1: tb_alu File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/tb_alu.sv Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file tb_datapath.sv
+    Info (12023): Found entity 1: tb_datapath File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/tb_datapath.sv Line: 4
 Info (12127): Elaborating entity "computer_top" for the top level hierarchy
-Info (12128): Elaborating entity "arm" for hierarchy "arm:arm_processor" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 20
-Info (12128): Elaborating entity "datapath" for hierarchy "arm:arm_processor|datapath:dp" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm.sv Line: 35
-Info (12128): Elaborating entity "flopenr" for hierarchy "arm:arm_processor|datapath:dp|flopenr:PCReg" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 37
-Info (12128): Elaborating entity "adder" for hierarchy "arm:arm_processor|datapath:dp|adder:PCAdd4" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 43
-Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm_processor|datapath:dp|mux2:PCMux" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 56
-Info (12128): Elaborating entity "regfile" for hierarchy "arm:arm_processor|datapath:dp|regfile:rf" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 75
-Info (12128): Elaborating entity "extend" for hierarchy "arm:arm_processor|datapath:dp|extend:ext" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 82
-Info (12128): Elaborating entity "alu" for hierarchy "arm:arm_processor|datapath:dp|alu:alu_inst" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 106
-Info (12128): Elaborating entity "decoder" for hierarchy "arm:arm_processor|decoder:dec" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm.sv Line: 49
-Warning (10036): Verilog HDL or VHDL warning at decoder.sv(16): object "Rd" assigned a value but never read File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/decoder.sv Line: 16
-Info (12128): Elaborating entity "condlogic" for hierarchy "arm:arm_processor|condlogic:cl" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm.sv Line: 64
-Info (12128): Elaborating entity "rom" for hierarchy "rom:rom_inst" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 26
-Info (12128): Elaborating entity "altsyncram" for hierarchy "rom:rom_inst|altsyncram:altsyncram_component" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/rom.v Line: 81
-Info (12130): Elaborated megafunction instantiation "rom:rom_inst|altsyncram:altsyncram_component" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/rom.v Line: 81
-Info (12133): Instantiated megafunction "rom:rom_inst|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/rom.v Line: 81
+Warning (10030): Net "DataAdr" at computer_top.sv(3) has no driver or initial value, using a default initial value '0' File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 3
+Warning (10034): Output port "WriteData" at computer_top.sv(3) has no driver File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 3
+Warning (10034): Output port "PC[31..8]" at computer_top.sv(6) has no driver File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 6
+Warning (10034): Output port "MemWrite" at computer_top.sv(4) has no driver File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 4
+Info (12128): Elaborating entity "arm" for hierarchy "arm:arm_inst" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 16
+Info (12128): Elaborating entity "controller" for hierarchy "arm:arm_inst|controller:controlUnit" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm.sv Line: 32
+Info (12128): Elaborating entity "decoder" for hierarchy "arm:arm_inst|controller:controlUnit|decoder:dec" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/controller.sv Line: 36
+Info (12128): Elaborating entity "condlogic" for hierarchy "arm:arm_inst|controller:controlUnit|condlogic:cl" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/controller.sv Line: 51
+Info (12128): Elaborating entity "flopenr" for hierarchy "arm:arm_inst|controller:controlUnit|condlogic:cl|flopenr:flagreg1" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/condlogic.sv Line: 22
+Info (12128): Elaborating entity "condcheck" for hierarchy "arm:arm_inst|controller:controlUnit|condlogic:cl|condcheck:cc" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/condlogic.sv Line: 37
+Info (12128): Elaborating entity "datapath" for hierarchy "arm:arm_inst|datapath:dpUnit" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm.sv Line: 52
+Info (12128): Elaborating entity "adder" for hierarchy "arm:arm_inst|datapath:dpUnit|adder:branch_adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 28
+Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm_inst|datapath:dpUnit|mux2:pcmux" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 30
+Info (12128): Elaborating entity "flopr" for hierarchy "arm:arm_inst|datapath:dpUnit|flopr:pcreg" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 31
+Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm_inst|datapath:dpUnit|mux2:ra1mux" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 35
+Info (12128): Elaborating entity "regfile" for hierarchy "arm:arm_inst|datapath:dpUnit|regfile:rf" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 50
+Warning (10240): Verilog HDL Always Construct warning at regfile.sv(15): inferring latch(es) for variable "i", which holds its previous value in one or more paths through the always construct File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/regfile.sv Line: 15
+Info (12128): Elaborating entity "extend" for hierarchy "arm:arm_inst|datapath:dpUnit|extend:ext" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 58
+Info (12128): Elaborating entity "alu" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|full_adder_nb:adder_inst" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/alu.sv Line: 22
+Info (12128): Elaborating entity "full_adder_1b" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|full_adder_nb:adder_inst|full_adder_1b:gen_adder[0].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_adder_nb.sv Line: 29
+Info (12128): Elaborating entity "full_subtractor_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|full_subtractor_nb:subtractor_inst" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/alu.sv Line: 32
+Info (12128): Elaborating entity "full_subtractor_1b" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|full_subtractor_nb:subtractor_inst|full_subtractor_1b:gen_subtractor[0].subtractor" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_subtractor_nb.sv Line: 29
+Info (12128): Elaborating entity "multiplier_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/alu.sv Line: 41
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 31 to match size of target (30) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 30 to match size of target (29) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 29 to match size of target (28) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 28 to match size of target (27) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 27 to match size of target (26) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 26 to match size of target (25) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 25 to match size of target (24) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 24 to match size of target (23) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 23 to match size of target (22) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 22 to match size of target (21) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 21 to match size of target (20) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 20 to match size of target (19) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 19 to match size of target (18) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 18 to match size of target (17) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 17 to match size of target (16) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 16 to match size of target (15) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 15 to match size of target (14) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 14 to match size of target (13) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 13 to match size of target (12) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 12 to match size of target (11) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 11 to match size of target (10) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 10 to match size of target (9) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 9 to match size of target (8) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 8 to match size of target (7) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 7 to match size of target (6) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 6 to match size of target (5) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 5 to match size of target (4) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 4 to match size of target (3) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 3 to match size of target (2) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 2 to match size of target (1) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 59
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[1].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[2].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[3].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[4].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[5].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[6].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[7].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[8].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[9].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[10].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[11].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[12].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[13].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[14].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[15].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[16].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[17].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[18].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[19].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[20].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[21].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[22].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[23].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[24].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[25].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[26].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[27].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[28].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[29].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[30].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "arm:arm_inst|datapath:dpUnit|alu:alu|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[31].adder" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "rom" for hierarchy "arm:arm_inst|rom:rom_inst" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm.sv Line: 59
+Info (12128): Elaborating entity "altsyncram" for hierarchy "arm:arm_inst|rom:rom_inst|altsyncram:altsyncram_component" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/rom.v Line: 82
+Info (12130): Elaborated megafunction instantiation "arm:arm_inst|rom:rom_inst|altsyncram:altsyncram_component" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/rom.v Line: 82
+Info (12133): Instantiated megafunction "arm:arm_inst|rom:rom_inst|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/rom.v Line: 82
     Info (12134): Parameter "address_aclr_a" = "NONE"
     Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
     Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
@@ -440,12 +1576,62 @@ Info (12133): Instantiated megafunction "rom:rom_inst|altsyncram:altsyncram_comp
     Info (12134): Parameter "width_byteena_a" = "1"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_4mf1.tdf
     Info (12023): Found entity 1: altsyncram_4mf1 File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/db/altsyncram_4mf1.tdf Line: 27
-Info (12128): Elaborating entity "altsyncram_4mf1" for hierarchy "rom:rom_inst|altsyncram:altsyncram_component|altsyncram_4mf1:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
-Info (12128): Elaborating entity "mem_map" for hierarchy "mem_map:mem" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 34
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4787 megabytes
-    Info: Processing ended: Sat Jun 14 15:14:08 2025
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:25
+Info (12128): Elaborating entity "altsyncram_4mf1" for hierarchy "arm:arm_inst|rom:rom_inst|altsyncram:altsyncram_component|altsyncram_4mf1:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Info (12128): Elaborating entity "ram" for hierarchy "arm:arm_inst|ram:ram_inst" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm.sv Line: 72
+Info (12128): Elaborating entity "altsyncram" for hierarchy "arm:arm_inst|ram:ram_inst|altsyncram:altsyncram_component" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/ram.v Line: 98
+Info (12130): Elaborated megafunction instantiation "arm:arm_inst|ram:ram_inst|altsyncram:altsyncram_component" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/ram.v Line: 98
+Info (12133): Instantiated megafunction "arm:arm_inst|ram:ram_inst|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/ram.v Line: 98
+    Info (12134): Parameter "address_reg_b" = "CLOCK0"
+    Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
+    Info (12134): Parameter "clock_enable_input_b" = "BYPASS"
+    Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
+    Info (12134): Parameter "clock_enable_output_b" = "BYPASS"
+    Info (12134): Parameter "indata_reg_b" = "CLOCK0"
+    Info (12134): Parameter "init_file" = "ram_data.mif"
+    Info (12134): Parameter "intended_device_family" = "Cyclone V"
+    Info (12134): Parameter "lpm_type" = "altsyncram"
+    Info (12134): Parameter "numwords_a" = "20001"
+    Info (12134): Parameter "numwords_b" = "20001"
+    Info (12134): Parameter "operation_mode" = "BIDIR_DUAL_PORT"
+    Info (12134): Parameter "outdata_aclr_a" = "NONE"
+    Info (12134): Parameter "outdata_aclr_b" = "NONE"
+    Info (12134): Parameter "outdata_reg_a" = "CLOCK0"
+    Info (12134): Parameter "outdata_reg_b" = "CLOCK0"
+    Info (12134): Parameter "power_up_uninitialized" = "FALSE"
+    Info (12134): Parameter "read_during_write_mode_mixed_ports" = "DONT_CARE"
+    Info (12134): Parameter "read_during_write_mode_port_a" = "NEW_DATA_NO_NBE_READ"
+    Info (12134): Parameter "read_during_write_mode_port_b" = "NEW_DATA_NO_NBE_READ"
+    Info (12134): Parameter "widthad_a" = "15"
+    Info (12134): Parameter "widthad_b" = "15"
+    Info (12134): Parameter "width_a" = "8"
+    Info (12134): Parameter "width_b" = "8"
+    Info (12134): Parameter "width_byteena_a" = "1"
+    Info (12134): Parameter "width_byteena_b" = "1"
+    Info (12134): Parameter "wrcontrol_wraddress_reg_b" = "CLOCK0"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_blo2.tdf
+    Info (12023): Found entity 1: altsyncram_blo2 File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/db/altsyncram_blo2.tdf Line: 33
+Info (12128): Elaborating entity "altsyncram_blo2" for hierarchy "arm:arm_inst|ram:ram_inst|altsyncram:altsyncram_component|altsyncram_blo2:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Info (12021): Found 1 design units, including 1 entities, in source file db/decode_7la.tdf
+    Info (12023): Found entity 1: decode_7la File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/db/decode_7la.tdf Line: 22
+Info (12128): Elaborating entity "decode_7la" for hierarchy "arm:arm_inst|ram:ram_inst|altsyncram:altsyncram_component|altsyncram_blo2:auto_generated|decode_7la:decode2" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/db/altsyncram_blo2.tdf Line: 50
+Info (12021): Found 1 design units, including 1 entities, in source file db/decode_01a.tdf
+    Info (12023): Found entity 1: decode_01a File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/db/decode_01a.tdf Line: 22
+Info (12128): Elaborating entity "decode_01a" for hierarchy "arm:arm_inst|ram:ram_inst|altsyncram:altsyncram_component|altsyncram_blo2:auto_generated|decode_01a:rden_decode_a" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/db/altsyncram_blo2.tdf Line: 52
+Info (12021): Found 1 design units, including 1 entities, in source file db/mux_nfb.tdf
+    Info (12023): Found entity 1: mux_nfb File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/db/mux_nfb.tdf Line: 22
+Info (12128): Elaborating entity "mux_nfb" for hierarchy "arm:arm_inst|ram:ram_inst|altsyncram:altsyncram_component|altsyncram_blo2:auto_generated|mux_nfb:mux4" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/db/altsyncram_blo2.tdf Line: 54
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (144001): Generated suppressed messages file C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/output_files/computer_top.map.smsg
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 37 warnings
+    Info: Peak virtual memory: 4830 megabytes
+    Info: Processing ended: Sun Jun 15 16:43:54 2025
+    Info: Elapsed time: 00:00:23
+    Info: Total CPU time (on all processors): 00:00:32
+
+
++--------------------------------------------+
+; Analysis & Elaboration Suppressed Messages ;
++--------------------------------------------+
+The suppressed messages can be found in C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/output_files/computer_top.map.smsg.
 
 

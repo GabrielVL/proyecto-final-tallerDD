@@ -12,165 +12,252 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/rom.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:14:17 on Jun 14,2025
+# Start time: 16:44:02 on Jun 15,2025
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/rom.v 
 # -- Compiling module rom
 # 
 # Top level modules:
 # 	rom
-# End time: 15:14:17 on Jun 14,2025, Elapsed time: 0:00:00
+# End time: 16:44:03 on Jun 15,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/ram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:44:03 on Jun 15,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/ram.v 
+# -- Compiling module ram
+# 
+# Top level modules:
+# 	ram
+# End time: 16:44:03 on Jun 15,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:14:17 on Jun 14,2025
+# Start time: 16:44:03 on Jun 15,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm.sv 
 # -- Compiling module arm
 # 
 # Top level modules:
 # 	arm
-# End time: 15:14:17 on Jun 14,2025, Elapsed time: 0:00:00
+# End time: 16:44:03 on Jun 15,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:14:17 on Jun 14,2025
+# Start time: 16:44:03 on Jun 15,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv 
 # -- Compiling module computer_top
 # 
 # Top level modules:
 # 	computer_top
-# End time: 15:14:17 on Jun 14,2025, Elapsed time: 0:00:00
+# End time: 16:44:03 on Jun 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/controller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:44:03 on Jun 15,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 16:44:03 on Jun 15,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/decoder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:14:17 on Jun 14,2025
+# Start time: 16:44:03 on Jun 15,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/decoder.sv 
 # -- Compiling module decoder
 # 
 # Top level modules:
 # 	decoder
-# End time: 15:14:17 on Jun 14,2025, Elapsed time: 0:00:00
+# End time: 16:44:03 on Jun 15,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/condlogic.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:14:17 on Jun 14,2025
+# Start time: 16:44:03 on Jun 15,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/condlogic.sv 
 # -- Compiling module condlogic
 # 
 # Top level modules:
 # 	condlogic
-# End time: 15:14:17 on Jun 14,2025, Elapsed time: 0:00:00
+# End time: 16:44:03 on Jun 15,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:14:17 on Jun 14,2025
+# Start time: 16:44:03 on Jun 15,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv 
 # -- Compiling module datapath
 # 
 # Top level modules:
 # 	datapath
-# End time: 15:14:17 on Jun 14,2025, Elapsed time: 0:00:00
+# End time: 16:44:03 on Jun 15,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/regfile.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:14:17 on Jun 14,2025
+# Start time: 16:44:03 on Jun 15,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/regfile.sv 
 # -- Compiling module regfile
 # 
 # Top level modules:
 # 	regfile
-# End time: 15:14:17 on Jun 14,2025, Elapsed time: 0:00:00
+# End time: 16:44:03 on Jun 15,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/adder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:14:17 on Jun 14,2025
+# Start time: 16:44:03 on Jun 15,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/adder.sv 
 # -- Compiling module adder
 # 
 # Top level modules:
 # 	adder
-# End time: 15:14:18 on Jun 14,2025, Elapsed time: 0:00:01
+# End time: 16:44:03 on Jun 15,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/extend.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:14:18 on Jun 14,2025
+# Start time: 16:44:03 on Jun 15,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/extend.sv 
 # -- Compiling module extend
 # 
 # Top level modules:
 # 	extend
-# End time: 15:14:18 on Jun 14,2025, Elapsed time: 0:00:00
+# End time: 16:44:03 on Jun 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/flopr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:44:03 on Jun 15,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/flopr.sv 
+# -- Compiling module flopr
+# 
+# Top level modules:
+# 	flopr
+# End time: 16:44:03 on Jun 15,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/flopenr.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:14:18 on Jun 14,2025
+# Start time: 16:44:03 on Jun 15,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/flopenr.sv 
 # -- Compiling module flopenr
 # 
 # Top level modules:
 # 	flopenr
-# End time: 15:14:18 on Jun 14,2025, Elapsed time: 0:00:00
+# End time: 16:44:03 on Jun 15,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/mux2.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:14:18 on Jun 14,2025
+# Start time: 16:44:03 on Jun 15,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/mux2.sv 
 # -- Compiling module mux2
 # 
 # Top level modules:
 # 	mux2
-# End time: 15:14:18 on Jun 14,2025, Elapsed time: 0:00:00
+# End time: 16:44:04 on Jun 15,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/alu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:14:18 on Jun 14,2025
+# Start time: 16:44:04 on Jun 15,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/alu.sv 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 15:14:18 on Jun 14,2025, Elapsed time: 0:00:00
+# End time: 16:44:04 on Jun 15,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/mem_map.sv}
+# vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/condcheck.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:14:18 on Jun 14,2025
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/mem_map.sv 
-# -- Compiling module mem_map
+# Start time: 16:44:04 on Jun 15,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/condcheck.sv 
+# -- Compiling module condcheck
 # 
 # Top level modules:
-# 	mem_map
-# End time: 15:14:18 on Jun 14,2025, Elapsed time: 0:00:00
+# 	condcheck
+# End time: 16:44:04 on Jun 15,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# 
-# vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top_tb.sv}
+# vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_subtractor_nb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:14:18 on Jun 14,2025
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top_tb.sv 
-# -- Compiling module computer_top_tb
+# Start time: 16:44:04 on Jun 15,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_subtractor_nb.sv 
+# -- Compiling module full_subtractor_nb
 # 
 # Top level modules:
-# 	computer_top_tb
-# End time: 15:14:18 on Jun 14,2025, Elapsed time: 0:00:00
+# 	full_subtractor_nb
+# End time: 16:44:04 on Jun 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_adder_nb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:44:04 on Jun 15,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_adder_nb.sv 
+# -- Compiling module full_adder_nb
+# 
+# Top level modules:
+# 	full_adder_nb
+# End time: 16:44:04 on Jun 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_subtractor_1b.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:44:04 on Jun 15,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_subtractor_1b.sv 
+# -- Compiling module full_subtractor_1b
+# 
+# Top level modules:
+# 	full_subtractor_1b
+# End time: 16:44:04 on Jun 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_adder_1b.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:44:04 on Jun 15,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_adder_1b.sv 
+# -- Compiling module full_adder_1b
+# 
+# Top level modules:
+# 	full_adder_1b
+# End time: 16:44:04 on Jun 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:44:04 on Jun 15,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv 
+# -- Compiling module multiplier_nb
+# 
+# Top level modules:
+# 	multiplier_nb
+# End time: 16:44:04 on Jun 15,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  computer_top_tb
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" computer_top_tb 
-# Start time: 15:14:18 on Jun 14,2025
+# vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:44:04 on Jun 15,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm_tb.sv 
+# -- Compiling module arm_tb
+# 
+# Top level modules:
+# 	arm_tb
+# End time: 16:44:04 on Jun 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  arm_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" arm_tb 
+# Start time: 16:44:04 on Jun 15,2025
 # Loading sv_std.std
-# Loading work.computer_top_tb
-# Loading work.computer_top
+# Loading work.arm_tb
 # Loading work.arm
-# Loading work.datapath
+# Loading work.controller
+# Loading work.decoder
+# Loading work.condlogic
 # Loading work.flopenr
+# Loading work.condcheck
+# Loading work.datapath
 # Loading work.adder
 # Loading work.mux2
+# Loading work.flopr
 # Loading work.regfile
 # Loading work.extend
 # Loading work.alu
-# Loading work.decoder
-# Loading work.condlogic
+# Loading work.full_adder_nb
+# Loading work.full_subtractor_nb
+# Loading work.multiplier_nb
 # Loading work.rom
 # Loading altera_mf_ver.altsyncram
-# Loading work.mem_map
+# Loading work.ram
+# Loading work.full_adder_1b
+# Loading work.full_subtractor_1b
 # Loading altera_mf_ver.altsyncram_body
 # Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
 # Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
@@ -181,30 +268,134 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# Time 0: regfile - r8 = xxxxxxxx, r5 = xxxxxxxx
-# Time 0: datapath - RD1 = xxxxxxxx, RD2 = xxxxxxxx, WriteData = xxxxxxxx, ALUResult = xxxxxxxx
-# Time 0: datapath - RD1 = xxxxxxxx, RD2 = xxxxxxxx, WriteData = xxxxxxxx, ALUResult = 00000000
-# Time 0: datapath - RD1 = xxxxxxxx, RD2 = xxxxxxxx, WriteData = xxxxxxxx, ALUResult = xxxxxxxx
-# Time 5000: datapath - RD1 = 00000000, RD2 = 00000000, WriteData = 00000000, ALUResult = xxxxxxxx
-# Time 5000: regfile - r8 = 00000118, r5 = fffffee8
-# Time 5000: datapath - RD1 = 00000000, RD2 = 00000000, WriteData = 00000000, ALUResult = 00000000
-# Time 15000: datapath - RD1 = xxxxxxxx, RD2 = xxxxxxxx, WriteData = xxxxxxxx, ALUResult = 00000000
-# Time 15000: datapath - RD1 = xxxxxxxx, RD2 = xxxxxxxx, WriteData = xxxxxxxx, ALUResult = xxxxxxxx
-# Error: Tiempo 25000: Fetch de la primera instrucción inesperado. Esperado PC=0x00000000, Instr=0x010aa0e3. Obtenido PC=00000004, Instr=xxxxxxxx
-# Time 25000: datapath - RD1 = 00000000, RD2 = 00000000, WriteData = 00000000, ALUResult = xxxxxxxx
-# Time 25000: datapath - RD1 = 00000000, RD2 = 00000000, WriteData = 00000000, ALUResult = 00000000
-# Error: Tiempo 35000: Fetch de la segunda instrucción inesperado. Esperado PC=0x00000004, Instr=0x461fa0e3. Obtenido PC=00000008, Instr=010aa0e3
-# Time 35000: datapath - RD1 = 00000014, RD2 = 00000000, WriteData = 00000000, ALUResult = 00000000
-# Time 35000: datapath - RD1 = 00000014, RD2 = 00000000, WriteData = 00000000, ALUResult = 00000014
-# Error: Tiempo 45000: Fetch de la tercera instrucción inesperado. Esperado PC=0x00000008, Instr=0x001080e5. Obtenido PC=0000000c, Instr=461fa0e3
-# Error: Tiempo 45000: Escritura de STR falló. Esperado WriteData=0x00000118, DataAdr=0x2000, MemWrite=1. Obtenido WriteData=00000000, DataAdr=00000014, MemWrite=0
-# Time 45000: datapath - RD1 = 00000000, RD2 = fffffee8, WriteData = fffffee8, ALUResult = 00000014
-# Time 45000: datapath - RD1 = 00000000, RD2 = fffffee8, WriteData = fffffee8, ALUResult = 00000118
-# Time 45000: datapath - RD1 = 00000000, RD2 = fffffee8, WriteData = fffffee8, ALUResult = fffffee8
-# Simulation finished with           4 errors
-# ** Note: $finish    : C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top_tb.sv(55)
-#    Time: 55 ns  Iteration: 0  Instance: /computer_top_tb
+# Tiempo=0 PC=xxxxxxxx Instr=00000000 Cond=0000 Rn=0 Rd=0 Imm/Rm=000 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000000 Rd=0 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=x MemWrite=0 PCSrc=0 CondEx=x | ALUResult=xxxxxxxx ALUFlags=xx00 WriteData=xxxxxxxx | R0=xxxxxxxx R1=xxxxxxxx R2=xxxxxxxx R3=xxxxxxxx R4=xxxxxxxx R5=xxxxxxxx R6=xxxxxxxx R7=xxxxxxxx | R8=xxxxxxxx R9=xxxxxxxx R10=xxxxxxxx R11=xxxxxxxx R12=xxxxxxxx R13=xxxxxxxx R14=xxxxxxxx R15=xxxxxxxx | RAM_q_b=00 (ext_addr 00000000)
+# 
+# --- Prueba 1: Reinicio del Sistema ---
+# Tiempo=10000 PC=00000000 Instr=00000000 Cond=0000 Rn=0 Rd=0 Imm/Rm=000 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000000 Rd=0 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=15000 PC=00000000 Instr=xxxxxxxx Cond=xxxx Rn=x Rd=x Imm/Rm=xxx ReadData=000000xx | Decodificador Entrada: Op=xx Funct=xxxxxx Rd=x | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=xx PCS=x | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=xxxxxxxx ALUFlags=xxxx WriteData=xxxxxxxx | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=25000 PC=00000004 Instr=010aa0e3 Cond=0000 Rn=a Rd=a Imm/Rm=0e3 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=010000 Rd=a | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# 
+# --- Prueba 2: Ejecutar Programa de Ejemplo (100 ciclos) ---
+# Tiempo=35000 PC=00000008 Instr=010aa0e3 Cond=0000 Rn=a Rd=a Imm/Rm=0e3 ReadData=000000xx | Decodificador Entrada: Op=00 Funct=010000 Rd=a | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=45000 PC=0000000c Instr=4f1fa0e3 Cond=0100 Rn=f Rd=a Imm/Rm=0e3 ReadData=00000000 | Decodificador Entrada: Op=11 Funct=110001 Rd=a | Decodificador Salida: RegW=0 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000014 ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=55000 PC=00000010 Instr=001080e5 Cond=0000 Rn=0 Rd=8 Imm/Rm=0e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=65000 PC=00000014 Instr=54029fe5 Cond=0101 Rn=2 Rd=9 Imm/Rm=fe5 ReadData=00000000 | Decodificador Entrada: Op=01 Funct=000000 Rd=9 | Decodificador Salida: RegW=0 MemW=1 MemtoReg=0 ALUSrc=1 ImmSrc=01 RegSrc=10 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=1 PCSrc=0 CondEx=1 | ALUResult=00000fe5 ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=75000 PC=00000018 Instr=0010a0e3 Cond=0000 Rn=0 Rd=a Imm/Rm=0e3 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=a | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=85000 PC=0000001c Instr=001080e5 Cond=0000 Rn=0 Rd=8 Imm/Rm=0e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=95000 PC=00000020 Instr=041080e4 Cond=0000 Rn=0 Rd=8 Imm/Rm=0e4 ReadData=00000000 | Decodificador Entrada: Op=01 Funct=000001 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=1 ALUSrc=1 ImmSrc=01 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=000000e4 ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=105000 PC=00000024 Instr=001090e5 Cond=0000 Rn=0 Rd=9 Imm/Rm=0e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=9 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=115000 PC=00000028 Instr=0300000a Cond=0000 Rn=0 Rd=0 Imm/Rm=00a ReadData=00000000 | Decodificador Entrada: Op=00 Funct=110000 Rd=0 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=1 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=11 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=0000000a ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=125000 PC=0000002c Instr=003082e5 Cond=0000 Rn=0 Rd=8 Imm/Rm=2e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000011 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=135000 PC=00000030 Instr=0a4da0e3 Cond=0000 Rn=d Rd=a Imm/Rm=0e3 ReadData=00000000 | Decodificador Entrada: Op=10 Funct=100100 Rd=a | Decodificador Salida: RegW=0 MemW=0 MemtoReg=0 ALUSrc=1 ImmSrc=10 RegSrc=01 ALUControl=00 FlagW=00 PCS=1 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=013683c4 ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=145000 PC=00000034 Instr=003082e5 Cond=0000 Rn=0 Rd=8 Imm/Rm=2e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000011 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=155000 PC=00000038 Instr=003092e5 Cond=0000 Rn=0 Rd=9 Imm/Rm=2e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000011 Rd=9 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=165000 PC=0000003c Instr=001090e5 Cond=0000 Rn=0 Rd=9 Imm/Rm=0e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=9 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=175000 PC=00000040 Instr=001080e5 Cond=0000 Rn=0 Rd=8 Imm/Rm=0e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=185000 PC=00000044 Instr=0010a0b3 Cond=0000 Rn=0 Rd=a Imm/Rm=0b3 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=a | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=195000 PC=00000048 Instr=0a4da0e3 Cond=0000 Rn=d Rd=a Imm/Rm=0e3 ReadData=00000000 | Decodificador Entrada: Op=10 Funct=100100 Rd=a | Decodificador Salida: RegW=0 MemW=0 MemtoReg=0 ALUSrc=1 ImmSrc=10 RegSrc=01 ALUControl=00 FlagW=00 PCS=1 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=013683dc ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=205000 PC=0000004c Instr=0330e0c3 Cond=0000 Rn=0 Rd=e Imm/Rm=0c3 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=110011 Rd=e | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=1 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=11 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=000000c3 ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=215000 PC=00000050 Instr=001090e5 Cond=0000 Rn=0 Rd=9 Imm/Rm=0e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=9 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=225000 PC=00000054 Instr=001080b5 Cond=0000 Rn=0 Rd=8 Imm/Rm=0b5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=235000 PC=00000058 Instr=190e51e3 Cond=0001 Rn=e Rd=5 Imm/Rm=1e3 ReadData=00000000 | Decodificador Entrada: Op=10 Funct=010000 Rd=5 | Decodificador Salida: RegW=0 MemW=0 MemtoReg=0 ALUSrc=1 ImmSrc=10 RegSrc=01 ALUControl=00 FlagW=00 PCS=1 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=1 CondEx=1 | ALUResult=003947ec ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=245000 PC=003947ec Instr=014aa0e3 Cond=0000 Rn=a Rd=a Imm/Rm=0e3 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=010100 Rd=a | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=255000 PC=003947f0 Instr=505085e2 Cond=0101 Rn=0 Rd=8 Imm/Rm=5e2 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000101 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=01 FlagW=00 PCS=0 | Controlador Salida: RegWrite=1 MemWrite=0 PCSrc=0 CondEx=1 | ALUResult=00000000 ALUFlags=0110 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=265000 PC=003947f4 Instr=00000000 Cond=0000 Rn=0 Rd=0 Imm/Rm=000 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000000 Rd=0 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=275000 PC=003947f8 Instr=00000000 Cond=0000 Rn=0 Rd=0 Imm/Rm=000 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000000 Rd=0 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=285000 PC=003947fc Instr=00000000 Cond=0000 Rn=0 Rd=0 Imm/Rm=000 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000000 Rd=0 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=295000 PC=00394800 Instr=00000000 Cond=0000 Rn=0 Rd=0 Imm/Rm=000 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000000 Rd=0 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=305000 PC=00394804 Instr=00000000 Cond=0000 Rn=0 Rd=0 Imm/Rm=000 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000000 Rd=0 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=315000 PC=00394808 Instr=010aa0e3 Cond=0000 Rn=a Rd=a Imm/Rm=0e3 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=010000 Rd=a | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=325000 PC=0039480c Instr=4f1fa0e3 Cond=0100 Rn=f Rd=a Imm/Rm=0e3 ReadData=00000000 | Decodificador Entrada: Op=11 Funct=110001 Rd=a | Decodificador Salida: RegW=0 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00394814 ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=335000 PC=00394810 Instr=001080e5 Cond=0000 Rn=0 Rd=8 Imm/Rm=0e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=345000 PC=00394814 Instr=54029fe5 Cond=0101 Rn=2 Rd=9 Imm/Rm=fe5 ReadData=00000000 | Decodificador Entrada: Op=01 Funct=000000 Rd=9 | Decodificador Salida: RegW=0 MemW=1 MemtoReg=0 ALUSrc=1 ImmSrc=01 RegSrc=10 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=1 PCSrc=0 CondEx=1 | ALUResult=00000fe5 ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=355000 PC=00394818 Instr=0010a0e3 Cond=0000 Rn=0 Rd=a Imm/Rm=0e3 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=a | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=365000 PC=0039481c Instr=001080e5 Cond=0000 Rn=0 Rd=8 Imm/Rm=0e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=375000 PC=00394820 Instr=041080e4 Cond=0000 Rn=0 Rd=8 Imm/Rm=0e4 ReadData=00000000 | Decodificador Entrada: Op=01 Funct=000001 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=1 ALUSrc=1 ImmSrc=01 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=000000e4 ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=385000 PC=00394824 Instr=001090e5 Cond=0000 Rn=0 Rd=9 Imm/Rm=0e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=9 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=395000 PC=00394828 Instr=0300000a Cond=0000 Rn=0 Rd=0 Imm/Rm=00a ReadData=00000000 | Decodificador Entrada: Op=00 Funct=110000 Rd=0 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=1 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=11 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=0000000a ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=405000 PC=0039482c Instr=003082e5 Cond=0000 Rn=0 Rd=8 Imm/Rm=2e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000011 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=415000 PC=00394830 Instr=0a4da0e3 Cond=0000 Rn=d Rd=a Imm/Rm=0e3 ReadData=00000000 | Decodificador Entrada: Op=10 Funct=100100 Rd=a | Decodificador Salida: RegW=0 MemW=0 MemtoReg=0 ALUSrc=1 ImmSrc=10 RegSrc=01 ALUControl=00 FlagW=00 PCS=1 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=016fcbc4 ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=425000 PC=00394834 Instr=003082e5 Cond=0000 Rn=0 Rd=8 Imm/Rm=2e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000011 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=435000 PC=00394838 Instr=003092e5 Cond=0000 Rn=0 Rd=9 Imm/Rm=2e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000011 Rd=9 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=445000 PC=0039483c Instr=001090e5 Cond=0000 Rn=0 Rd=9 Imm/Rm=0e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=9 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=455000 PC=00394840 Instr=001080e5 Cond=0000 Rn=0 Rd=8 Imm/Rm=0e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=465000 PC=00394844 Instr=0010a0b3 Cond=0000 Rn=0 Rd=a Imm/Rm=0b3 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=a | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=475000 PC=00394848 Instr=0a4da0e3 Cond=0000 Rn=d Rd=a Imm/Rm=0e3 ReadData=00000000 | Decodificador Entrada: Op=10 Funct=100100 Rd=a | Decodificador Salida: RegW=0 MemW=0 MemtoReg=0 ALUSrc=1 ImmSrc=10 RegSrc=01 ALUControl=00 FlagW=00 PCS=1 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=016fcbdc ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=485000 PC=0039484c Instr=0330e0c3 Cond=0000 Rn=0 Rd=e Imm/Rm=0c3 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=110011 Rd=e | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=1 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=11 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=000000c3 ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=495000 PC=00394850 Instr=001090e5 Cond=0000 Rn=0 Rd=9 Imm/Rm=0e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=9 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=505000 PC=00394854 Instr=001080b5 Cond=0000 Rn=0 Rd=8 Imm/Rm=0b5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=515000 PC=00394858 Instr=190e51e3 Cond=0001 Rn=e Rd=5 Imm/Rm=1e3 ReadData=00000000 | Decodificador Entrada: Op=10 Funct=010000 Rd=5 | Decodificador Salida: RegW=0 MemW=0 MemtoReg=0 ALUSrc=1 ImmSrc=10 RegSrc=01 ALUControl=00 FlagW=00 PCS=1 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=1 CondEx=1 | ALUResult=00728fec ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=525000 PC=00728fec Instr=014aa0e3 Cond=0000 Rn=a Rd=a Imm/Rm=0e3 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=010100 Rd=a | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=535000 PC=00728ff0 Instr=505085e2 Cond=0101 Rn=0 Rd=8 Imm/Rm=5e2 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000101 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=01 FlagW=00 PCS=0 | Controlador Salida: RegWrite=1 MemWrite=0 PCSrc=0 CondEx=1 | ALUResult=00000000 ALUFlags=0110 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=545000 PC=00728ff4 Instr=00000000 Cond=0000 Rn=0 Rd=0 Imm/Rm=000 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000000 Rd=0 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=555000 PC=00728ff8 Instr=00000000 Cond=0000 Rn=0 Rd=0 Imm/Rm=000 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000000 Rd=0 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=565000 PC=00728ffc Instr=00000000 Cond=0000 Rn=0 Rd=0 Imm/Rm=000 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000000 Rd=0 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=575000 PC=00729000 Instr=00000000 Cond=0000 Rn=0 Rd=0 Imm/Rm=000 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000000 Rd=0 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=585000 PC=00729004 Instr=00000000 Cond=0000 Rn=0 Rd=0 Imm/Rm=000 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000000 Rd=0 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=595000 PC=00729008 Instr=010aa0e3 Cond=0000 Rn=a Rd=a Imm/Rm=0e3 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=010000 Rd=a | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=605000 PC=0072900c Instr=4f1fa0e3 Cond=0100 Rn=f Rd=a Imm/Rm=0e3 ReadData=00000000 | Decodificador Entrada: Op=11 Funct=110001 Rd=a | Decodificador Salida: RegW=0 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00729014 ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=615000 PC=00729010 Instr=001080e5 Cond=0000 Rn=0 Rd=8 Imm/Rm=0e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=625000 PC=00729014 Instr=54029fe5 Cond=0101 Rn=2 Rd=9 Imm/Rm=fe5 ReadData=00000000 | Decodificador Entrada: Op=01 Funct=000000 Rd=9 | Decodificador Salida: RegW=0 MemW=1 MemtoReg=0 ALUSrc=1 ImmSrc=01 RegSrc=10 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=1 PCSrc=0 CondEx=1 | ALUResult=00000fe5 ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=635000 PC=00729018 Instr=0010a0e3 Cond=0000 Rn=0 Rd=a Imm/Rm=0e3 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=a | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=645000 PC=0072901c Instr=001080e5 Cond=0000 Rn=0 Rd=8 Imm/Rm=0e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=655000 PC=00729020 Instr=041080e4 Cond=0000 Rn=0 Rd=8 Imm/Rm=0e4 ReadData=00000000 | Decodificador Entrada: Op=01 Funct=000001 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=1 ALUSrc=1 ImmSrc=01 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=000000e4 ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=665000 PC=00729024 Instr=001090e5 Cond=0000 Rn=0 Rd=9 Imm/Rm=0e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=9 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=675000 PC=00729028 Instr=0300000a Cond=0000 Rn=0 Rd=0 Imm/Rm=00a ReadData=00000000 | Decodificador Entrada: Op=00 Funct=110000 Rd=0 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=1 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=11 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=0000000a ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=685000 PC=0072902c Instr=003082e5 Cond=0000 Rn=0 Rd=8 Imm/Rm=2e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000011 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=695000 PC=00729030 Instr=0a4da0e3 Cond=0000 Rn=d Rd=a Imm/Rm=0e3 ReadData=00000000 | Decodificador Entrada: Op=10 Funct=100100 Rd=a | Decodificador Salida: RegW=0 MemW=0 MemtoReg=0 ALUSrc=1 ImmSrc=10 RegSrc=01 ALUControl=00 FlagW=00 PCS=1 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=01a913c4 ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=705000 PC=00729034 Instr=003082e5 Cond=0000 Rn=0 Rd=8 Imm/Rm=2e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000011 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=715000 PC=00729038 Instr=003092e5 Cond=0000 Rn=0 Rd=9 Imm/Rm=2e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000011 Rd=9 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=725000 PC=0072903c Instr=001090e5 Cond=0000 Rn=0 Rd=9 Imm/Rm=0e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=9 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=735000 PC=00729040 Instr=001080e5 Cond=0000 Rn=0 Rd=8 Imm/Rm=0e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=745000 PC=00729044 Instr=0010a0b3 Cond=0000 Rn=0 Rd=a Imm/Rm=0b3 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=a | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=755000 PC=00729048 Instr=0a4da0e3 Cond=0000 Rn=d Rd=a Imm/Rm=0e3 ReadData=00000000 | Decodificador Entrada: Op=10 Funct=100100 Rd=a | Decodificador Salida: RegW=0 MemW=0 MemtoReg=0 ALUSrc=1 ImmSrc=10 RegSrc=01 ALUControl=00 FlagW=00 PCS=1 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=01a913dc ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=765000 PC=0072904c Instr=0330e0c3 Cond=0000 Rn=0 Rd=e Imm/Rm=0c3 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=110011 Rd=e | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=1 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=11 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=000000c3 ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=775000 PC=00729050 Instr=001090e5 Cond=0000 Rn=0 Rd=9 Imm/Rm=0e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=9 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=785000 PC=00729054 Instr=001080b5 Cond=0000 Rn=0 Rd=8 Imm/Rm=0b5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=795000 PC=00729058 Instr=190e51e3 Cond=0001 Rn=e Rd=5 Imm/Rm=1e3 ReadData=00000000 | Decodificador Entrada: Op=10 Funct=010000 Rd=5 | Decodificador Salida: RegW=0 MemW=0 MemtoReg=0 ALUSrc=1 ImmSrc=10 RegSrc=01 ALUControl=00 FlagW=00 PCS=1 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=1 CondEx=1 | ALUResult=00abd7ec ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Warning : Address pointed at port A is out of bound!
+# Time: 805000  Instance: arm_tb.dut.ram_inst.altsyncram_component.m_default.altsyncram_inst
+# Tiempo=805000 PC=00abd7ec Instr=014aa0e3 Cond=0000 Rn=a Rd=a Imm/Rm=0e3 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=010100 Rd=a | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=815000 PC=00abd7f0 Instr=505085e2 Cond=0101 Rn=0 Rd=8 Imm/Rm=5e2 ReadData=000000xx | Decodificador Entrada: Op=00 Funct=000101 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=01 FlagW=00 PCS=0 | Controlador Salida: RegWrite=1 MemWrite=0 PCSrc=0 CondEx=1 | ALUResult=00000000 ALUFlags=0110 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=825000 PC=00abd7f4 Instr=00000000 Cond=0000 Rn=0 Rd=0 Imm/Rm=000 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000000 Rd=0 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=835000 PC=00abd7f8 Instr=00000000 Cond=0000 Rn=0 Rd=0 Imm/Rm=000 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000000 Rd=0 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=845000 PC=00abd7fc Instr=00000000 Cond=0000 Rn=0 Rd=0 Imm/Rm=000 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000000 Rd=0 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=855000 PC=00abd800 Instr=00000000 Cond=0000 Rn=0 Rd=0 Imm/Rm=000 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000000 Rd=0 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=865000 PC=00abd804 Instr=00000000 Cond=0000 Rn=0 Rd=0 Imm/Rm=000 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000000 Rd=0 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=875000 PC=00abd808 Instr=010aa0e3 Cond=0000 Rn=a Rd=a Imm/Rm=0e3 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=010000 Rd=a | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=885000 PC=00abd80c Instr=4f1fa0e3 Cond=0100 Rn=f Rd=a Imm/Rm=0e3 ReadData=00000000 | Decodificador Entrada: Op=11 Funct=110001 Rd=a | Decodificador Salida: RegW=0 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00abd814 ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Warning : Address pointed at port A is out of bound!
+# Time: 895000  Instance: arm_tb.dut.ram_inst.altsyncram_component.m_default.altsyncram_inst
+# Tiempo=895000 PC=00abd810 Instr=001080e5 Cond=0000 Rn=0 Rd=8 Imm/Rm=0e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=905000 PC=00abd814 Instr=54029fe5 Cond=0101 Rn=2 Rd=9 Imm/Rm=fe5 ReadData=000000xx | Decodificador Entrada: Op=01 Funct=000000 Rd=9 | Decodificador Salida: RegW=0 MemW=1 MemtoReg=0 ALUSrc=1 ImmSrc=01 RegSrc=10 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=1 PCSrc=0 CondEx=1 | ALUResult=00000fe5 ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=915000 PC=00abd818 Instr=0010a0e3 Cond=0000 Rn=0 Rd=a Imm/Rm=0e3 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=a | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=925000 PC=00abd81c Instr=001080e5 Cond=0000 Rn=0 Rd=8 Imm/Rm=0e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=935000 PC=00abd820 Instr=041080e4 Cond=0000 Rn=0 Rd=8 Imm/Rm=0e4 ReadData=00000000 | Decodificador Entrada: Op=01 Funct=000001 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=1 ALUSrc=1 ImmSrc=01 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=000000e4 ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=945000 PC=00abd824 Instr=001090e5 Cond=0000 Rn=0 Rd=9 Imm/Rm=0e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=9 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=955000 PC=00abd828 Instr=0300000a Cond=0000 Rn=0 Rd=0 Imm/Rm=00a ReadData=00000000 | Decodificador Entrada: Op=00 Funct=110000 Rd=0 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=1 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=11 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=0000000a ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=965000 PC=00abd82c Instr=003082e5 Cond=0000 Rn=0 Rd=8 Imm/Rm=2e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000011 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=975000 PC=00abd830 Instr=0a4da0e3 Cond=0000 Rn=d Rd=a Imm/Rm=0e3 ReadData=00000000 | Decodificador Entrada: Op=10 Funct=100100 Rd=a | Decodificador Salida: RegW=0 MemW=0 MemtoReg=0 ALUSrc=1 ImmSrc=10 RegSrc=01 ALUControl=00 FlagW=00 PCS=1 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=01e25bc4 ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Warning : Address pointed at port A is out of bound!
+# Time: 985000  Instance: arm_tb.dut.ram_inst.altsyncram_component.m_default.altsyncram_inst
+# Tiempo=985000 PC=00abd834 Instr=003082e5 Cond=0000 Rn=0 Rd=8 Imm/Rm=2e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000011 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=995000 PC=00abd838 Instr=003092e5 Cond=0000 Rn=0 Rd=9 Imm/Rm=2e5 ReadData=000000xx | Decodificador Entrada: Op=00 Funct=000011 Rd=9 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=1005000 PC=00abd83c Instr=001090e5 Cond=0000 Rn=0 Rd=9 Imm/Rm=0e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=9 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=1015000 PC=00abd840 Instr=001080e5 Cond=0000 Rn=0 Rd=8 Imm/Rm=0e5 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=8 | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# Tiempo=1025000 PC=00abd844 Instr=0010a0b3 Cond=0000 Rn=0 Rd=a Imm/Rm=0b3 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=a | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000000)
+# 
+# --- Prueba 3: Lectura de RAM Externa en direccion 8 ---
+# Tiempo=1030000 PC=00abd844 Instr=0010a0b3 Cond=0000 Rn=0 Rd=a Imm/Rm=0b3 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=000001 Rd=a | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=0 ImmSrc=00 RegSrc=00 ALUControl=10 FlagW=00 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=00000000 ALUFlags=0100 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000008)
+# Tiempo=1035000 PC=00abd848 Instr=0a4da0e3 Cond=0000 Rn=d Rd=a Imm/Rm=0e3 ReadData=00000000 | Decodificador Entrada: Op=10 Funct=100100 Rd=a | Decodificador Salida: RegW=0 MemW=0 MemtoReg=0 ALUSrc=1 ImmSrc=10 RegSrc=01 ALUControl=00 FlagW=00 PCS=1 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=01e25bdc ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000008)
+# Esperado RAM_q_b en direccion 8: 8'h05
+# Obtenido RAM_q_b en direccion 00000008: 00
+# 
+# --- Fin de la Simulacion ---
+# Warning : Address pointed at port A is out of bound!
+# Time: 1045000  Instance: arm_tb.dut.ram_inst.altsyncram_component.m_default.altsyncram_inst
+# Tiempo=1045000 PC=00abd84c Instr=0330e0c3 Cond=0000 Rn=0 Rd=e Imm/Rm=0c3 ReadData=00000000 | Decodificador Entrada: Op=00 Funct=110011 Rd=e | Decodificador Salida: RegW=1 MemW=0 MemtoReg=0 ALUSrc=1 ImmSrc=00 RegSrc=00 ALUControl=00 FlagW=11 PCS=0 | Controlador Salida: RegWrite=0 MemWrite=0 PCSrc=0 CondEx=0 | ALUResult=000000c3 ALUFlags=0000 WriteData=00000000 | R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 | R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000 | RAM_q_b=00 (ext_addr 00000008)
+# ** Note: $finish    : C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm_tb.sv(108)
+#    Time: 1050 ns  Iteration: 0  Instance: /arm_tb
 # 1
-# Break in Module computer_top_tb at C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top_tb.sv line 55
-# End time: 15:17:03 on Jun 14,2025, Elapsed time: 0:02:45
+# Break in Module arm_tb at C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm_tb.sv line 108
+# End time: 16:45:33 on Jun 15,2025, Elapsed time: 0:01:29
 # Errors: 0, Warnings: 0

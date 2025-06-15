@@ -1,0 +1,131 @@
+`timescale 1ns / 1ps
+
+module decoder_tb;
+
+    // Declaración de señales
+    logic [1:0] Op;
+    logic [5:0] Funct;
+    logic [3:0] Rd;
+    logic [1:0] FlagW;
+    logic       PCS, RegW, MemW;
+    logic       MemtoReg, ALUSrc;
+    logic [1:0] ImmSrc, RegSrc, ALUControl;
+
+    // Instancia del módulo under test (DUT)
+    decoder dut (
+        .Op(Op),
+        .Funct(Funct),
+        .Rd(Rd),
+        .FlagW(FlagW),
+        .PCS(PCS),
+        .RegW(RegW),
+        .MemW(MemW),
+        .MemtoReg(MemtoReg),
+        .ALUSrc(ALUSrc),
+        .ImmSrc(ImmSrc),
+        .RegSrc(RegSrc),
+        .ALUControl(ALUControl)
+    );
+
+    // Procedimiento de test
+    initial begin
+        // Test 1: MOV inmediato (Op=00, Funct=110100, Rd=1010)
+        $display("Test 1: MOV R10, #0x100 (Op=00, Funct=110100, Rd=1010)");
+        Op = 2'b00;
+        Funct = 6'b110100; // MOV, S=0
+        Rd = 4'b1010;
+        #10;
+        $display("FlagW=%b, PCS=%b, RegW=%b, MemW=%b, MemtoReg=%b, ALUSrc=%b, ImmSrc=%b, RegSrc=%b, ALUControl=%b",
+                 FlagW, PCS, RegW, MemW, MemtoReg, ALUSrc, ImmSrc, RegSrc, ALUControl);
+
+        // Test 2: ADD registro (Op=00, Funct=010001, Rd=0001)
+        $display("Test 2: ADD R1, R2, R3, S=1 (Op=00, Funct=010001, Rd=0001)");
+        Op = 2'b00;
+        Funct = 6'b010001; // ADD, S=1
+        Rd = 4'b0001;
+        #10;
+        $display("FlagW=%b, PCS=%b, RegW=%b, MemW=%b, MemtoReg=%b, ALUSrc=%b, ImmSrc=%b, RegSrc=%b, ALUControl=%b",
+                 FlagW, PCS, RegW, MemW, MemtoReg, ALUSrc, ImmSrc, RegSrc, ALUControl);
+
+        // Test 3: SUB registro (Op=00, Funct=001001, Rd=0001)
+        $display("Test 3: SUB R1, R2, R3, S=1 (Op=00, Funct=001001, Rd=0001)");
+        Op = 2'b00;
+        Funct = 6'b001001; // SUB, S=1
+        Rd = 4'b0001;
+        #10;
+        $display("FlagW=%b, PCS=%b, RegW=%b, MemW=%b, MemtoReg=%b, ALUSrc=%b, ImmSrc=%b, RegSrc=%b, ALUControl=%b",
+                 FlagW, PCS, RegW, MemW, MemtoReg, ALUSrc, ImmSrc, RegSrc, ALUControl);
+
+        // Test 4: AND registro (Op=00, Funct=000000, Rd=0010)
+        $display("Test 4: AND R2, R3, R4 (Op=00, Funct=000000, Rd=0010)");
+        Op = 2'b00;
+        Funct = 6'b000000; // AND, S=0
+        Rd = 4'b0010;
+        #10;
+        $display("FlagW=%b, PCS=%b, RegW=%b, MemW=%b, MemtoReg=%b, ALUSrc=%b, ImmSrc=%b, RegSrc=%b, ALUControl=%b",
+                 FlagW, PCS, RegW, MemW, MemtoReg, ALUSrc, ImmSrc, RegSrc, ALUControl);
+
+        // Test 5: STR (Op=01, Funct=000000, Rd=0010)
+        $display("Test 5: STR R1, [R2] (Op=01, Funct=000000, Rd=0010)");
+        Op = 2'b01;
+        Funct = 6'b000000; // STR
+        Rd = 4'b0010;
+        #10;
+        $display("FlagW=%b, PCS=%b, RegW=%b, MemW=%b, MemtoReg=%b, ALUSrc=%b, ImmSrc=%b, RegSrc=%b, ALUControl=%b",
+                 FlagW, PCS, RegW, MemW, MemtoReg, ALUSrc, ImmSrc, RegSrc, ALUControl);
+
+        // Test 6: LDR (Op=01, Funct=000001, Rd=0011)
+        $display("Test 6: LDR R3, [R4] (Op=01, Funct=000001, Rd=0011)");
+        Op = 2'b01;
+        Funct = 6'b000001; // LDR
+        Rd = 4'b0011;
+        #10;
+        $display("FlagW=%b, PCS=%b, RegW=%b, MemW=%b, MemtoReg=%b, ALUSrc=%b, ImmSrc=%b, RegSrc=%b, ALUControl=%b",
+                 FlagW, PCS, RegW, MemW, MemtoReg, ALUSrc, ImmSrc, RegSrc, ALUControl);
+
+        // Test 7: Branch (Op=10, Funct=000000, Rd=0000)
+        $display("Test 7: B (Op=10, Funct=000000, Rd=0000)");
+        Op = 2'b10;
+        Funct = 6'b000000; // Branch
+        Rd = 4'b0000;
+        #10;
+        $display("FlagW=%b, PCS=%b, RegW=%b, MemW=%b, MemtoReg=%b, ALUSrc=%b, ImmSrc=%b, RegSrc=%b, ALUControl=%b",
+                 FlagW, PCS, RegW, MemW, MemtoReg, ALUSrc, ImmSrc, RegSrc, ALUControl);
+
+        // Test 8: ADD con Rd=15 (Op=00, Funct=010000, Rd=1111)
+        $display("Test 8: ADD R15, R2, R3 (Op=00, Funct=010000, Rd=1111)");
+        Op = 2'b00;
+        Funct = 6'b010000; // ADD, S=0
+        Rd = 4'b1111; // Rd=15 (PC)
+        #10;
+        $display("FlagW=%b, PCS=%b, RegW=%b, MemW=%b, MemtoReg=%b, ALUSrc=%b, ImmSrc=%b, RegSrc=%b, ALUControl=%b",
+                 FlagW, PCS, RegW, MemW, MemtoReg, ALUSrc, ImmSrc, RegSrc, ALUControl);
+
+        // Test 9: Unimplemented Op (Op=11)
+        $display("Test 9: Unimplemented Op (Op=11, Funct=000000, Rd=0000)");
+        Op = 2'b11;
+        Funct = 6'b000000;
+        Rd = 4'b0000;
+        #10;
+        $display("FlagW=%b, PCS=%b, RegW=%b, MemW=%b, MemtoReg=%b, ALUSrc=%b, ImmSrc=%b, RegSrc=%b, ALUControl=%b",
+                 FlagW, PCS, RegW, MemW, MemtoReg, ALUSrc, ImmSrc, RegSrc, ALUControl);
+
+        // Finalizar simulación
+        #10;
+        $display("Fin de la simulación");
+        $finish;
+    end
+
+    // Monitor para observar señales
+    initial begin
+        $monitor("Time=%0t Op=%b Funct=%b Rd=%b FlagW=%b PCS=%b RegW=%b MemW=%b MemtoReg=%b ALUSrc=%b ImmSrc=%b RegSrc=%b ALUControl=%b",
+                 $time, Op, Funct, Rd, FlagW, PCS, RegW, MemW, MemtoReg, ALUSrc, ImmSrc, RegSrc, ALUControl);
+    end
+
+    // Generación de archivo VCD
+    initial begin
+        $dumpfile("decoder_tb.vcd");
+        $dumpvars(0, decoder_tb);
+    end
+
+endmodule

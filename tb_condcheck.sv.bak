@@ -1,0 +1,125 @@
+module tb_condcheck;
+
+    // Declaración de entradas para el DUT (tipo reg porque el testbench las controlará)
+    reg [3:0] Cond;  // Código de la condición
+    reg [3:0] Flags; // Banderas de estado: {neg, zero, carry, overflow}
+
+    // Declaración de salida del DUT (tipo wire porque el DUT la generará)
+    wire CondEx;    // Resultado de la comprobación de la condición
+
+    // Instancia del Módulo Bajo Prueba (DUT - Device Under Test)
+    condcheck dut (
+        .Cond(Cond),
+        .Flags(Flags),
+        .CondEx(CondEx)
+    );
+
+    // Bloque inicial para aplicar estímulos y monitorear señales
+    initial begin
+        // Configura el monitoreo de señales para ver los cambios en tiempo real
+        $monitor("Tiempo=%0t Cond=%b Flags=%b (neg=%b zero=%b carry=%b overflow=%b) | CondEx=%b",
+                 $time, Cond, Flags, Flags[3], Flags[2], Flags[1], Flags[0], CondEx);
+
+        // --- Inicialización de Entradas ---
+        // Se inicializan todas las entradas a un estado conocido al principio de la simulación
+        Cond = 4'b0000;
+        Flags = 4'b0000; // neg=0, zero=0, carry=0, overflow=0
+        #10; // Pequeño retardo para observar el estado inicial
+
+        // --- Casos de Prueba para cada Condición ---
+
+        $display("\n--- Test 1: EQ (Equal) - Cond=4'b0000 ---");
+        // CondEx = zero
+        Flags = 4'b0100; #10; // zero=1, CondEx=1
+        Flags = 4'b0000; #10; // zero=0, CondEx=0
+
+        $display("\n--- Test 2: NE (Not Equal) - Cond=4'b0001 ---");
+        // CondEx = ~zero
+        Flags = 4'b0000; #10; // zero=0, CondEx=1
+        Flags = 4'b0100; #10; // zero=1, CondEx=0
+
+        $display("\n--- Test 3: CS (Carry Set) - Cond=4'b0010 ---");
+        // CondEx = carry
+        Flags = 4'b0010; #10; // carry=1, CondEx=1
+        Flags = 4'b0000; #10; // carry=0, CondEx=0
+
+        $display("\n--- Test 4: CC (Carry Clear) - Cond=4'b0011 ---");
+        // CondEx = ~carry
+        Flags = 4'b0000; #10; // carry=0, CondEx=1
+        Flags = 4'b0010; #10; // carry=1, CondEx=0
+
+        $display("\n--- Test 5: MI (Minus) - Cond=4'b0100 ---");
+        // CondEx = neg
+        Flags = 4'b1000; #10; // neg=1, CondEx=1
+        Flags = 4'b0000; #10; // neg=0, CondEx=0
+
+        $display("\n--- Test 6: PL (Plus) - Cond=4'b0101 ---");
+        // CondEx = ~neg
+        Flags = 4'b0000; #10; // neg=0, CondEx=1
+        Flags = 4'b1000; #10; // neg=1, CondEx=0
+
+        $display("\n--- Test 7: VS (Overflow Set) - Cond=4'b0110 ---");
+        // CondEx = overflow
+        Flags = 4'b0001; #10; // overflow=1, CondEx=1
+        Flags = 4'b0000; #10; // overflow=0, CondEx=0
+
+        $display("\n--- Test 8: VC (Overflow Clear) - Cond=4'b0111 ---");
+        // CondEx = ~overflow
+        Flags = 4'b0000; #10; // overflow=0, CondEx=1
+        Flags = 4'b0001; #10; // overflow=1, CondEx=0
+
+        $display("\n--- Test 9: HI (Higher) - Cond=4'b1000 ---");
+        // CondEx = carry & ~zero
+        Flags = 4'b0010; #10; // carry=1, zero=0, CondEx=1
+        Flags = 4'b0110; #10; // carry=1, zero=1, CondEx=0
+        Flags = 4'b0000; #10; // carry=0, zero=0, CondEx=0
+
+        $display("\n--- Test 10: LS (Lower or Same) - Cond=4'b1001 ---");
+        // CondEx = ~(carry & ~zero)
+        Flags = 4'b0110; #10; // carry=1, zero=1, CondEx=1
+        Flags = 4'b0000; #10; // carry=0, zero=0, CondEx=1
+        Flags = 4'b0010; #10; // carry=1, zero=0, CondEx=0
+
+        $display("\n--- Test 11: GE (Greater or Equal) - Cond=4'b1010 ---");
+        // CondEx = ge (neg == overflow)
+        Flags = 4'b0000; #10; // neg=0, overflow=0, CondEx=1 (ge=1)
+        Flags = 4'b1001; #10; // neg=1, overflow=1, CondEx=1 (ge=1)
+        Flags = 4'b1000; #10; // neg=1, overflow=0, CondEx=0 (ge=0)
+        Flags = 4'b0001; #10; // neg=0, overflow=1, CondEx=0 (ge=0)
+
+        $display("\n--- Test 12: LT (Less Than) - Cond=4'b1011 ---");
+        // CondEx = ~ge (neg != overflow)
+        Flags = 4'b1000; #10; // neg=1, overflow=0, CondEx=1 (ge=0)
+        Flags = 4'b0001; #10; // neg=0, overflow=1, CondEx=1 (ge=0)
+        Flags = 4'b0000; #10; // neg=0, overflow=0, CondEx=0 (ge=1)
+
+        $display("\n--- Test 13: GT (Greater Than) - Cond=4'b1100 ---");
+        // CondEx = ~zero & ge
+        Flags = 4'b0000; #10; // zero=0, ge=1 (neg=0, overflow=0), CondEx=1
+        Flags = 4'b1001; #10; // zero=0, ge=1 (neg=1, overflow=1), CondEx=1
+        Flags = 4'b0100; #10; // zero=1, ge=1, CondEx=0
+        Flags = 4'b1000; #10; // zero=0, ge=0 (neg=1, overflow=0), CondEx=0
+
+        $display("\n--- Test 14: LE (Less or Equal) - Cond=4'b1101 ---");
+        // CondEx = ~(~zero & ge)
+        Flags = 4'b0100; #10; // zero=1, ge=1, CondEx=1
+        Flags = 4'b1000; #10; // zero=0, ge=0, CondEx=1
+        Flags = 4'b0000; #10; // zero=0, ge=1, CondEx=0
+
+        $display("\n--- Test 15: AL (Always) - Cond=4'b1110 ---");
+        // CondEx = 1'b1
+        Flags = 4'b0000; #10; // CondEx=1
+        Flags = 4'b1111; #10; // CondEx=1
+
+        $display("\n--- Test 16: Default/Invalid Cond - Cond=4'b1111 ---");
+        // CondEx = 1'b0
+        Cond = 4'b1111; Flags = 4'b0000; #10; // CondEx=0
+        Cond = 4'b1111; Flags = 4'b1111; #10; // CondEx=0
+
+        // --- Fin de la simulación ---
+        $display("\n--- Fin de la simulación ---");
+        #10;
+        $finish; // Termina la simulación
+    end
+
+endmodule

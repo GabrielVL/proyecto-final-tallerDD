@@ -1,0 +1,80 @@
+`timescale 1ns / 1ps
+
+module arm_tb;
+
+    // Declaración de señales
+    logic        clk, rst;
+    logic [31:0] address;
+    logic [7:0]  q_b;
+
+    // Instancia del módulo under test (DUT)
+    arm dut (
+        .clk(clk),
+        .rst(rst),
+        .address(address),
+        .q_b(q_b)
+    );
+
+    // Generación del clock
+    initial begin
+        clk = 0;
+        forever #5 clk = ~clk; // Período de 10ns (100 MHz)
+    end
+
+    // Procedimiento de test
+    initial begin
+        // Inicialización
+        rst = 1;
+        address = 32'h00000000;
+        #20; // Mantener reset por 20ns
+
+        // Liberar reset
+        rst = 0;
+        #10;
+
+        // Test 1: Leer desde RAM en una dirección específica
+        $display("Test 1: Leyendo desde RAM en dirección 0x1000");
+        address = 32'h00001000;
+        #20;
+        $display("q_b = %h", q_b);
+
+        // Test 2: Cambiar dirección y verificar salida
+        $display("Test 2: Leyendo desde RAM en dirección 0x2000");
+        address = 32'h00002000;
+        #20;
+        $display("q_b = %h", q_b);
+
+        // Test 3: Simular ejecución de varias instrucciones
+        $display("Test 3: Simulando ejecución de instrucciones");
+        repeat(10) begin
+            #10;
+            $display("PC = %h, Instr = %h, ALUResult = %h, q_b = %h",
+                     dut.PC, dut.Instr, dut.ALUResult, q_b);
+        end
+
+        // Test 4: Aplicar reset durante operación
+        $display("Test 4: Aplicando reset");
+        rst = 1;
+        #20;
+        $display("PC después de reset = %h", dut.PC);
+        rst = 0;
+
+        // Finalizar simulación
+        #50;
+        $display("Fin de la simulación");
+        $finish;
+    end
+
+    // Monitor para observar señales internas
+    initial begin
+        $monitor("Time=%0t rst=%b clk=%b address=%h q_b=%h", 
+                 $time, rst, clk, address, q_b);
+    end
+
+    // Generación de archivo VCD para visualización
+    initial begin
+        $dumpfile("arm_tb.vcd");
+        $dumpvars(0, arm_tb);
+    end
+
+endmodule

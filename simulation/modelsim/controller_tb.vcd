@@ -1,0 +1,580 @@
+$date
+	Sun Jun 15 13:06:20 2025
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module controller_tb $end
+$var reg 1 ! clk $end
+$var reg 1 " rst $end
+$var reg 20 # Instr [31:12] $end
+$var reg 4 $ ALUFlags [3:0] $end
+$var reg 2 % RegSrc [1:0] $end
+$var reg 1 & RegWrite $end
+$var reg 2 ' ImmSrc [1:0] $end
+$var reg 1 ( ALUSrc $end
+$var reg 2 ) ALUControl [1:0] $end
+$var reg 1 * MemWrite $end
+$var reg 1 + MemtoReg $end
+$var reg 1 , PCSrc $end
+
+$scope module dut $end
+$var wire 1 - clk $end
+$var wire 1 . rst $end
+$var wire 1 / Instr [31] $end
+$var wire 1 0 Instr [30] $end
+$var wire 1 1 Instr [29] $end
+$var wire 1 2 Instr [28] $end
+$var wire 1 3 Instr [27] $end
+$var wire 1 4 Instr [26] $end
+$var wire 1 5 Instr [25] $end
+$var wire 1 6 Instr [24] $end
+$var wire 1 7 Instr [23] $end
+$var wire 1 8 Instr [22] $end
+$var wire 1 9 Instr [21] $end
+$var wire 1 : Instr [20] $end
+$var wire 1 ; Instr [19] $end
+$var wire 1 < Instr [18] $end
+$var wire 1 = Instr [17] $end
+$var wire 1 > Instr [16] $end
+$var wire 1 ? Instr [15] $end
+$var wire 1 @ Instr [14] $end
+$var wire 1 A Instr [13] $end
+$var wire 1 B Instr [12] $end
+$var wire 1 C ALUFlags [3] $end
+$var wire 1 D ALUFlags [2] $end
+$var wire 1 E ALUFlags [1] $end
+$var wire 1 F ALUFlags [0] $end
+$var reg 2 G RegSrc [1:0] $end
+$var reg 1 H RegWrite $end
+$var reg 2 I ImmSrc [1:0] $end
+$var reg 1 J ALUSrc $end
+$var reg 2 K ALUControl [1:0] $end
+$var reg 1 L MemWrite $end
+$var reg 1 M MemtoReg $end
+$var reg 1 N PCSrc $end
+$var reg 2 O FlagW [1:0] $end
+$var reg 1 P PCS $end
+$var reg 1 Q RegW $end
+$var reg 1 R MemW $end
+
+$scope module dec $end
+$var wire 1 3 Op [1] $end
+$var wire 1 4 Op [0] $end
+$var wire 1 5 Funct [5] $end
+$var wire 1 6 Funct [4] $end
+$var wire 1 7 Funct [3] $end
+$var wire 1 8 Funct [2] $end
+$var wire 1 9 Funct [1] $end
+$var wire 1 : Funct [0] $end
+$var wire 1 ? Rd [3] $end
+$var wire 1 @ Rd [2] $end
+$var wire 1 A Rd [1] $end
+$var wire 1 B Rd [0] $end
+$var reg 2 S FlagW [1:0] $end
+$var reg 1 T PCS $end
+$var reg 1 U RegW $end
+$var reg 1 V MemW $end
+$var reg 1 W MemtoReg $end
+$var reg 1 X ALUSrc $end
+$var reg 2 Y ImmSrc [1:0] $end
+$var reg 2 Z RegSrc [1:0] $end
+$var reg 2 [ ALUControl [1:0] $end
+$var reg 10 \ controls [9:0] $end
+$var reg 1 ] Branch $end
+$var reg 1 ^ ALUOp $end
+$upscope $end
+
+$scope module cl $end
+$var wire 1 - clk $end
+$var wire 1 . rst $end
+$var wire 1 / Cond [3] $end
+$var wire 1 0 Cond [2] $end
+$var wire 1 1 Cond [1] $end
+$var wire 1 2 Cond [0] $end
+$var wire 1 C ALUFlags [3] $end
+$var wire 1 D ALUFlags [2] $end
+$var wire 1 E ALUFlags [1] $end
+$var wire 1 F ALUFlags [0] $end
+$var wire 1 _ FlagW [1] $end
+$var wire 1 ` FlagW [0] $end
+$var wire 1 a PCS $end
+$var wire 1 b RegW $end
+$var wire 1 c MemW $end
+$var reg 1 d PCSrc $end
+$var reg 1 e RegWrite $end
+$var reg 1 f MemWrite $end
+$var reg 2 g FlagWrite [1:0] $end
+$var reg 4 h Flags [3:0] $end
+$var reg 1 i CondEx $end
+
+$scope module flagreg1 $end
+$var parameter 32 j WIDTH $end
+$var wire 1 - clk $end
+$var wire 1 . rst $end
+$var wire 1 k en $end
+$var wire 1 C d [1] $end
+$var wire 1 D d [0] $end
+$var reg 2 l q [1:0] $end
+$upscope $end
+
+$scope module flagreg0 $end
+$var parameter 32 m WIDTH $end
+$var wire 1 - clk $end
+$var wire 1 . rst $end
+$var wire 1 n en $end
+$var wire 1 E d [1] $end
+$var wire 1 F d [0] $end
+$var reg 2 o q [1:0] $end
+$upscope $end
+
+$scope module cc $end
+$var wire 1 / Cond [3] $end
+$var wire 1 0 Cond [2] $end
+$var wire 1 1 Cond [1] $end
+$var wire 1 2 Cond [0] $end
+$var wire 1 p Flags [3] $end
+$var wire 1 q Flags [2] $end
+$var wire 1 r Flags [1] $end
+$var wire 1 s Flags [0] $end
+$var reg 1 t CondEx $end
+$var reg 1 u neg $end
+$var reg 1 v zero $end
+$var reg 1 w carry $end
+$var reg 1 x overflow $end
+$var reg 1 y ge $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+b0 #
+b0 $
+b0 %
+0&
+b0 '
+0(
+b10 )
+0*
+0+
+0,
+b0 G
+0H
+b0 I
+0J
+b10 K
+0L
+0M
+0N
+b0 O
+0P
+1Q
+0R
+b0 S
+0T
+1U
+0V
+0W
+0X
+b0 Y
+b0 Z
+b10 [
+b1001 \
+0]
+1^
+0d
+0e
+0f
+b0 g
+b0 h
+0i
+b0 l
+b0 o
+0t
+0u
+0v
+0w
+0x
+1y
+b10 j
+b10 m
+0-
+1.
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0F
+0E
+0D
+0C
+0`
+0_
+0a
+1b
+0c
+0k
+0n
+0s
+0r
+0q
+0p
+$end
+#5000
+1!
+1-
+#10000
+0!
+0-
+#15000
+1!
+1-
+#20000
+0"
+0!
+0.
+0-
+#25000
+1!
+1-
+#30000
+b11100011101000001010 #
+0!
+1A
+1?
+19
+17
+16
+15
+11
+10
+1/
+0-
+1t
+b101001 \
+b0 [
+b0 K
+1X
+1i
+1e
+1J
+b0 )
+1(
+1H
+1&
+#35000
+1!
+1-
+#40000
+0!
+0-
+#45000
+1!
+1-
+#50000
+b1110000010010001 #
+b100 $
+0!
+1D
+1B
+0A
+0?
+1>
+1;
+09
+07
+06
+14
+13
+01
+00
+0/
+0-
+0t
+b0 \
+b10 [
+b10 K
+0^
+0U
+0X
+0i
+0e
+0J
+0Q
+b10 )
+0(
+0H
+0b
+0&
+b0 [
+b0 K
+b0 )
+#55000
+1!
+1-
+#60000
+0!
+0-
+#65000
+1!
+1-
+#70000
+b1110010100000010 #
+b0 $
+0!
+0D
+0B
+1A
+0>
+0;
+1:
+18
+0-
+#75000
+1!
+1-
+#80000
+0!
+0-
+#85000
+1!
+1-
+#90000
+b1110010100010011 #
+0!
+1B
+1>
+0-
+#95000
+1!
+1-
+#100000
+0!
+0-
+#105000
+1!
+1-
+#110000
+b101000000000 #
+b100 $
+0!
+1D
+0B
+0A
+0>
+0:
+19
+08
+17
+05
+04
+03
+0-
+b1001 \
+1^
+1U
+1Q
+1b
+#115000
+1!
+1-
+#120000
+0!
+0-
+#125000
+1!
+1-
+#130000
+b0 $
+0!
+0D
+0-
+#135000
+1!
+1-
+#140000
+0!
+0-
+#145000
+1!
+1-
+#150000
+b1010101000000000 #
+b1001 $
+0!
+1F
+1C
+15
+13
+0-
+b110100010 \
+0^
+1]
+0U
+1X
+b10 Y
+b1 Z
+b1 G
+b10 I
+1J
+0Q
+1T
+1P
+1(
+b10 '
+b1 %
+0b
+1a
+#155000
+1!
+1-
+#160000
+0!
+0-
+#165000
+1!
+1-
+#170000
+b1000 $
+0!
+0F
+0-
+#175000
+1!
+1-
+#180000
+0!
+0-
+#185000
+1!
+1-
+#190000
+b1110000010001111 #
+b0 $
+0!
+0C
+1B
+1A
+1@
+1?
+1;
+09
+07
+14
+0-
+b0 \
+0]
+0X
+b0 Y
+b0 Z
+b0 G
+b0 I
+0J
+0T
+0P
+0(
+b0 '
+b0 %
+0a
+#195000
+1!
+1-
+#200000
+0!
+0-
+#205000
+1!
+1-
+#210000
+1"
+b11100011101000001010 #
+0!
+1.
+0B
+0@
+0;
+19
+17
+16
+04
+03
+11
+10
+1/
+0-
+1t
+b101001 \
+1^
+1U
+1X
+1i
+1J
+1Q
+1(
+1b
+1e
+1H
+1&
+#215000
+1!
+1-
+#220000
+0!
+0-
+#225000
+1!
+1-
+#230000
+0!
+0-
+#235000
+1!
+1-
+#240000
+0!
+0-
+#245000
+1!
+1-
+#250000
+0!
+0-
+#255000
+1!
+1-
+#260000
+0!
+0-
+#265000
+1!
+1-
+#270000
+0!
+0-
+#275000
+1!
+1-

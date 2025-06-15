@@ -1,38 +1,42 @@
-module condlogic (
-    input  logic       clk, reset,
-    input  logic [3:0] Cond,
-    input  logic [3:0] ALUFlags,
-    input  logic [1:0] FlagW,
-    input  logic       PCS_from_decoder, RegW_from_decoder, MemW_from_decoder,
-    output logic       PCSrc, RegWrite, MemWrite,
-    output logic       Stall
+module condlogic(
+	input logic clk, rst,
+	input logic [3:0] Cond,
+	input logic [3:0] ALUFlags,
+	input logic [1:0] FlagW,
+	input logic PCS, RegW, MemW,
+	output logic PCSrc, RegWrite, MemWrite
 );
-    logic [1:0] FlagWrite;
-    logic [3:0] Flags;
-    logic       CondEx;
-    
-    // Reset initialization
-    always_ff @(posedge clk) begin
-        if (reset) begin
-            Stall <= 0;
-            Flags <= 4'b0000;
-        end else begin
-            if (FlagW[1]) Flags[3:2] <= ALUFlags[3:2]; // N, Z
-            if (FlagW[0]) Flags[1:0] <= ALUFlags[1:0]; // C, V
-            Stall <= 0; // Simplified, adjust if needed
-        end
-    end
-    
-    // Condition check
-    always_comb begin
-        case (Cond)
-            4'b0000: CondEx = Flags[2]; // EQ
-            4'b0001: CondEx = ~Flags[2]; // NE
-            4'b1110: CondEx = 1'b1; // AL
-            default: CondEx = 1'b0;
-        endcase
-        PCSrc = PCS_from_decoder & CondEx;
-        RegWrite = RegW_from_decoder & CondEx;
-        MemWrite = MemW_from_decoder & CondEx;
-    end
+
+	logic [1:0] FlagWrite;
+	logic [3:0] Flags;
+	logic CondEx;
+
+	assign FlagWrite = FlagW;
+
+	flopenr #(2) flagreg1(
+		.clk(clk),
+		.rst(rst),
+		.en(FlagWrite[1]),
+		.d(ALUFlags[3:2]),
+		.q(Flags[3:2])
+	);
+
+	flopenr #(2) flagreg0(
+		.clk(clk),
+		.rst(rst),
+		.en(FlagWrite[0]),
+		.d(ALUFlags[1:0]),
+		.q(Flags[1:0])
+	);
+	
+	//condcheck
+	condcheck cc(
+		.Cond(Cond),
+		.Flags(Flags),
+		.CondEx(CondEx)
+	);
+
+	assign RegWrite = RegW & CondEx;
+	assign MemWrite = MemW & CondEx;
+	assign PCSrc = PCS & CondEx;
 endmodule

@@ -1,35 +1,27 @@
 module computer_top (
-    input  logic        clk, reset,
-    output logic [31:0] PC,
-    output logic [31:0] Instr,
-    output logic [31:0] DataAdr,
-    output logic [31:0] WriteData,
-    output logic        MemWrite
+    input  logic clk, reset, enable,
+    output logic [31:0] WriteData, DataAdr, ReadData,
+    output logic MemWrite,
+    output logic [31:0] ins, PC
 );
-    logic [31:0] ReadData;
 
-    arm arm_processor (
+    logic [7:0] ram_read_b;
+
+    // ARM
+    arm arm_inst (
         .clk(clk),
-        .reset(reset),
-        .Instr(Instr),
-        .ReadData(ReadData),
-        .PC(PC),
-        .ALUResult(DataAdr),
-        .WriteData(WriteData),
-        .MemWrite(MemWrite)
+        .rst(reset),
+        .address(DataAdr),        // Dirección para lectura externa
+        .q_b(ram_read_b)          // Solo 8 bits disponibles
     );
 
+    assign ReadData = {24'd0, ram_read_b}; 
+
+    // ROM 
     rom rom_inst (
-        .address(PC[9:2]), // Word-aligned
+        .address(PC[7:0]),  
         .clock(clk),
-        .q(Instr)
+        .q(ins)
     );
 
-    mem_map mem (
-        .clk(clk),
-        .we(MemWrite),
-        .a(DataAdr),
-        .wd(WriteData),
-        .rd(ReadData)
-    );
 endmodule

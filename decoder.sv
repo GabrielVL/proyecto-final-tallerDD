@@ -1,80 +1,64 @@
-module decoder (
-    input  logic [31:0] FullInstr,
-    output logic [1:0]  RegSrc,
-    output logic [1:0]  ImmSrc,
-    output logic        MemtoReg,
-    output logic        ALUSrc,
-    output logic        RegWrite,
-    output logic        MemWrite,
-    output logic [2:0]  ALUControl,
-    output logic        PCS,
-    output logic        PCS_ALU_SrcA,
-    output logic [1:0]  FlagW
+module decoder(
+	input logic [1:0] Op,
+	input logic [5:0] Funct,
+	input logic [3:0] Rd,
+	input logic [31:0] Instr_full,
+
+	output logic [1:0] FlagW,
+	output logic PCS, RegW, MemW,
+	output logic MemtoReg, ALUSrc,
+	output logic [1:0] ImmSrc, RegSrc, ALUControl
 );
-    logic [1:0] Op;
-    logic [5:0] Funct;
-    logic [3:0] Rd;
 
-    assign Op = FullInstr[27:26];
-    assign Funct = FullInstr[25:20];
-    assign Rd = FullInstr[15:12];
+	logic [9:0] controls;
+	logic Branch, ALUOp;
 
-    always_comb begin
-        RegSrc = 2'b00;
-        ImmSrc = 2'b00;
-        MemtoReg = 1'b0;
-        ALUSrc = 1'b0;
-        RegWrite = 1'b0;
-        MemWrite = 1'b0;
-        ALUControl = 3'b000;
-        PCS = 1'b0;
-        PCS_ALU_SrcA = 1'b0;
-        FlagW = 2'b00;
+	always_comb begin
+		casex(Op)
+			2'b00: begin
+				if(Funct[5]) controls = 10'b0000101001;
+				else controls = 10'b0000001001;
+			end
 
-        case (Op)
-            2'b00: begin // Data processing
-                if (Funct[5] == 1'b0) begin
-                    case (Funct[4:1])
-                        4'b1100: begin // ORR
-                            ALUControl = 3'b110;
-                            RegWrite = 1;
-                            FlagW = Funct[0] ? 2'b11 : 2'b00;
-                        end
-                        default: begin
-                            ALUControl = 3'b000; // Default ADD
-                            RegWrite = 1;
-                            FlagW = Funct[0] ? 2'b11 : 2'b00;
-                        end
-                    endcase
-                    ALUSrc = Funct[5];
-                end
-            end
-            2'b01: begin // Load/Store
-                ALUSrc = ~Funct[5]; // I=0 for register offset
-                ALUControl = 3'b001; // SUB for address calculation
-                if (Funct[5] == 1) begin // Immediate offset
-                    ImmSrc = 2'b01;
-                end else begin // Register offset
-                    ImmSrc = 2'b00;
-                end
-                if (Funct[0] == 1) begin // LDR
-                    MemtoReg = 1;
-                    RegWrite = 1;
-                end else begin // STR
-                    MemWrite = 1;
-                    RegWrite = 0;
-                end
-            end
-            2'b10: begin // Branch
-                ImmSrc = 2'b10;
-                ALUSrc = 1;
-                PCS = 1;
-                PCS_ALU_SrcA = 1;
-            end
-            default: begin
-                RegWrite = 0;
-                MemWrite = 0;
-            end
-        endcase
-    end
+			2'b01: begin
+				if(Funct[0]) begin
+					controls = 10'b0001111001;
+				end else begin
+					controls = 10'b1001100101;
+				end
+			end
+
+			2'b10: controls = 10'b0110100010;
+
+			default: controls = 10'b0000000000;
+		endcase
+	end
+
+	assign {RegSrc, ImmSrc, ALUSrc, MemtoReg, RegW, MemW, Branch, ALUOp} = controls;
+
+	always_comb begin
+		if (ALUOp) begin
+			if (Op == 2'b01) begin
+				ALUControl = 2'b00;
+				FlagW = 2'b00;
+			end else begin
+				case(Funct[4:1])
+					4'b0100: ALUControl = 2'b00;
+					4'b0010: ALUControl = 2'b01;
+					4'b0000: ALUControl = 2'b10;
+					4'b1100: ALUControl = 2'b11;
+					4'b1010: ALUControl = 2'b00;
+					default: ALUControl = 2'b00;
+				endcase
+				
+				FlagW = {2{Funct[5]}};
+			end
+		end else begin
+			ALUControl = 2'b00;
+			FlagW = 2'b00;
+		end
+	end
+
+	assign PCS = ((Rd == 4'b1111) & RegW) | Branch;
+
 endmodule

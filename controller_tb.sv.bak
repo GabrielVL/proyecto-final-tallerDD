@@ -1,0 +1,117 @@
+`timescale 1ns / 1ps
+
+module controller_tb;
+
+    // Declaración de señales
+    logic        clk, rst;
+    logic [31:12] Instr;
+    logic [3:0]   ALUFlags;
+    logic [1:0]   RegSrc;
+    logic         RegWrite;
+    logic [1:0]   ImmSrc;
+    logic         ALUSrc;
+    logic [1:0]   ALUControl;
+    logic         MemWrite, MemtoReg, PCSrc;
+
+    // Instancia del módulo under test (DUT)
+    controller dut (
+        .clk(clk),
+        .rst(rst),
+        .Instr(Instr),
+        .ALUFlags(ALUFlags),
+        .RegSrc(RegSrc),
+        .RegWrite(RegWrite),
+        .ImmSrc(ImmSrc),
+        .ALUSrc(ALUSrc),
+        .ALUControl(ALUControl),
+        .MemWrite(MemWrite),
+        .MemtoReg(MemtoReg),
+        .PCSrc(PCSrc)
+    );
+
+    // Generación del clock
+    initial begin
+        clk = 0;
+        forever #5 clk = ~clk; // Período de 10ns (100 MHz)
+    end
+
+    // Procedimiento de test
+    initial begin
+        // Inicialización
+        rst = 1;
+        Instr = 20'h00000;
+        ALUFlags = 4'b0000;
+        #20; // Mantener reset por 20ns
+
+        // Liberar reset
+        rst = 0;
+        #10;
+
+        // Test 1: Instrucción MOV (DP, MOV R10, #0x100)
+        $display("Test 1: MOV R10, #0x100 (Op=00, Funct=110100, Rd=1010)");
+        Instr = 20'hE3A0A; // Instr[31:12] = 1110_00111010_1010 (Cond=1110, Op=00, Funct=110100, Rd=1010)
+        ALUFlags = 4'b0000; // NZCV = 0000
+        #20;
+        $display("RegSrc=%b, RegWrite=%b, ImmSrc=%b, ALUSrc=%b, ALUControl=%b, MemWrite=%b, MemtoReg=%b, PCSrc=%b",
+                 RegSrc, RegWrite, ImmSrc, ALUSrc, ALUControl, MemWrite, MemtoReg, PCSrc);
+
+        // Test 2: Instrucción STR (MEM, STR R1, [R2])
+        $display("Test 2: STR R1, [R2] (Op=01, Funct=000000, Rd=0010)");
+        Instr = 20'hE502; // Instr[31:12] = 1110_01010000_0010 (Cond=1110, Op=01, Funct=000000, Rd=0010)
+        ALUFlags = 4'b0000;
+        #20;
+        $display("RegSrc=%b, RegWrite=%b, ImmSrc=%b, ALUSrc=%b, ALUControl=%b, MemWrite=%b, MemtoReg=%b, PCSrc=%b",
+                 RegSrc, RegWrite, ImmSrc, ALUSrc, ALUControl, MemWrite, MemtoReg, PCSrc);
+
+        // Test 3: Instrucción LDR (MEM, LDR R3, [R4])
+        $display("Test 3: LDR R3, [R4] (Op=01, Funct=000001, Rd=0011)");
+        Instr = 20'hE513; // Instr[31:12] = 1110_01010001_0011 (Cond=1110, Op=01, Funct=000001, Rd=0011)
+        ALUFlags = 4'b0000;
+        #20;
+        $display("RegSrc=%b, RegWrite=%b, ImmSrc=%b, ALUSrc=%b, ALUControl=%b, MemWrite=%b, MemtoReg=%b, PCSrc=%b",
+                 RegSrc, RegWrite, ImmSrc, ALUSrc, ALUControl, MemWrite, MemtoReg, PCSrc);
+
+        // Test 4: Instrucción BEQ (BR, BEQ, Cond=0000, Flags=Z=1)
+        $display("Test 4: BEQ (Cond=0000, Op=10, Z=1)");
+        Instr = 20'h0A00; // Instr[31:12] = 0000_10100000_0000 (Cond=0000, Op=10)
+        ALUFlags = 4'b0100; // Z=1
+        #20;
+        $display("RegSrc=%b, RegWrite=%b, ImmSrc=%b, ALUSrc=%b, ALUControl=%b, MemWrite=%b, MemtoReg=%b, PCSrc=%b",
+                 RegSrc, RegWrite, ImmSrc, ALUSrc, ALUControl, MemWrite, MemtoReg, PCSrc);
+
+        // Test 5: Instrucción BEQ con condición no cumplida (Cond=0000, Flags=Z=0)
+        $display("Test 5: BEQ (Cond=0000, Op=10, Z=0)");
+        Instr = 20'h0A00; // Instr[31:12] = 0000_10100000_0000 (Cond=0000, Op=10)
+        ALUFlags = 4'b0000; // Z=0
+        #20;
+        $display("RegSrc=%b, RegWrite=%b, ImmSrc=%b, ALUSrc=%b, ALUControl=%b, MemWrite=%b, MemtoReg=%b, PCSrc=%b",
+                 RegSrc, RegWrite, ImmSrc, ALUSrc, ALUControl, MemWrite, MemtoReg, PCSrc);
+
+        // Test 6: Aplicar reset durante operación
+        $display("Test 6: Aplicando reset");
+        rst = 1;
+        Instr = 20'hE3A0A;
+        ALUFlags = 4'b0000;
+        #20;
+        $display("RegSrc=%b, RegWrite=%b, ImmSrc=%b, ALUSrc=%b, ALUControl=%b, MemWrite=%b, MemtoReg=%b, PCSrc=%b",
+                 RegSrc, RegWrite, ImmSrc, ALUSrc, ALUControl, MemWrite, MemtoReg, PCSrc);
+
+        // Finalizar simulación
+        #50;
+        $display("Fin de la simulación");
+        $finish;
+    end
+
+    // Monitor para observar señales
+    initial begin
+        $monitor("Time=%0t rst=%b clk=%b Instr=%h ALUFlags=%b RegSrc=%b RegWrite=%b ImmSrc=%b ALUSrc=%b ALUControl=%b MemWrite=%b MemtoReg=%b PCSrc=%b",
+                 $time, rst, clk, Instr, ALUFlags, RegSrc, RegWrite, ImmSrc, ALUSrc, ALUControl, MemWrite, MemtoReg, PCSrc);
+    end
+
+    // Generación de archivo VCD
+    initial begin
+        $dumpfile("controller_tb.vcd");
+        $dumpvars(0, controller_tb);
+    end
+
+endmodule

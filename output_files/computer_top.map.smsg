@@ -1,3 +1,1 @@
-Warning (10273): Verilog HDL warning at extend.sv(24): extended using "x" or "z" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/extend.sv Line: 24
-Warning (10273): Verilog HDL warning at alu.sv(13): extended using "x" or "z" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/alu.sv Line: 13
-Warning (10273): Verilog HDL warning at alu.sv(84): extended using "x" or "z" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/alu.sv Line: 84
+Warning (10273): Verilog HDL warning at extend.sv(12): extended using "x" or "z" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/extend.sv Line: 12
