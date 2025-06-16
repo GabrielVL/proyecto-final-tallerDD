@@ -1,26 +1,173 @@
--- Copyright (C) 2023  Intel Corporation. All rights reserved.
--- Your use of Intel Corporation's design tools, logic functions 
--- and other software and tools, and any partner logic 
--- functions, and any output files from any of the foregoing 
--- (including device programming or simulation files), and any 
--- associated documentation or information are expressly subject 
--- to the terms and conditions of the Intel Program License 
--- Subscription Agreement, the Intel Quartus Prime License Agreement,
--- the Intel FPGA IP License Agreement, or other applicable license
--- agreement, including, without limitation, that your use is for
--- the sole purpose of programming logic devices manufactured by
--- Intel and sold by Intel or its authorized distributors.  Please
--- refer to the applicable agreement for further details, at
--- https://fpgasoftware.intel.com/eula.
-
--- Quartus Prime generated Memory Initialization File (.mif)
-
-WIDTH=8;
-DEPTH=20001;
-
-ADDRESS_RADIX=UNS;
-DATA_RADIX=UNS;
-
+WIDTH=32;
+DEPTH=256;
+ADDRESS_RADIX=HEX;
+DATA_RADIX=HEX;
 CONTENT BEGIN
-	[0..20000]  :   0;
+  0 : 010aa0e3;
+  1 : 461fa0e3;
+  2 : 001080e5;
+  3 : 6c029fe5;
+  4 : 4f1fa0e3;
+  5 : 001080e5;
+  6 : 64029fe5;
+  7 : 191ea0e3;
+  8 : 001080e5;
+  9 : 5c029fe5;
+  A : 0410a0e3;
+  B : 001080e5;
+  C : 54029fe5;
+  D : 0310e0e3;
+  E : 001080e5;
+  F : 4c029fe5;
+  10 : 0010a0e3;
+  11 : 001080e5;
+  12 : 44029fe5;
+  13 : 0310a0e3;
+  14 : 001080e5;
+  15 : 020aa0e3;
+  16 : 0110a0e3;
+  17 : 6420a0e3;
+  18 : 041080e4;
+  19 : 012052e2;
+  1A : fcffff1a;
+  1B : 030aa0e3;
+  1C : 001090e5;
+  1D : 012aa0e3;
+  1E : 003092e5;
+  1F : 010011e3;
+  20 : 0300000a;
+  21 : 083043e2;
+  22 : 000053e3;
+  23 : 0030a0b3;
+  24 : 003082e5;
+  25 : 020011e3;
+  26 : 0500000a;
+  27 : 083083e2;
+  28 : 0a4da0e3;
+  29 : 504044e2;
+  2A : 040053e1;
+  2B : 0430a0c1;
+  2C : 003082e5;
+  2D : c4019fe5;
+  2E : 001090e5;
+  2F : c4219fe5;
+  30 : 003092e5;
+  31 : 031081e0;
+  32 : 001080e5;
+  33 : b0019fe5;
+  34 : 001090e5;
+  35 : b0219fe5;
+  36 : 003092e5;
+  37 : 031081e0;
+  38 : 001080e5;
+  39 : 94019fe5;
+  3A : 001090e5;
+  3B : 000051e3;
+  3C : 0010a0b3;
+  3D : 0430a0b3;
+  3E : 001080b5;
+  3F : 003082b5;
+  40 : 0a4da0e3;
+  41 : 084044e2;
+  42 : 040051e1;
+  43 : 0410a0c1;
+  44 : 0330e0c3;
+  45 : 001080c5;
+  46 : 003082c5;
+  47 : 60019fe5;
+  48 : 001090e5;
+  49 : 000051e3;
+  4A : 0010a0b3;
+  4B : 0430a0b3;
+  4C : 001080b5;
+  4D : 003082b5;
+  4E : 44019fe5;
+  4F : 001090e5;
+  50 : 190e51e3;
+  51 : 0c0000ba;
+  52 : 30219fe5;
+  53 : 003092e5;
+  54 : 014aa0e3;
+  55 : 005094e5;
+  56 : 050053e1;
+  57 : 060000ba;
+  58 : 505085e2;
+  59 : 050053e1;
+  5A : 030000ca;
+  5B : 18619fe5;
+  5C : 007096e5;
+  5D : 007067e2;
+  5E : 007086e5;
+  5F : 1e0e51e3;
+  60 : 0d0000ba;
+  61 : 08019fe5;
+  62 : 001090e5;
+  63 : 011051e2;
+  64 : 001080e5;
+  65 : 3700000a;
+  66 : e0009fe5;
+  67 : 4f1fa0e3;
+  68 : 001080e5;
+  69 : d8009fe5;
+  6A : 191ea0e3;
+  6B : 001080e5;
+  6C : d4009fe5;
+  6D : 0310e0e3;
+  6E : 001080e5;
+  6F : bc009fe5;
+  70 : 001090e5;
+  71 : b8009fe5;
+  72 : 002090e5;
+  73 : 2232a0e1;
+  74 : 050053e3;
+  75 : 1a0000aa;
+  76 : a142a0e1;
+  77 : 140054e3;
+  78 : 170000aa;
+  79 : 0350a0e1;
+  7A : 1460a0e3;
+  7B : 0070a0e3;
+  7C : 000055e3;
+  7D : 0200000a;
+  7E : 067087e0;
+  7F : 015045e2;
+  80 : faffffea;
+  81 : 047087e0;
+  82 : 028aa0e3;
+  83 : 078188e0;
+  84 : 009098e5;
+  85 : 000059e3;
+  86 : 0900000a;
+  87 : 0090a0e3;
+  88 : 009088e5;
+  89 : 60009fe5;
+  8A : 001090e5;
+  8B : 001061e2;
+  8C : 001080e5;
+  8D : 54009fe5;
+  8E : 001090e5;
+  8F : 0a1081e2;
+  90 : 001080e5;
+  91 : 020aa0e3;
+  92 : 6410a0e3;
+  93 : 0020a0e3;
+  94 : 043090e4;
+  95 : 000053e3;
+  96 : 0200001a;
+  97 : 011051e2;
+  98 : faffff1a;
+  99 : 040000ea;
+  9A : 0109a0e3;
+  9B : 0110a0e3;
+  9C : 001080e5;
+  9D : 7cffffea;
+  9E : feffffea;
+  9F : feffffea;
+  A0 : 04100000;
+  A1 : 08100000;
+  A2 : 0c100000;
+  A3 : 10100000;
+  A4 : 14100000;
+  A5 : 18100000;
+  [A6..FF] : 00000000;
 END;

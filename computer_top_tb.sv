@@ -1,47 +1,42 @@
-`timescale 1ns/1ps
+`timescale 1 ns / 1 ns
 
 module computer_top_tb();
     logic clk = 0;
-    logic reset = 1;
-    logic enable = 1;
-    logic [31:0] WriteData, DataAdr, ReadData;
-    logic MemWrite;
-    logic [31:0] ins, PC;
+    logic reset;
 
-    computer_top dut (
+    // Instantiate computer_top
+    computer_top dut(
         .clk(clk),
-        .reset(reset),
-        .enable(enable),
-        .WriteData(WriteData),
-        .DataAdr(DataAdr),
-        .ReadData(ReadData),
-        .MemWrite(MemWrite),
-        .ins(ins),
-        .PC(PC)
+        .reset(reset)
     );
 
-    always begin
-        clk <= ~clk; 
-        #5;
-    end
+    // Clock generation
+    always #5 clk = ~clk;
+
+
+    logic [31:0] instruction_memory [0:135]; // Instruction memory array
+    integer i;
 
     initial begin
+        // Initialize reset
         reset = 1;
-        #25; // Hold reset for 25 ns (5 clock cycles)
+        #22;
         reset = 0;
-        #1000; // Run for 1000 ns
-        $finish;
-    end
 
-    always @(negedge clk) begin
-        $display("----------------------------------------------------");
-        $display("Time = %t", $time);
-        $display("WriteData = %d (0x%h)", WriteData, WriteData);
-        $display("DataAdr = %d (0x%h)", DataAdr, DataAdr);
-        $display("MemWrite = %b", MemWrite);
-        $display("ReadData = %d (0x%h)", ReadData, ReadData);
-        $display("ins = %b (0x%h)", ins, ins);
-        $display("PC = %d (0x%h)", PC, PC);
-        $display("----------------------------------------------------");
+        // Load instructions from file
+        $readmemh("memfile.dat", instruction_memory);
+
+        // Monitor processor state
+        $monitor("Time: %0t | PC: 0x%h | Instr: 0x%h | WriteData: 0x%h | MemWriteEnable: %b",
+                 $time, dut.PC, dut.Instr, dut.WriteData, dut.MemWriteEnable);
+
+        // Execute instructions
+        for (i = 0; i < 128; i = i + 1) begin
+            @(posedge clk);
+        end
+
+        // End simulation
+        $display("Fin de simulación Computer_top.");
+        $stop; // Stop simulation
     end
 endmodule

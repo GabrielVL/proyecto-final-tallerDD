@@ -1,11 +1,9 @@
-module imem (
-    input  logic [31:0] a,
-    output logic [31:0] rd
-);
-    logic [31:0] ROM[63:0]; // 64 words
+module imem(input logic [31:0] a,
+            output logic [31:0] rd);
 
+    logic [31:0] INST_RAM[0:135]; 
     initial
-        $readmemh("memfile.dat", ROM); // Load ARMv4 machine code
+        $readmemh("memfile.dat", INST_RAM);
 
-    assign rd = ROM[a[31:2]]; // Word-aligned
+    assign rd = INST_RAM[a[31:2]]; 
 endmodule

@@ -1,67 +1,68 @@
-`timescale 1ns / 1ps
+`timescale 1 ns / 1 ns
 
-module arm_tb;
+module arm_tb();
+    logic clk = 0;
+    logic reset;
+    logic [31:0] WriteData, DataAdrA, DataAdrB;
+    logic MemWriteEnable;
 
-    reg clk;
-    reg rst;
-    reg [31:0] external_address;
-    wire [7:0] external_q_b;
-    wire [31:0] debug_arm_regs_tb [15:0];
+    logic [31:0] PC = 32'd_0;
+    logic [31:0] Instr, ReadDataA, ReadDataB;
 
-    arm dut (
-        .clk(clk),
-        .rst(rst),
-        .address(external_address),
-        .q_b(external_q_b),
-        .debug_arm_regs(debug_arm_regs_tb)
+    // Instancia del procesador ARM
+    arm arm(
+        clk,          // Señal de reloj
+        reset,        // Señal de reset
+        PC,           // Contador de programa
+        Instr,        // Instrucción actual
+        MemWriteEnable, // Habilitación de escritura en memoria
+        DataAdrA,     // Dirección de memoria A
+        WriteData,    // Datos a escribir
+        ReadDataA     // Datos leídos de la memoria
     );
 
-    wire [3:0] ALUFlags_int;
-    wire RegWrite_raw_int, ALUSrc_int, MemtoReg_raw_int, PCSrc_raw_int, MemWrite_raw_int;
-    wire [1:0] RegSrc_int, ImmSrc_int, ALUControl_int;
-    wire [31:0] PC_int, Instr_int, ReadData_int;
-    wire [31:0] ALUResult_int, WriteData_int;
-    wire CondEx_int;
+    // Instancia de la memoria de datos
+    dmem dmem(
+        clk,          // Señal de reloj
+        DataAdrA,     // Dirección de memoria A
+        DataAdrB,     // Dirección de memoria B
+        WriteData,    // Datos a escribir
+        MemWriteEnable, // Habilitación de escritura
+        ReadDataA,    // Datos leídos de la memoria A
+        ReadDataB     // Datos leídos de la memoria B
+    );
 
-    assign RegSrc_int = dut.RegSrc;
-    assign RegWrite_raw_int = dut.RegWrite;
-    assign ImmSrc_int = dut.ImmSrc;
-    assign ALUSrc_int = dut.ALUSrc;
-    assign ALUControl_int = dut.ALUControl;
-    assign MemtoReg_raw_int = dut.MemtoReg;
-    assign PCSrc_raw_int = dut.PCSrc;
-    assign MemWrite_raw_int = dut.MemWrite;
-    assign ALUFlags_int = dut.ALUFlags;
-    assign PC_int = dut.PC;
-    assign Instr_int = dut.Instr;
-    assign ALUResult_int = dut.ALUResult;
-    assign WriteData_int = dut.WriteData;
-    assign ReadData_int = dut.ReadData_from_mem;
-    assign CondEx_int = dut.controlUnit.cl.CondEx;
+      
 
+// Generación del reloj
     always #5 clk = ~clk;
 
+    // Carga de instrucciones
+    logic [31:0] instruction_memory [0:135]; // Memoria de instrucciones
+    integer i;
+
     initial begin
-        clk = 0;
-        rst = 0;
-        external_address = 32'h0;
+        // Inicialización del reset
+        reset = 1;
+        #22;
+        reset = 0;
 
-        $monitor("t=%0t | PC=%h Instr=%h Flags=%b RegW=%b MemW=%b CondEx=%b ALURes=%h R0=%h R1=%h R2=%h R15=%h",
-                 $time, PC_int, Instr_int, ALUFlags_int, RegWrite_raw_int, MemWrite_raw_int, CondEx_int,
-                 ALUResult_int, debug_arm_regs_tb[0], debug_arm_regs_tb[1], debug_arm_regs_tb[2], debug_arm_regs_tb[15]);
+        // Carga de instrucciones desde el archivo
+        $readmemh("memfile.dat", instruction_memory);
 
-        // Rápido: 20 ciclos solamente
-        #10;
-        rst = 1; #10; rst = 0;
+        // Monitor para imprimir el estado del procesador
+        $monitor("Tiempo: %0t | PC: 0x%h | Instr: 0x%h | WriteData: 0x%h | MemWriteEnable: %b",
+                 $time, PC, Instr, WriteData, MemWriteEnable);
 
-        $display("\n--- Ejecutando programa 20 ciclos ---");
-        for (int i = 0; i < 20; i++) #10;
+        // Ejecución de las instrucciones
+        for (i = 0; i < 128; i = i + 1) begin
+            Instr = instruction_memory[i];
+            @(posedge clk); // Espera al siguiente ciclo de reloj
+        end
 
-        external_address = 32'd8;
-        #10;
-        $display("RAM[8] Esperado=8'h05, Obtenido=%h", external_q_b);
-
-        $finish;
+        // Finalización de la simulación
+        $display("Simulación del procesador ARM completa.");
+        $stop; // Termina la simulación
     end
-
 endmodule
+

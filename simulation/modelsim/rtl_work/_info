@@ -10,15 +10,15 @@ cModel Technology
 Z0 dC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/simulation/modelsim
 vadder
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1750031580
+Z2 !s110 1750111491
 !i10b 1
-!s100 SMh0Ynn6BEJdzULH;0i4P2
-I1RiXHYdc_jQSbE@;Y>T[h0
+!s100 lL[13bJ?nWX>MaML?k2iF3
+IAbR6O@=ZX::^AU@`ZSIeg2
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 !s105 adder_sv_unit
 S1
 R0
-w1749964795
+w1750044326
 8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/adder.sv
 FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/adder.sv
 L0 1
@@ -26,24 +26,49 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1750031579.000000
+Z5 !s108 1750111490.000000
 !s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/adder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/adder.sv|
 !i113 1
 Z6 o-sv -work work
 Z7 !s92 -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD
 Z8 tCvgOpt 0
+vadderalu
+R1
+Z9 !s110 1750111493
+!i10b 1
+!s100 [4oi[?1^Mza`502^0B:Hd0
+IZH@oVlX:C;7HWCA2gG]kS2
+R3
+!s105 adderalu_sv_unit
+S1
+R0
+w1750111360
+8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/adderalu.sv
+FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/adderalu.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z10 !s108 1750111493.000000
+!s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/adderalu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/adderalu.sv|
+!i113 1
+R6
+R7
+R8
 valu
 R1
-R2
+Z11 !s110 1750111492
 !i10b 1
-!s100 Q?1]8z4eCTZjL_KiOc`LG1
-If:]n3O>MNUbocIz;5dNIM3
+!s100 XPIIiJk>=DkehSFc1YH>_3
+I[:fZ7ojY`@;ShI`XKiRBe1
 R3
 !s105 alu_sv_unit
 S1
 R0
-w1750027318
+w1750110629
 8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/alu.sv
 FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/alu.sv
 L0 1
@@ -51,7 +76,7 @@ R4
 r1
 !s85 0
 31
-Z9 !s108 1750031580.000000
+Z12 !s108 1750111492.000000
 !s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/alu.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/alu.sv|
 !i113 1
@@ -60,15 +85,15 @@ R7
 R8
 varm
 R1
-Z10 !s110 1750031579
+Z13 !s110 1750111489
 !i10b 1
-!s100 LAW0DXz78INEe03RLTP3G1
-IdcLo]iJ^dUJ3L>`:@5KEU1
+!s100 Lk8^c3biOXZl2gRoP:h:z3
+I01Hn=U1Db8C:?HEPMYGVR3
 R3
 !s105 arm_sv_unit
 S1
 R0
-Z11 w1750029394
+w1750110148
 8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm.sv
 FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm.sv
 L0 1
@@ -76,49 +101,24 @@ R4
 r1
 !s85 0
 31
-R5
+Z14 !s108 1750111489.000000
 !s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm.sv|
 !i113 1
 R6
 R7
 R8
-varm_tb
-R1
-Z12 !s110 1750031581
-!i10b 1
-!s100 BccG3ahVXgEPMA[^BAC[A1
-I[EKJ_0MRDKAl^Q]edJeC_1
-R3
-!s105 arm_tb_sv_unit
-S1
-R0
-w1750031540
-8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm_tb.sv
-FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm_tb.sv
-L0 3
-R4
-r1
-!s85 0
-31
-Z13 !s108 1750031581.000000
-!s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm_tb.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm_tb.sv|
-!i113 1
-R6
-R7
-R8
 vcomputer_top
 R1
-R10
+R13
 !i10b 1
-!s100 dMWOTiLVN=RF>=HOJJazF2
-IjeW`LEde@KZ3EPHhdB]U<0
+!s100 n8hPcaj`[C7lh3oEVS6Jn2
+I2T3ePo0^?N@Zomb0>_>eB2
 R3
 !s105 computer_top_sv_unit
 S1
 R0
-w1750026921
+w1750109638
 8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv
 FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv
 L0 1
@@ -126,24 +126,49 @@ R4
 r1
 !s85 0
 31
-R5
+R14
 !s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv|
 !i113 1
 R6
 R7
 R8
+vcomputer_top_tb
+R1
+Z15 !s110 1750111494
+!i10b 1
+!s100 joP`ObCm5ZOLAlm5hU7DR2
+IT8WLLRoUSCNRC7IWn]hP92
+R3
+!s105 computer_top_tb_sv_unit
+S1
+R0
+w1750111217
+8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top_tb.sv
+FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top_tb.sv
+L0 3
+R4
+r1
+!s85 0
+31
+Z16 !s108 1750111494.000000
+!s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top_tb.sv|
+!i113 1
+R6
+R7
+R8
 vcondcheck
 R1
-R2
+R9
 !i10b 1
-!s100 QMP09j01IZM0EK94`l4gK2
-I]^OH@]m9:G_mRHnk;m59b3
+!s100 C8N>n^@FKVeKY8]17FQP93
+Ij`T7@V5;o74JK6WaYDnYK2
 R3
 !s105 condcheck_sv_unit
 S1
 R0
-R11
+w1750044379
 8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/condcheck.sv
 FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/condcheck.sv
 L0 1
@@ -151,7 +176,7 @@ R4
 r1
 !s85 0
 31
-R9
+R10
 !s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/condcheck.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/condcheck.sv|
 !i113 1
@@ -160,15 +185,15 @@ R7
 R8
 vcondlogic
 R1
-R10
+Z17 !s110 1750111490
 !i10b 1
-!s100 >mZZ@QzNbi:cY^9USj=[U0
-IRMW7LPXQX[U9`oW<mK;@D2
+!s100 cE>`QfP:_OG4dNNjoa_IL1
+ID4E]:bQ1SO2?4=FAYR3n60
 R3
 !s105 condlogic_sv_unit
 S1
 R0
-R11
+w1750109711
 8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/condlogic.sv
 FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/condlogic.sv
 L0 1
@@ -185,15 +210,15 @@ R7
 R8
 vcontroller
 R1
-R10
+R13
 !i10b 1
-!s100 c6gXdk<YC7zmQ7Z^_J1VB0
-Ie1d<[DDnH9JnZ74B2>3cH3
+!s100 491cLT=Ofel;>=]9jJc1F3
+ICklXa4kfO>zlEJM>X0l813
 R3
 !s105 controller_sv_unit
 S1
 R0
-R11
+w1750110124
 8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/controller.sv
 FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/controller.sv
 L0 1
@@ -201,7 +226,7 @@ R4
 r1
 !s85 0
 31
-R5
+R14
 !s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/controller.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/controller.sv|
 !i113 1
@@ -210,15 +235,15 @@ R7
 R8
 vdatapath
 R1
-R10
+R17
 !i10b 1
-!s100 k1D]R2IT9f=H^FSa>O0kW1
-IYGPjmWldZ18R0_6EUzB;Z3
+!s100 F[8ndmQR1j=dej^bQ8ej@2
+IamH8K><DhXn>XfIXgBS]N2
 R3
 !s105 datapath_sv_unit
 S1
 R0
-w1750027039
+w1750110112
 8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv
 FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv
 L0 1
@@ -235,15 +260,15 @@ R7
 R8
 vdecoder
 R1
-R10
+R13
 !i10b 1
-!s100 @G9F7B=Q]:CFMRX?h=CI50
-IgQGj93>n271lze=a?BSCH2
+!s100 HaR7YKOW]m>PZkgmVQ::I1
+IVML3OzXM;@oZWUbML85T30
 R3
 !s105 decoder_sv_unit
 S1
 R0
-R11
+w1750111152
 8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/decoder.sv
 FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/decoder.sv
 L0 1
@@ -251,9 +276,34 @@ R4
 r1
 !s85 0
 31
-R5
+R14
 !s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/decoder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/decoder.sv|
+!i113 1
+R6
+R7
+R8
+vdmem
+R1
+R15
+!i10b 1
+!s100 jQj6N_NSk1ngSAzI[QN?[2
+IiO0;Db6>g4H:U6[gYGI_J0
+R3
+!s105 dmem_sv_unit
+S1
+R0
+w1750044999
+8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/dmem.sv
+FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/dmem.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/dmem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/dmem.sv|
 !i113 1
 R6
 R7
@@ -262,13 +312,13 @@ vextend
 R1
 R2
 !i10b 1
-!s100 ;:k=c6m=ULEj293R0o;Jk0
-IWLbI<lJ>BI=dLZXX@DSQ_1
+!s100 6[3NgkUFCYB^FKeE>90FO2
+IFg6Qz;ML2;TbekibgWIQ11
 R3
 !s105 extend_sv_unit
 S1
 R0
-w1750027066
+w1750110237
 8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/extend.sv
 FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/extend.sv
 L0 1
@@ -276,7 +326,7 @@ R4
 r1
 !s85 0
 31
-R9
+Z18 !s108 1750111491.000000
 !s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/extend.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/extend.sv|
 !i113 1
@@ -285,15 +335,15 @@ R7
 R8
 vflopenr
 R1
-R2
+R11
 !i10b 1
-!s100 Oz3<7L1LM;;8R7VfPn06R3
-I@:;415ZD66Dm]knz2;:o42
+!s100 AgVHjB^`=EODf;?kBPgP=2
+IH[]GYdf;JD?Il`7JN<ZHG1
 R3
 !s105 flopenr_sv_unit
 S1
 R0
-R11
+w1750044344
 8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/flopenr.sv
 FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/flopenr.sv
 L0 1
@@ -301,7 +351,7 @@ R4
 r1
 !s85 0
 31
-R9
+R12
 !s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/flopenr.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/flopenr.sv|
 !i113 1
@@ -312,13 +362,13 @@ vflopr
 R1
 R2
 !i10b 1
-!s100 m5CEb=0g6jEXLS?:HEEAl0
-Ij>RNQnDd=<H@8;::Nhk3i2
+!s100 D;=[NDIA>fU1feHne@RRD0
+I>5bc3P8N9ae1HHST6QeTd2
 R3
 !s105 flopr_sv_unit
 S1
 R0
-w1749975165
+w1750110279
 8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/flopr.sv
 FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/flopr.sv
 L0 1
@@ -326,149 +376,74 @@ R4
 r1
 !s85 0
 31
-R9
+R18
 !s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/flopr.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/flopr.sv|
 !i113 1
 R6
 R7
 R8
-vfull_adder_1b
+vimem
 R1
-R2
+R15
 !i10b 1
-!s100 zJV2VM`9O7`1Uk>j3Jll?3
-IDLI[7H05lEdjl8k;czUZ22
+!s100 k>VD8WjH;eRT3A6OYCaX53
+I8zDVa2eBzEO]Zib6ddP?X1
 R3
-!s105 full_adder_1b_sv_unit
+!s105 imem_sv_unit
 S1
 R0
-w1749964923
-8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_adder_1b.sv
-FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_adder_1b.sv
+w1750109458
+8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/imem.sv
+FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/imem.sv
 L0 1
 R4
 r1
 !s85 0
 31
-R9
-!s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_adder_1b.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_adder_1b.sv|
+R16
+!s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/imem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/imem.sv|
 !i113 1
 R6
 R7
 R8
-vfull_adder_nb
+vmulalu
 R1
-R2
-!i10b 1
-!s100 aScBKoUa@ZP7@@J^@fi5o1
-IZADIU0630<heh;Z6D]nGW2
-R3
-!s105 full_adder_nb_sv_unit
-S1
-R0
-w1749976023
-8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_adder_nb.sv
-FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_adder_nb.sv
-L0 1
-R4
-r1
-!s85 0
-31
 R9
-!s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_adder_nb.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_adder_nb.sv|
-!i113 1
-R6
-R7
-R8
-vfull_subtractor_1b
-R1
-R2
 !i10b 1
-!s100 @n]i71T0EERV8gUDGZEbh0
-I0jaH7=]1f0g6nhKmlebD;0
+!s100 TK?CBQhXV<Jah1Xi9<h0=3
+IEj?;2zHOj::0mQ?iad<h`1
 R3
-!s105 full_subtractor_1b_sv_unit
+!s105 mulalu_sv_unit
 S1
 R0
-w1749964863
-8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_subtractor_1b.sv
-FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_subtractor_1b.sv
+w1750111321
+8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/mulalu.sv
+FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/mulalu.sv
 L0 1
 R4
 r1
 !s85 0
 31
-R9
-!s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_subtractor_1b.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_subtractor_1b.sv|
-!i113 1
-R6
-R7
-R8
-vfull_subtractor_nb
-R1
-R2
-!i10b 1
-!s100 <MEi`k_zEdkYN@3QViGWl1
-ImU?<><[HfZ5YTPzPXbS:K1
-R3
-!s105 full_subtractor_nb_sv_unit
-S1
-R0
-w1749976035
-8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_subtractor_nb.sv
-FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_subtractor_nb.sv
-L0 1
-R4
-r1
-!s85 0
-31
-R9
-!s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_subtractor_nb.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/full_subtractor_nb.sv|
-!i113 1
-R6
-R7
-R8
-vmultiplier_nb
-R1
-R12
-!i10b 1
-!s100 DHNoAWjGSX@En^=;ebfSb0
-I5nT_50Q2O7HhUIoWV;kRO1
-R3
-!s105 multiplier_nb_sv_unit
-S1
-R0
-w1750027614
-8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv
-FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv
-L0 1
-R4
-r1
-!s85 0
-31
-R13
-!s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/multiplier_nb.sv|
+R10
+!s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/mulalu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/mulalu.sv|
 !i113 1
 R6
 R7
 R8
 vmux2
 R1
-R2
+R11
 !i10b 1
-!s100 MZ5e_8Mn40<FGBjUD:BTL1
-IeoB<nI0oY`2c7]e9Sibl<3
+!s100 EbLj7hTT[VR0Amz@N_6;Z2
+IQ66b3KzaTlaUJna5WGFIc1
 R3
 !s105 mux2_sv_unit
 S1
 R0
-w1749962344
+w1750046820
 8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/mux2.sv
 FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/mux2.sv
 L0 1
@@ -476,7 +451,7 @@ R4
 r1
 !s85 0
 31
-R9
+R12
 !s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/mux2.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/mux2.sv|
 !i113 1
@@ -484,38 +459,38 @@ R6
 R7
 R8
 vram
-R10
+R13
 !i10b 1
-!s100 Cb5hcFOU^l=CWCSjoQoZM1
-If@5^4WJD3[7aaWSRXojOI1
+!s100 z1GN>2T2SQN=Ijm6NeI7G1
+IazYBNAhKE;@AQ<L2SnkG=1
 R3
 R0
-R11
+w1750049001
 8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/ram.v
 FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/ram.v
-Z14 L0 40
+L0 40
 R4
 r1
 !s85 0
 31
-R5
+R14
 !s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/ram.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/ram.v|
 !i113 1
-Z15 o-vlog01compat -work work
-Z16 !s92 -vlog01compat -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD
 R8
 vregfile
 R1
-R10
+R17
 !i10b 1
-!s100 QzIKO@<[`RHgHX6=:WV;h1
-ITX4JO0?lXKQc;YE8Boh1Q1
+!s100 I8BeNTcTnUL?m`O4]7Uab2
+IP^FoM2lkTZ:?[fHS@nljD0
 R3
 !s105 regfile_sv_unit
 S1
 R0
-R11
+w1750110194
 8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/regfile.sv
 FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/regfile.sv
 L0 1
@@ -530,25 +505,28 @@ R5
 R6
 R7
 R8
-vrom
-R10
+vshift
+R1
+R9
 !i10b 1
-!s100 ^2mRWFI4odh<c`1Z5<JEj0
-IKgVbHnhmdVR0ISfd8h6M_0
+!s100 H5jAdH7_8M8GG9m7Xg0UW2
+I8ZLz:[4IDN>GJk]=BKDCi1
 R3
+!s105 shift_sv_unit
+S1
 R0
-w1749965295
-8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/rom.v
-FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/rom.v
-R14
+w1750044302
+8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/shift.sv
+FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/shift.sv
+L0 1
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/rom.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/rom.v|
+R10
+!s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/shift.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/shift.sv|
 !i113 1
-R15
-R16
+R6
+R7
 R8
