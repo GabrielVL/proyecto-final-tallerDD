@@ -1,0 +1,9 @@
+module Decoder_type (
+    input  logic [31:0] Instr,  // 32-bit instruction
+    output logic [1:0]  op      // 2-bit operation code
+);
+
+    // Extract Op from instruction bits [27:26]
+    assign op = Instr[27:26];
+
+endmodule

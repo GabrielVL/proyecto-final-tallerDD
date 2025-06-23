@@ -1,0 +1,15 @@
+module Decoder_7seg (
+    input  logic [1:0] op,       // 2-bit operation code
+    output logic [6:0] op7seg    // 7-segment display output
+);
+
+    always_comb
+        case (op)
+            2'b00: op7seg = 7'b1101101; // Display "d" for data processing
+            2'b01: op7seg = 7'b0011100; // Display "L" for load/store
+            2'b10: op7seg = 7'b0111101; // Display "b" for branch
+            2'b11: op7seg = 7'b0000001; // Display "-" for undefined
+            default: op7seg = 7'b0000000; // Off for invalid input
+        endcase
+
+endmodule

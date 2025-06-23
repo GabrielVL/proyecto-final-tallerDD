@@ -1,0 +1,53 @@
+module debouncer (
+    input  logic clk,      // Reloj del sistema (e.g., 50 MHz)
+    input  logic reset,    // Reset síncrono
+    input  logic button_in, // Entrada del botón (activo bajo)
+    output logic button_out // Salida estabilizada (pulso de un ciclo)
+);
+    // Estados para sincronización
+    logic [1:0] sync;
+    // Contador para debouncing
+    logic [19:0] counter; // Ajustado para ~20ms a 50 MHz
+    logic button_sync, button_prev;
+    logic counting;
+
+    // Sincronización de la entrada del botón
+    always_ff @(posedge clk or posedge reset) begin
+        if (reset)
+            sync <= 2'b11; // Botón no presionado (activo bajo)
+        else
+            sync <= {sync[0], button_in};
+    end
+    assign button_sync = sync[1];
+
+    // Lógica de debouncing
+    always_ff @(posedge clk or posedge reset) begin
+        if (reset) begin
+            counter <= 20'd0;
+            counting <= 1'b0;
+            button_prev <= 1'b1;
+            button_out <= 1'b0;
+        end else begin
+            button_prev <= button_sync;
+            button_out <= 1'b0;
+
+            if (counting) begin
+                if (counter == 20'd1_000_000) begin // ~20ms a 50 MHz
+                    counter <= 20'd0;
+                    counting <= 1'b0;
+                end else begin
+                    counter <= counter + 1;
+                end
+            end else if (button_prev && !button_sync) begin
+                // Flanco descendente (botón presionado)
+                counter <= 20'd0;
+                counting <= 1'b1;
+                button_out <= 1'b1; // Pulso de un ciclo
+            end else if (!button_prev && button_sync) begin
+                // Flanco ascendente (botón liberado)
+                counter <= 20'd0;
+                counting <= 1'b1;
+            end
+        end
+    end
+endmodule

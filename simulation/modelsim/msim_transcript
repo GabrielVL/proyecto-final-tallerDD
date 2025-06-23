@@ -12,222 +12,254 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/ram.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:04:49 on Jun 16,2025
+# Start time: 22:02:47 on Jun 22,2025
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/ram.v 
 # -- Compiling module ram
 # 
 # Top level modules:
 # 	ram
-# End time: 16:04:49 on Jun 16,2025, Elapsed time: 0:00:00
+# End time: 22:02:47 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:04:49 on Jun 16,2025
+# Start time: 22:02:47 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm.sv 
 # -- Compiling module arm
 # 
 # Top level modules:
 # 	arm
-# End time: 16:04:49 on Jun 16,2025, Elapsed time: 0:00:00
+# End time: 22:02:47 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:04:49 on Jun 16,2025
+# Start time: 22:02:47 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv 
 # -- Compiling module computer_top
 # 
 # Top level modules:
 # 	computer_top
-# End time: 16:04:49 on Jun 16,2025, Elapsed time: 0:00:00
+# End time: 22:02:47 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/controller.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:04:49 on Jun 16,2025
+# Start time: 22:02:47 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/controller.sv 
 # -- Compiling module controller
 # 
 # Top level modules:
 # 	controller
-# End time: 16:04:49 on Jun 16,2025, Elapsed time: 0:00:00
+# End time: 22:02:47 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/decoder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:04:49 on Jun 16,2025
+# Start time: 22:02:47 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/decoder.sv 
 # -- Compiling module decoder
 # 
 # Top level modules:
 # 	decoder
-# End time: 16:04:49 on Jun 16,2025, Elapsed time: 0:00:00
+# End time: 22:02:47 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/condlogic.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:04:50 on Jun 16,2025
+# Start time: 22:02:47 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/condlogic.sv 
 # -- Compiling module condlogic
 # 
 # Top level modules:
 # 	condlogic
-# End time: 16:04:50 on Jun 16,2025, Elapsed time: 0:00:00
+# End time: 22:02:47 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:04:50 on Jun 16,2025
+# Start time: 22:02:47 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv 
 # -- Compiling module datapath
 # 
 # Top level modules:
 # 	datapath
-# End time: 16:04:50 on Jun 16,2025, Elapsed time: 0:00:00
+# End time: 22:02:47 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/regfile.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:04:50 on Jun 16,2025
+# Start time: 22:02:47 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/regfile.sv 
 # -- Compiling module regfile
 # 
 # Top level modules:
 # 	regfile
-# End time: 16:04:50 on Jun 16,2025, Elapsed time: 0:00:00
+# End time: 22:02:47 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/adder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:04:50 on Jun 16,2025
+# Start time: 22:02:47 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/adder.sv 
 # -- Compiling module adder
 # 
 # Top level modules:
 # 	adder
-# End time: 16:04:51 on Jun 16,2025, Elapsed time: 0:00:01
+# End time: 22:02:47 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/extend.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:04:51 on Jun 16,2025
+# Start time: 22:02:47 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/extend.sv 
 # -- Compiling module extend
 # 
 # Top level modules:
 # 	extend
-# End time: 16:04:51 on Jun 16,2025, Elapsed time: 0:00:00
+# End time: 22:02:47 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/flopr.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:04:51 on Jun 16,2025
+# Start time: 22:02:48 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/flopr.sv 
 # -- Compiling module flopr
 # 
 # Top level modules:
 # 	flopr
-# End time: 16:04:51 on Jun 16,2025, Elapsed time: 0:00:00
+# End time: 22:02:48 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/flopenr.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:04:52 on Jun 16,2025
+# Start time: 22:02:48 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/flopenr.sv 
 # -- Compiling module flopenr
 # 
 # Top level modules:
 # 	flopenr
-# End time: 16:04:52 on Jun 16,2025, Elapsed time: 0:00:00
+# End time: 22:02:48 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/mux2.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:04:52 on Jun 16,2025
+# Start time: 22:02:48 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/mux2.sv 
 # -- Compiling module mux2
 # 
 # Top level modules:
 # 	mux2
-# End time: 16:04:52 on Jun 16,2025, Elapsed time: 0:00:00
+# End time: 22:02:48 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/alu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:04:52 on Jun 16,2025
+# Start time: 22:02:48 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/alu.sv 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 16:04:52 on Jun 16,2025, Elapsed time: 0:00:00
+# End time: 22:02:48 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/shift.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:04:53 on Jun 16,2025
+# Start time: 22:02:48 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/shift.sv 
 # -- Compiling module shift
 # 
 # Top level modules:
 # 	shift
-# End time: 16:04:53 on Jun 16,2025, Elapsed time: 0:00:00
+# End time: 22:02:48 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/condcheck.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:04:53 on Jun 16,2025
+# Start time: 22:02:48 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/condcheck.sv 
 # -- Compiling module condcheck
 # 
 # Top level modules:
 # 	condcheck
-# End time: 16:04:53 on Jun 16,2025, Elapsed time: 0:00:00
+# End time: 22:02:48 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/adderalu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:04:53 on Jun 16,2025
+# Start time: 22:02:48 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/adderalu.sv 
 # -- Compiling module adderalu
 # 
 # Top level modules:
 # 	adderalu
-# End time: 16:04:53 on Jun 16,2025, Elapsed time: 0:00:00
+# End time: 22:02:48 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/mulalu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:04:53 on Jun 16,2025
+# Start time: 22:02:48 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/mulalu.sv 
 # -- Compiling module mulalu
 # 
 # Top level modules:
 # 	mulalu
-# End time: 16:04:53 on Jun 16,2025, Elapsed time: 0:00:00
+# End time: 22:02:48 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/dmem.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:04:53 on Jun 16,2025
+# Start time: 22:02:48 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/dmem.sv 
 # -- Compiling module dmem
 # 
 # Top level modules:
 # 	dmem
-# End time: 16:04:54 on Jun 16,2025, Elapsed time: 0:00:01
+# End time: 22:02:48 on Jun 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/Decoder_type.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:02:48 on Jun 22,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/Decoder_type.sv 
+# -- Compiling module Decoder_type
+# 
+# Top level modules:
+# 	Decoder_type
+# End time: 22:02:48 on Jun 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/Decoder_7seg.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:02:48 on Jun 22,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/Decoder_7seg.sv 
+# -- Compiling module Decoder_7seg
+# 
+# Top level modules:
+# 	Decoder_7seg
+# End time: 22:02:48 on Jun 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/debouncer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:02:48 on Jun 22,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/debouncer.sv 
+# -- Compiling module debouncer
+# 
+# Top level modules:
+# 	debouncer
+# End time: 22:02:48 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/imem.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:04:54 on Jun 16,2025
+# Start time: 22:02:49 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/imem.sv 
 # -- Compiling module imem
 # 
 # Top level modules:
 # 	imem
-# End time: 16:04:54 on Jun 16,2025, Elapsed time: 0:00:00
+# End time: 22:02:49 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top_tb.sv}
+# vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/tb_computer_top.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:04:54 on Jun 16,2025
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top_tb.sv 
-# -- Compiling module computer_top_tb
+# Start time: 22:02:49 on Jun 22,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD" C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/tb_computer_top.sv 
+# -- Compiling module tb_computer_top
 # 
 # Top level modules:
-# 	computer_top_tb
-# End time: 16:04:54 on Jun 16,2025, Elapsed time: 0:00:00
+# 	tb_computer_top
+# End time: 22:02:49 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  computer_top_tb
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" computer_top_tb 
-# Start time: 16:04:54 on Jun 16,2025
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_computer_top
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_computer_top 
+# Start time: 22:02:49 on Jun 22,2025
 # Loading sv_std.std
-# Loading work.computer_top_tb
+# Loading work.tb_computer_top
 # Loading work.computer_top
+# Loading work.debouncer
+# Loading work.imem
 # Loading work.arm
 # Loading work.controller
 # Loading work.decoder
@@ -244,22 +276,17 @@
 # Loading work.adderalu
 # Loading work.shift
 # Loading work.mulalu
-# Loading work.imem
 # Loading work.dmem
 # Loading work.ram
 # Loading altera_mf_ver.altsyncram
+# Loading work.Decoder_type
+# Loading work.Decoder_7seg
 # Loading altera_mf_ver.altsyncram_body
 # Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
 # Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
 # ** Warning: (vsim-3017) C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm.sv(35): [TFMPC] - Too few port connections. Expected 16, found 15.
-#    Time: 0 ps  Iteration: 0  Instance: /computer_top_tb/dut/arm/dp File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv
+#    Time: 0 ps  Iteration: 0  Instance: /tb_computer_top/dut/arm/dp File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/datapath.sv
 # ** Warning: (vsim-3722) C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm.sv(35): [TFMPC] - Missing connection for port 'debug_regs'.
-# ** Warning: (vsim-3015) C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv(31): [PCDPC] - Port size (32) does not match connection size (1) for port 'b'. The port definition is at: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/dmem.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /computer_top_tb/dut/dmem File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/dmem.sv
-# ** Warning: (vsim-3015) C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv(31): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd_b'. The port definition is at: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/dmem.sv(4).
-#    Time: 0 ps  Iteration: 0  Instance: /computer_top_tb/dut/dmem File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/dmem.sv
-# ** Warning: (vsim-3839) C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv(8): Variable '/computer_top_tb/dut/PC', driven via a port connection, is multiply driven. See C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv(12).
-#    Time: 0 ps  Iteration: 0  Instance: /computer_top_tb/dut File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv
 # 
 # add wave *
 # view structure
@@ -267,137 +294,328 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# Time: 22000 | PC: 0x00000000 | Instr: 0xeb000004 | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 25000 | PC: 0x00000018 | Instr: 0xe3a00090 | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 35000 | PC: 0x0000001c | Instr: 0xe3a010e8 | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 45000 | PC: 0x00000020 | Instr: 0xe3a02201 | WriteData: 0x00000074 | MemWriteEnable: 0
-# Time: 55000 | PC: 0x00000024 | Instr: 0xe5820000 | WriteData: 0x00000120 | MemWriteEnable: 1
-# Time: 65000 | PC: 0x00000028 | Instr: 0xe3a02241 | WriteData: 0x00000074 | MemWriteEnable: 0
-# Time: 75000 | PC: 0x0000002c | Instr: 0xe5821000 | WriteData: 0x00000074 | MemWriteEnable: 1
-# Time: 85000 | PC: 0x00000030 | Instr: 0xe3a00001 | WriteData: 0x00000074 | MemWriteEnable: 0
-# Time: 95000 | PC: 0x00000034 | Instr: 0xe59f21cc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 105000 | PC: 0x00000038 | Instr: 0xe5820000 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 115000 | PC: 0x0000003c | Instr: 0xe3a0009c | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 125000 | PC: 0x00000040 | Instr: 0xe3a010c8 | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 135000 | PC: 0x00000044 | Instr: 0xe3a02281 | WriteData: 0x00000190 | MemWriteEnable: 0
-# Time: 145000 | PC: 0x00000048 | Instr: 0xe5820000 | WriteData: 0x00000138 | MemWriteEnable: 1
-# Time: 155000 | PC: 0x0000004c | Instr: 0xe3a022c1 | WriteData: 0x00000190 | MemWriteEnable: 0
-# Time: 165000 | PC: 0x00000050 | Instr: 0xe5821000 | WriteData: 0x00000190 | MemWriteEnable: 1
-# Time: 175000 | PC: 0x00000054 | Instr: 0xe3a00002 | WriteData: 0x00001820 | MemWriteEnable: 0
-# Time: 185000 | PC: 0x00000058 | Instr: 0xe3e01001 | WriteData: 0x00000190 | MemWriteEnable: 0
-# Time: 195000 | PC: 0x0000005c | Instr: 0xe59f21a8 | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 205000 | PC: 0x00000060 | Instr: 0xe5820000 | WriteData: 0x00000002 | MemWriteEnable: 1
-# Time: 215000 | PC: 0x00000064 | Instr: 0xe59f21a4 | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 225000 | PC: 0x00000068 | Instr: 0xe5821000 | WriteData: 0x00000000 | MemWriteEnable: 1
-# Time: 235000 | PC: 0x0000006c | Instr: 0xe59f01a0 | WriteData: 0x00000002 | MemWriteEnable: 0
-# Time: 245000 | PC: 0x00000070 | Instr: 0xe3a01032 | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 255000 | PC: 0x00000074 | Instr: 0xe3a02001 | WriteData: 0x00000032 | MemWriteEnable: 0
-# Time: 265000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 275000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x00000032 | MemWriteEnable: 0
-# Time: 285000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 295000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 305000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x00000031 | MemWriteEnable: 0
-# Time: 315000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 325000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 335000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x00000030 | MemWriteEnable: 0
-# Time: 345000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 355000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 365000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x0000002f | MemWriteEnable: 0
-# Time: 375000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 385000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 395000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x0000002e | MemWriteEnable: 0
-# Time: 405000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 415000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 425000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x0000002d | MemWriteEnable: 0
-# Time: 435000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 445000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 455000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x0000002c | MemWriteEnable: 0
-# Time: 465000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 475000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 485000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x0000002b | MemWriteEnable: 0
-# Time: 495000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 505000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 515000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x0000002a | MemWriteEnable: 0
-# Time: 525000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 535000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 545000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x00000029 | MemWriteEnable: 0
-# Time: 555000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 565000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 575000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x00000028 | MemWriteEnable: 0
-# Time: 585000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 595000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 605000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x00000027 | MemWriteEnable: 0
-# Time: 615000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 625000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 635000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x00000026 | MemWriteEnable: 0
-# Time: 645000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 655000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 665000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x00000025 | MemWriteEnable: 0
-# Time: 675000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 685000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 695000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x00000024 | MemWriteEnable: 0
-# Time: 705000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 715000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 725000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x00000023 | MemWriteEnable: 0
-# Time: 735000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 745000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 755000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x00000022 | MemWriteEnable: 0
-# Time: 765000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 775000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 785000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x00000021 | MemWriteEnable: 0
-# Time: 795000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 805000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 815000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x00000020 | MemWriteEnable: 0
-# Time: 825000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 835000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 845000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x0000001f | MemWriteEnable: 0
-# Time: 855000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 865000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 875000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x0000001e | MemWriteEnable: 0
-# Time: 885000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 895000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 905000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x0000001d | MemWriteEnable: 0
-# Time: 915000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 925000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 935000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x0000001c | MemWriteEnable: 0
-# Time: 945000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 955000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 965000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x0000001b | MemWriteEnable: 0
-# Time: 975000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 985000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 995000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x0000001a | MemWriteEnable: 0
-# Time: 1005000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 1015000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 1025000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x00000019 | MemWriteEnable: 0
-# Time: 1035000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 1045000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 1055000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x00000018 | MemWriteEnable: 0
-# Time: 1065000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 1075000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 1085000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x00000017 | MemWriteEnable: 0
-# Time: 1095000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 1105000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 1115000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x00000016 | MemWriteEnable: 0
-# Time: 1125000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 1135000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 1145000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x00000015 | MemWriteEnable: 0
-# Time: 1155000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 1165000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 1175000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x00000014 | MemWriteEnable: 0
-# Time: 1185000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 1195000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 1205000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x00000013 | MemWriteEnable: 0
-# Time: 1215000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 1225000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 1235000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x00000012 | MemWriteEnable: 0
-# Time: 1245000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 1255000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Time: 1265000 | PC: 0x0000007c | Instr: 0xe2511001 | WriteData: 0x00000011 | MemWriteEnable: 0
-# Time: 1275000 | PC: 0x00000080 | Instr: 0x1afffffc | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
-# Time: 1285000 | PC: 0x00000078 | Instr: 0xe4c02001 | WriteData: 0x00000001 | MemWriteEnable: 1
-# Fin de simulación Computer_top.
-# ** Note: $stop    : C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top_tb.sv(40)
-#    Time: 1295 ns  Iteration: 1  Instance: /computer_top_tb
-# Break in Module computer_top_tb at C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top_tb.sv line 40
-# End time: 16:05:09 on Jun 16,2025, Elapsed time: 0:00:15
-# Errors: 0, Warnings: 5
+# Time=0 PC=00000000 Instr=eb000004 op7seg=0111101 bx_check=100000 alu_op=8 s_bit=0 bx_match=0 button=1 pulse=0
+# Time=200020000 PC=00000000 Instr=eb000004 op7seg=0111101 bx_check=100000 alu_op=8 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=200045000 PC=00000000 Instr=eb000004 op7seg=0111101 bx_check=100000 alu_op=8 s_bit=0 bx_match=0 button=0 pulse=1
+# Time=200055000 PC=00000004 Instr=eb00001f op7seg=0111101 bx_check=100001 alu_op=8 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=220020000 PC=00000004 Instr=eb00001f op7seg=0111101 bx_check=100001 alu_op=8 s_bit=0 bx_match=0 button=1 pulse=0
+# Time=420020000 PC=00000004 Instr=eb00001f op7seg=0111101 bx_check=100001 alu_op=8 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=420045000 PC=00000004 Instr=eb00001f op7seg=0111101 bx_check=100001 alu_op=8 s_bit=0 bx_match=0 button=0 pulse=1
+# Time=420055000 PC=00000008 Instr=eb00002c op7seg=0111101 bx_check=100002 alu_op=8 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=440020000 PC=00000008 Instr=eb00002c op7seg=0111101 bx_check=100002 alu_op=8 s_bit=0 bx_match=0 button=1 pulse=0
+# Time=640020000 PC=00000008 Instr=eb00002c op7seg=0111101 bx_check=100002 alu_op=8 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=640045000 PC=00000008 Instr=eb00002c op7seg=0111101 bx_check=100002 alu_op=8 s_bit=0 bx_match=0 button=0 pulse=1
+# Time=640055000 PC=0000000c Instr=eb000046 op7seg=0111101 bx_check=100004 alu_op=8 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=660020000 PC=0000000c Instr=eb000046 op7seg=0111101 bx_check=100004 alu_op=8 s_bit=0 bx_match=0 button=1 pulse=0
+# Time=860020000 PC=0000000c Instr=eb000046 op7seg=0111101 bx_check=100004 alu_op=8 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=860045000 PC=0000000c Instr=eb000046 op7seg=0111101 bx_check=100004 alu_op=8 s_bit=0 bx_match=0 button=0 pulse=1
+# Time=860055000 PC=00000010 Instr=eb000070 op7seg=0111101 bx_check=100007 alu_op=8 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=880020000 PC=00000010 Instr=eb000070 op7seg=0111101 bx_check=100007 alu_op=8 s_bit=0 bx_match=0 button=1 pulse=0
+# Time=1080020000 PC=00000010 Instr=eb000070 op7seg=0111101 bx_check=100007 alu_op=8 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=1080045000 PC=00000010 Instr=eb000070 op7seg=0111101 bx_check=100007 alu_op=8 s_bit=0 bx_match=0 button=0 pulse=1
+# Time=1080055000 PC=00000014 Instr=eafffffa op7seg=0111101 bx_check=0fffff alu_op=7 s_bit=1 bx_match=0 button=0 pulse=0
+# Time=1100020000 PC=00000014 Instr=eafffffa op7seg=0111101 bx_check=0fffff alu_op=7 s_bit=1 bx_match=0 button=1 pulse=0
+# Time=1300020000 PC=00000014 Instr=eafffffa op7seg=0111101 bx_check=0fffff alu_op=7 s_bit=1 bx_match=0 button=0 pulse=0
+# Time=1300045000 PC=00000014 Instr=eafffffa op7seg=0111101 bx_check=0fffff alu_op=7 s_bit=1 bx_match=0 button=0 pulse=1
+# Time=1300055000 PC=00000018 Instr=e3a00090 op7seg=1010110 bx_check=1a0009 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=1320020000 PC=00000018 Instr=e3a00090 op7seg=1010110 bx_check=1a0009 alu_op=d s_bit=0 bx_match=0 button=1 pulse=0
+# Time=1520020000 PC=00000018 Instr=e3a00090 op7seg=1010110 bx_check=1a0009 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=1520045000 PC=00000018 Instr=e3a00090 op7seg=1010110 bx_check=1a0009 alu_op=d s_bit=0 bx_match=0 button=0 pulse=1
+# Time=1520055000 PC=0000001c Instr=e3a010e8 op7seg=1010110 bx_check=1a010e alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=1540020000 PC=0000001c Instr=e3a010e8 op7seg=1010110 bx_check=1a010e alu_op=d s_bit=0 bx_match=0 button=1 pulse=0
+# Time=1740020000 PC=0000001c Instr=e3a010e8 op7seg=1010110 bx_check=1a010e alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=1740045000 PC=0000001c Instr=e3a010e8 op7seg=1010110 bx_check=1a010e alu_op=d s_bit=0 bx_match=0 button=0 pulse=1
+# Time=1740055000 PC=00000020 Instr=e3a02201 op7seg=1010110 bx_check=1a0220 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=1760020000 PC=00000020 Instr=e3a02201 op7seg=1010110 bx_check=1a0220 alu_op=d s_bit=0 bx_match=0 button=1 pulse=0
+# Time=1960020000 PC=00000020 Instr=e3a02201 op7seg=1010110 bx_check=1a0220 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=1960045000 PC=00000020 Instr=e3a02201 op7seg=1010110 bx_check=1a0220 alu_op=d s_bit=0 bx_match=0 button=0 pulse=1
+# Time=1960055000 PC=00000024 Instr=e5820000 op7seg=1011011 bx_check=182000 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=1980020000 PC=00000024 Instr=e5820000 op7seg=1011011 bx_check=182000 alu_op=c s_bit=0 bx_match=0 button=1 pulse=0
+# Time=2180020000 PC=00000024 Instr=e5820000 op7seg=1011011 bx_check=182000 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=2180045000 PC=00000024 Instr=e5820000 op7seg=1011011 bx_check=182000 alu_op=c s_bit=0 bx_match=0 button=0 pulse=1
+# Time=2180055000 PC=00000028 Instr=e3a02241 op7seg=1010110 bx_check=1a0224 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=2200020000 PC=00000028 Instr=e3a02241 op7seg=1010110 bx_check=1a0224 alu_op=d s_bit=0 bx_match=0 button=1 pulse=0
+# Time=2400020000 PC=00000028 Instr=e3a02241 op7seg=1010110 bx_check=1a0224 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=2400045000 PC=00000028 Instr=e3a02241 op7seg=1010110 bx_check=1a0224 alu_op=d s_bit=0 bx_match=0 button=0 pulse=1
+# Time=2400055000 PC=0000002c Instr=e5821000 op7seg=1011011 bx_check=182100 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=2420020000 PC=0000002c Instr=e5821000 op7seg=1011011 bx_check=182100 alu_op=c s_bit=0 bx_match=0 button=1 pulse=0
+# Time=2620020000 PC=0000002c Instr=e5821000 op7seg=1011011 bx_check=182100 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=2620045000 PC=0000002c Instr=e5821000 op7seg=1011011 bx_check=182100 alu_op=c s_bit=0 bx_match=0 button=0 pulse=1
+# Time=2620055000 PC=00000030 Instr=e3a00001 op7seg=1010110 bx_check=1a0000 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=2640020000 PC=00000030 Instr=e3a00001 op7seg=1010110 bx_check=1a0000 alu_op=d s_bit=0 bx_match=0 button=1 pulse=0
+# Time=2840020000 PC=00000030 Instr=e3a00001 op7seg=1010110 bx_check=1a0000 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=2840045000 PC=00000030 Instr=e3a00001 op7seg=1010110 bx_check=1a0000 alu_op=d s_bit=0 bx_match=0 button=0 pulse=1
+# Time=2840055000 PC=00000034 Instr=e59f21cc op7seg=0011100 bx_check=19f21c alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=2860020000 PC=00000034 Instr=e59f21cc op7seg=0011100 bx_check=19f21c alu_op=c s_bit=1 bx_match=0 button=1 pulse=0
+# Time=3060020000 PC=00000034 Instr=e59f21cc op7seg=0011100 bx_check=19f21c alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=3060045000 PC=00000034 Instr=e59f21cc op7seg=0011100 bx_check=19f21c alu_op=c s_bit=1 bx_match=0 button=0 pulse=1
+# Time=3060055000 PC=00000038 Instr=e5820000 op7seg=1011011 bx_check=182000 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=3080020000 PC=00000038 Instr=e5820000 op7seg=1011011 bx_check=182000 alu_op=c s_bit=0 bx_match=0 button=1 pulse=0
+# Time=3280020000 PC=00000038 Instr=e5820000 op7seg=1011011 bx_check=182000 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=3280045000 PC=00000038 Instr=e5820000 op7seg=1011011 bx_check=182000 alu_op=c s_bit=0 bx_match=0 button=0 pulse=1
+# Time=3280055000 PC=0000003c Instr=e3a0009c op7seg=1010110 bx_check=1a0009 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=3300020000 PC=0000003c Instr=e3a0009c op7seg=1010110 bx_check=1a0009 alu_op=d s_bit=0 bx_match=0 button=1 pulse=0
+# Time=3500020000 PC=0000003c Instr=e3a0009c op7seg=1010110 bx_check=1a0009 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=3500045000 PC=0000003c Instr=e3a0009c op7seg=1010110 bx_check=1a0009 alu_op=d s_bit=0 bx_match=0 button=0 pulse=1
+# Time=3500055000 PC=00000040 Instr=e3a010c8 op7seg=1010110 bx_check=1a010c alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=3520020000 PC=00000040 Instr=e3a010c8 op7seg=1010110 bx_check=1a010c alu_op=d s_bit=0 bx_match=0 button=1 pulse=0
+# Time=3720020000 PC=00000040 Instr=e3a010c8 op7seg=1010110 bx_check=1a010c alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=3720045000 PC=00000040 Instr=e3a010c8 op7seg=1010110 bx_check=1a010c alu_op=d s_bit=0 bx_match=0 button=0 pulse=1
+# Time=3720055000 PC=00000044 Instr=e3a02281 op7seg=1010110 bx_check=1a0228 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=3740020000 PC=00000044 Instr=e3a02281 op7seg=1010110 bx_check=1a0228 alu_op=d s_bit=0 bx_match=0 button=1 pulse=0
+# Time=3940020000 PC=00000044 Instr=e3a02281 op7seg=1010110 bx_check=1a0228 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=3940045000 PC=00000044 Instr=e3a02281 op7seg=1010110 bx_check=1a0228 alu_op=d s_bit=0 bx_match=0 button=0 pulse=1
+# Time=3940055000 PC=00000048 Instr=e5820000 op7seg=1011011 bx_check=182000 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=3960020000 PC=00000048 Instr=e5820000 op7seg=1011011 bx_check=182000 alu_op=c s_bit=0 bx_match=0 button=1 pulse=0
+# Time=4160020000 PC=00000048 Instr=e5820000 op7seg=1011011 bx_check=182000 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=4160045000 PC=00000048 Instr=e5820000 op7seg=1011011 bx_check=182000 alu_op=c s_bit=0 bx_match=0 button=0 pulse=1
+# Time=4160055000 PC=0000004c Instr=e3a022c1 op7seg=1010110 bx_check=1a022c alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=4180020000 PC=0000004c Instr=e3a022c1 op7seg=1010110 bx_check=1a022c alu_op=d s_bit=0 bx_match=0 button=1 pulse=0
+# Time=4380020000 PC=0000004c Instr=e3a022c1 op7seg=1010110 bx_check=1a022c alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=4380045000 PC=0000004c Instr=e3a022c1 op7seg=1010110 bx_check=1a022c alu_op=d s_bit=0 bx_match=0 button=0 pulse=1
+# Time=4380055000 PC=00000050 Instr=e5821000 op7seg=1011011 bx_check=182100 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=4400020000 PC=00000050 Instr=e5821000 op7seg=1011011 bx_check=182100 alu_op=c s_bit=0 bx_match=0 button=1 pulse=0
+# Time=4600020000 PC=00000050 Instr=e5821000 op7seg=1011011 bx_check=182100 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=4600045000 PC=00000050 Instr=e5821000 op7seg=1011011 bx_check=182100 alu_op=c s_bit=0 bx_match=0 button=0 pulse=1
+# Time=4600055000 PC=00000054 Instr=e3a00002 op7seg=1010110 bx_check=1a0000 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=4620020000 PC=00000054 Instr=e3a00002 op7seg=1010110 bx_check=1a0000 alu_op=d s_bit=0 bx_match=0 button=1 pulse=0
+# Time=4820020000 PC=00000054 Instr=e3a00002 op7seg=1010110 bx_check=1a0000 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=4820045000 PC=00000054 Instr=e3a00002 op7seg=1010110 bx_check=1a0000 alu_op=d s_bit=0 bx_match=0 button=0 pulse=1
+# Time=4820055000 PC=00000058 Instr=e3e01001 op7seg=0111110 bx_check=1e0100 alu_op=f s_bit=0 bx_match=0 button=0 pulse=0
+# Time=4840020000 PC=00000058 Instr=e3e01001 op7seg=0111110 bx_check=1e0100 alu_op=f s_bit=0 bx_match=0 button=1 pulse=0
+# Time=5040020000 PC=00000058 Instr=e3e01001 op7seg=0111110 bx_check=1e0100 alu_op=f s_bit=0 bx_match=0 button=0 pulse=0
+# Time=5040045000 PC=00000058 Instr=e3e01001 op7seg=0111110 bx_check=1e0100 alu_op=f s_bit=0 bx_match=0 button=0 pulse=1
+# Time=5040055000 PC=0000005c Instr=e59f21a8 op7seg=0011100 bx_check=19f21a alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=5060020000 PC=0000005c Instr=e59f21a8 op7seg=0011100 bx_check=19f21a alu_op=c s_bit=1 bx_match=0 button=1 pulse=0
+# Time=5260020000 PC=0000005c Instr=e59f21a8 op7seg=0011100 bx_check=19f21a alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=5260045000 PC=0000005c Instr=e59f21a8 op7seg=0011100 bx_check=19f21a alu_op=c s_bit=1 bx_match=0 button=0 pulse=1
+# Time=5260055000 PC=00000060 Instr=e5820000 op7seg=1011011 bx_check=182000 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=5280020000 PC=00000060 Instr=e5820000 op7seg=1011011 bx_check=182000 alu_op=c s_bit=0 bx_match=0 button=1 pulse=0
+# Time=5480020000 PC=00000060 Instr=e5820000 op7seg=1011011 bx_check=182000 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=5480045000 PC=00000060 Instr=e5820000 op7seg=1011011 bx_check=182000 alu_op=c s_bit=0 bx_match=0 button=0 pulse=1
+# Time=5480055000 PC=00000064 Instr=e59f21a4 op7seg=0011100 bx_check=19f21a alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=5500020000 PC=00000064 Instr=e59f21a4 op7seg=0011100 bx_check=19f21a alu_op=c s_bit=1 bx_match=0 button=1 pulse=0
+# Time=5700020000 PC=00000064 Instr=e59f21a4 op7seg=0011100 bx_check=19f21a alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=5700045000 PC=00000064 Instr=e59f21a4 op7seg=0011100 bx_check=19f21a alu_op=c s_bit=1 bx_match=0 button=0 pulse=1
+# Time=5700055000 PC=00000068 Instr=e5821000 op7seg=1011011 bx_check=182100 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=5720020000 PC=00000068 Instr=e5821000 op7seg=1011011 bx_check=182100 alu_op=c s_bit=0 bx_match=0 button=1 pulse=0
+# Time=5920020000 PC=00000068 Instr=e5821000 op7seg=1011011 bx_check=182100 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=5920045000 PC=00000068 Instr=e5821000 op7seg=1011011 bx_check=182100 alu_op=c s_bit=0 bx_match=0 button=0 pulse=1
+# Time=5920055000 PC=0000006c Instr=e59f01a0 op7seg=0011100 bx_check=19f01a alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=5940020000 PC=0000006c Instr=e59f01a0 op7seg=0011100 bx_check=19f01a alu_op=c s_bit=1 bx_match=0 button=1 pulse=0
+# Time=6140020000 PC=0000006c Instr=e59f01a0 op7seg=0011100 bx_check=19f01a alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=6140045000 PC=0000006c Instr=e59f01a0 op7seg=0011100 bx_check=19f01a alu_op=c s_bit=1 bx_match=0 button=0 pulse=1
+# Time=6140055000 PC=00000070 Instr=e3a01032 op7seg=1010110 bx_check=1a0103 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=6160020000 PC=00000070 Instr=e3a01032 op7seg=1010110 bx_check=1a0103 alu_op=d s_bit=0 bx_match=0 button=1 pulse=0
+# Time=6360020000 PC=00000070 Instr=e3a01032 op7seg=1010110 bx_check=1a0103 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=6360045000 PC=00000070 Instr=e3a01032 op7seg=1010110 bx_check=1a0103 alu_op=d s_bit=0 bx_match=0 button=0 pulse=1
+# Time=6360055000 PC=00000074 Instr=e3a02001 op7seg=1010110 bx_check=1a0200 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=6380020000 PC=00000074 Instr=e3a02001 op7seg=1010110 bx_check=1a0200 alu_op=d s_bit=0 bx_match=0 button=1 pulse=0
+# Time=6580020000 PC=00000074 Instr=e3a02001 op7seg=1010110 bx_check=1a0200 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=6580045000 PC=00000074 Instr=e3a02001 op7seg=1010110 bx_check=1a0200 alu_op=d s_bit=0 bx_match=0 button=0 pulse=1
+# Time=6580055000 PC=00000078 Instr=e4c02001 op7seg=1011011 bx_check=0c0200 alu_op=6 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=6600020000 PC=00000078 Instr=e4c02001 op7seg=1011011 bx_check=0c0200 alu_op=6 s_bit=0 bx_match=0 button=1 pulse=0
+# Time=6800020000 PC=00000078 Instr=e4c02001 op7seg=1011011 bx_check=0c0200 alu_op=6 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=6800045000 PC=00000078 Instr=e4c02001 op7seg=1011011 bx_check=0c0200 alu_op=6 s_bit=0 bx_match=0 button=0 pulse=1
+# Time=6800055000 PC=0000007c Instr=e2511001 op7seg=0111110 bx_check=051100 alu_op=2 s_bit=1 bx_match=0 button=0 pulse=0
+# Time=6820020000 PC=0000007c Instr=e2511001 op7seg=0111110 bx_check=051100 alu_op=2 s_bit=1 bx_match=0 button=1 pulse=0
+# Time=7020020000 PC=0000007c Instr=e2511001 op7seg=0111110 bx_check=051100 alu_op=2 s_bit=1 bx_match=0 button=0 pulse=0
+# Time=7020045000 PC=0000007c Instr=e2511001 op7seg=0111110 bx_check=051100 alu_op=2 s_bit=1 bx_match=0 button=0 pulse=1
+# Time=7020055000 PC=00000080 Instr=1afffffc op7seg=0111101 bx_check=0fffff alu_op=7 s_bit=1 bx_match=0 button=0 pulse=0
+# Time=7040020000 PC=00000080 Instr=1afffffc op7seg=0111101 bx_check=0fffff alu_op=7 s_bit=1 bx_match=0 button=1 pulse=0
+# Time=7240020000 PC=00000080 Instr=1afffffc op7seg=0111101 bx_check=0fffff alu_op=7 s_bit=1 bx_match=0 button=0 pulse=0
+# Time=7240045000 PC=00000080 Instr=1afffffc op7seg=0111101 bx_check=0fffff alu_op=7 s_bit=1 bx_match=0 button=0 pulse=1
+# Time=7240055000 PC=00000084 Instr=e12fff1e op7seg=0000001 bx_check=12fff1 alu_op=9 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=7260020000 PC=00000084 Instr=e12fff1e op7seg=0000001 bx_check=12fff1 alu_op=9 s_bit=0 bx_match=0 button=1 pulse=0
+# Time=7460020000 PC=00000084 Instr=e12fff1e op7seg=0000001 bx_check=12fff1 alu_op=9 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=7460045000 PC=00000084 Instr=e12fff1e op7seg=0000001 bx_check=12fff1 alu_op=9 s_bit=0 bx_match=0 button=0 pulse=1
+# Time=7460055000 PC=00000088 Instr=e3a00201 op7seg=1010110 bx_check=1a0020 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=7480020000 PC=00000088 Instr=e3a00201 op7seg=1010110 bx_check=1a0020 alu_op=d s_bit=0 bx_match=0 button=1 pulse=0
+# Time=7680020000 PC=00000088 Instr=e3a00201 op7seg=1010110 bx_check=1a0020 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=7680045000 PC=00000088 Instr=e3a00201 op7seg=1010110 bx_check=1a0020 alu_op=d s_bit=0 bx_match=0 button=0 pulse=1
+# Time=7680055000 PC=0000008c Instr=e5901000 op7seg=0011100 bx_check=190100 alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=7700020000 PC=0000008c Instr=e5901000 op7seg=0011100 bx_check=190100 alu_op=c s_bit=1 bx_match=0 button=1 pulse=0
+# Time=7900020000 PC=0000008c Instr=e5901000 op7seg=0011100 bx_check=190100 alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=7900045000 PC=0000008c Instr=e5901000 op7seg=0011100 bx_check=190100 alu_op=c s_bit=1 bx_match=0 button=0 pulse=1
+# Time=7900055000 PC=00000090 Instr=e59f2170 op7seg=0011100 bx_check=19f217 alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=7920020000 PC=00000090 Instr=e59f2170 op7seg=0011100 bx_check=19f217 alu_op=c s_bit=1 bx_match=0 button=1 pulse=0
+# Time=8120020000 PC=00000090 Instr=e59f2170 op7seg=0011100 bx_check=19f217 alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=8120045000 PC=00000090 Instr=e59f2170 op7seg=0011100 bx_check=19f217 alu_op=c s_bit=1 bx_match=0 button=0 pulse=1
+# Time=8120055000 PC=00000094 Instr=e5923000 op7seg=0011100 bx_check=192300 alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=8140020000 PC=00000094 Instr=e5923000 op7seg=0011100 bx_check=192300 alu_op=c s_bit=1 bx_match=0 button=1 pulse=0
+# Time=8340020000 PC=00000094 Instr=e5923000 op7seg=0011100 bx_check=192300 alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=8340045000 PC=00000094 Instr=e5923000 op7seg=0011100 bx_check=192300 alu_op=c s_bit=1 bx_match=0 button=0 pulse=1
+# Time=8340055000 PC=00000098 Instr=e0811103 op7seg=1110111 bx_check=081110 alu_op=4 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=8360020000 PC=00000098 Instr=e0811103 op7seg=1110111 bx_check=081110 alu_op=4 s_bit=0 bx_match=0 button=1 pulse=0
+# Time=8560020000 PC=00000098 Instr=e0811103 op7seg=1110111 bx_check=081110 alu_op=4 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=8560045000 PC=00000098 Instr=e0811103 op7seg=1110111 bx_check=081110 alu_op=4 s_bit=0 bx_match=0 button=0 pulse=1
+# Time=8560055000 PC=0000009c Instr=e3510000 op7seg=0000001 bx_check=151000 alu_op=a s_bit=1 bx_match=0 button=0 pulse=0
+# Time=8580020000 PC=0000009c Instr=e3510000 op7seg=0000001 bx_check=151000 alu_op=a s_bit=1 bx_match=0 button=1 pulse=0
+# Time=8780020000 PC=0000009c Instr=e3510000 op7seg=0000001 bx_check=151000 alu_op=a s_bit=1 bx_match=0 button=0 pulse=0
+# Time=8780045000 PC=0000009c Instr=e3510000 op7seg=0000001 bx_check=151000 alu_op=a s_bit=1 bx_match=0 button=0 pulse=1
+# Time=8780055000 PC=000000a0 Instr=b3a01000 op7seg=1010110 bx_check=1a0100 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=8800020000 PC=000000a0 Instr=b3a01000 op7seg=1010110 bx_check=1a0100 alu_op=d s_bit=0 bx_match=0 button=1 pulse=0
+# Time=9000020000 PC=000000a0 Instr=b3a01000 op7seg=1010110 bx_check=1a0100 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=9000045000 PC=000000a0 Instr=b3a01000 op7seg=1010110 bx_check=1a0100 alu_op=d s_bit=0 bx_match=0 button=0 pulse=1
+# Time=9000055000 PC=000000a4 Instr=01e03003 op7seg=0111110 bx_check=1e0300 alu_op=f s_bit=0 bx_match=0 button=0 pulse=0
+# Time=9020020000 PC=000000a4 Instr=01e03003 op7seg=0111110 bx_check=1e0300 alu_op=f s_bit=0 bx_match=0 button=1 pulse=0
+# Time=9220020000 PC=000000a4 Instr=01e03003 op7seg=0111110 bx_check=1e0300 alu_op=f s_bit=0 bx_match=0 button=0 pulse=0
+# Time=9220045000 PC=000000a4 Instr=01e03003 op7seg=0111110 bx_check=1e0300 alu_op=f s_bit=0 bx_match=0 button=0 pulse=1
+# Time=9220055000 PC=000000a8 Instr=e3510e12 op7seg=0000001 bx_check=1510e1 alu_op=a s_bit=1 bx_match=0 button=0 pulse=0
+# Time=9240020000 PC=000000a8 Instr=e3510e12 op7seg=0000001 bx_check=1510e1 alu_op=a s_bit=1 bx_match=0 button=1 pulse=0
+# Time=9440020000 PC=000000a8 Instr=e3510e12 op7seg=0000001 bx_check=1510e1 alu_op=a s_bit=1 bx_match=0 button=0 pulse=0
+# Time=9440045000 PC=000000a8 Instr=e3510e12 op7seg=0000001 bx_check=1510e1 alu_op=a s_bit=1 bx_match=0 button=0 pulse=1
+# Time=9440055000 PC=000000ac Instr=c3a01e12 op7seg=1010110 bx_check=1a01e1 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=9460020000 PC=000000ac Instr=c3a01e12 op7seg=1010110 bx_check=1a01e1 alu_op=d s_bit=0 bx_match=0 button=1 pulse=0
+# Time=9660020000 PC=000000ac Instr=c3a01e12 op7seg=1010110 bx_check=1a01e1 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=9660045000 PC=000000ac Instr=c3a01e12 op7seg=1010110 bx_check=1a01e1 alu_op=d s_bit=0 bx_match=0 button=0 pulse=1
+# Time=9660055000 PC=000000b0 Instr=01e03003 op7seg=0111110 bx_check=1e0300 alu_op=f s_bit=0 bx_match=0 button=0 pulse=0
+# Time=9680020000 PC=000000b0 Instr=01e03003 op7seg=0111110 bx_check=1e0300 alu_op=f s_bit=0 bx_match=0 button=1 pulse=0
+# Time=9880020000 PC=000000b0 Instr=01e03003 op7seg=0111110 bx_check=1e0300 alu_op=f s_bit=0 bx_match=0 button=0 pulse=0
+# Time=9880045000 PC=000000b0 Instr=01e03003 op7seg=0111110 bx_check=1e0300 alu_op=f s_bit=0 bx_match=0 button=0 pulse=1
+# Time=9880055000 PC=000000b4 Instr=e5801000 op7seg=1011011 bx_check=180100 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=9900020000 PC=000000b4 Instr=e5801000 op7seg=1011011 bx_check=180100 alu_op=c s_bit=0 bx_match=0 button=1 pulse=0
+# Time=10100020000 PC=000000b4 Instr=e5801000 op7seg=1011011 bx_check=180100 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=10100045000 PC=000000b4 Instr=e5801000 op7seg=1011011 bx_check=180100 alu_op=c s_bit=0 bx_match=0 button=0 pulse=1
+# Time=10100055000 PC=000000b8 Instr=e5823000 op7seg=1011011 bx_check=182300 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=10120020000 PC=000000b8 Instr=e5823000 op7seg=1011011 bx_check=182300 alu_op=c s_bit=0 bx_match=0 button=1 pulse=0
+# Time=10320020000 PC=000000b8 Instr=e5823000 op7seg=1011011 bx_check=182300 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=10320045000 PC=000000b8 Instr=e5823000 op7seg=1011011 bx_check=182300 alu_op=c s_bit=0 bx_match=0 button=0 pulse=1
+# Time=10320055000 PC=000000bc Instr=e12fff1e op7seg=0000001 bx_check=12fff1 alu_op=9 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=10340020000 PC=000000bc Instr=e12fff1e op7seg=0000001 bx_check=12fff1 alu_op=9 s_bit=0 bx_match=0 button=1 pulse=0
+# Time=10540020000 PC=000000bc Instr=e12fff1e op7seg=0000001 bx_check=12fff1 alu_op=9 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=10540045000 PC=000000bc Instr=e12fff1e op7seg=0000001 bx_check=12fff1 alu_op=9 s_bit=0 bx_match=0 button=0 pulse=1
+# Time=10540055000 PC=000000c0 Instr=e3a00281 op7seg=1010110 bx_check=1a0028 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=10560020000 PC=000000c0 Instr=e3a00281 op7seg=1010110 bx_check=1a0028 alu_op=d s_bit=0 bx_match=0 button=1 pulse=0
+# Time=10760020000 PC=000000c0 Instr=e3a00281 op7seg=1010110 bx_check=1a0028 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=10760045000 PC=000000c0 Instr=e3a00281 op7seg=1010110 bx_check=1a0028 alu_op=d s_bit=0 bx_match=0 button=0 pulse=1
+# Time=10760055000 PC=000000c4 Instr=e3a012c1 op7seg=1010110 bx_check=1a012c alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=10780020000 PC=000000c4 Instr=e3a012c1 op7seg=1010110 bx_check=1a012c alu_op=d s_bit=0 bx_match=0 button=1 pulse=0
+# Time=10980020000 PC=000000c4 Instr=e3a012c1 op7seg=1010110 bx_check=1a012c alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=10980045000 PC=000000c4 Instr=e3a012c1 op7seg=1010110 bx_check=1a012c alu_op=d s_bit=0 bx_match=0 button=0 pulse=1
+# Time=10980055000 PC=000000c8 Instr=e59f213c op7seg=0011100 bx_check=19f213 alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=11000020000 PC=000000c8 Instr=e59f213c op7seg=0011100 bx_check=19f213 alu_op=c s_bit=1 bx_match=0 button=1 pulse=0
+# Time=11200020000 PC=000000c8 Instr=e59f213c op7seg=0011100 bx_check=19f213 alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=11200045000 PC=000000c8 Instr=e59f213c op7seg=0011100 bx_check=19f213 alu_op=c s_bit=1 bx_match=0 button=0 pulse=1
+# Time=11200055000 PC=000000cc Instr=e59f313c op7seg=0011100 bx_check=19f313 alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=11220020000 PC=000000cc Instr=e59f313c op7seg=0011100 bx_check=19f313 alu_op=c s_bit=1 bx_match=0 button=1 pulse=0
+# Time=11420020000 PC=000000cc Instr=e59f313c op7seg=0011100 bx_check=19f313 alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=11420045000 PC=000000cc Instr=e59f313c op7seg=0011100 bx_check=19f313 alu_op=c s_bit=1 bx_match=0 button=0 pulse=1
+# Time=11420055000 PC=000000d0 Instr=e5904000 op7seg=0011100 bx_check=190400 alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=11440020000 PC=000000d0 Instr=e5904000 op7seg=0011100 bx_check=190400 alu_op=c s_bit=1 bx_match=0 button=1 pulse=0
+# Time=11640020000 PC=000000d0 Instr=e5904000 op7seg=0011100 bx_check=190400 alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=11640045000 PC=000000d0 Instr=e5904000 op7seg=0011100 bx_check=190400 alu_op=c s_bit=1 bx_match=0 button=0 pulse=1
+# Time=11640055000 PC=000000d4 Instr=e5915000 op7seg=0011100 bx_check=191500 alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=11660020000 PC=000000d4 Instr=e5915000 op7seg=0011100 bx_check=191500 alu_op=c s_bit=1 bx_match=0 button=1 pulse=0
+# Time=11860020000 PC=000000d4 Instr=e5915000 op7seg=0011100 bx_check=191500 alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=11860045000 PC=000000d4 Instr=e5915000 op7seg=0011100 bx_check=191500 alu_op=c s_bit=1 bx_match=0 button=0 pulse=1
+# Time=11860055000 PC=000000d8 Instr=e5926000 op7seg=0011100 bx_check=192600 alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=11880020000 PC=000000d8 Instr=e5926000 op7seg=0011100 bx_check=192600 alu_op=c s_bit=1 bx_match=0 button=1 pulse=0
+# Time=12080020000 PC=000000d8 Instr=e5926000 op7seg=0011100 bx_check=192600 alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=12080045000 PC=000000d8 Instr=e5926000 op7seg=0011100 bx_check=192600 alu_op=c s_bit=1 bx_match=0 button=0 pulse=1
+# Time=12080055000 PC=000000dc Instr=e5937000 op7seg=0011100 bx_check=193700 alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=12100020000 PC=000000dc Instr=e5937000 op7seg=0011100 bx_check=193700 alu_op=c s_bit=1 bx_match=0 button=1 pulse=0
+# Time=12300020000 PC=000000dc Instr=e5937000 op7seg=0011100 bx_check=193700 alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=12300045000 PC=000000dc Instr=e5937000 op7seg=0011100 bx_check=193700 alu_op=c s_bit=1 bx_match=0 button=0 pulse=1
+# Time=12300055000 PC=000000e0 Instr=e0844006 op7seg=1110111 bx_check=084400 alu_op=4 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=12320020000 PC=000000e0 Instr=e0844006 op7seg=1110111 bx_check=084400 alu_op=4 s_bit=0 bx_match=0 button=1 pulse=0
+# Time=12520020000 PC=000000e0 Instr=e0844006 op7seg=1110111 bx_check=084400 alu_op=4 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=12520045000 PC=000000e0 Instr=e0844006 op7seg=1110111 bx_check=084400 alu_op=4 s_bit=0 bx_match=0 button=0 pulse=1
+# Time=12520055000 PC=000000e4 Instr=e0855007 op7seg=1110111 bx_check=085500 alu_op=4 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=12540020000 PC=000000e4 Instr=e0855007 op7seg=1110111 bx_check=085500 alu_op=4 s_bit=0 bx_match=0 button=1 pulse=0
+# Time=12740020000 PC=000000e4 Instr=e0855007 op7seg=1110111 bx_check=085500 alu_op=4 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=12740045000 PC=000000e4 Instr=e0855007 op7seg=1110111 bx_check=085500 alu_op=4 s_bit=0 bx_match=0 button=0 pulse=1
+# Time=12740055000 PC=000000e8 Instr=e3540000 op7seg=0000001 bx_check=154000 alu_op=a s_bit=1 bx_match=0 button=0 pulse=0
+# Time=12760020000 PC=000000e8 Instr=e3540000 op7seg=0000001 bx_check=154000 alu_op=a s_bit=1 bx_match=0 button=1 pulse=0
+# Time=12960020000 PC=000000e8 Instr=e3540000 op7seg=0000001 bx_check=154000 alu_op=a s_bit=1 bx_match=0 button=0 pulse=0
+# Time=12960045000 PC=000000e8 Instr=e3540000 op7seg=0000001 bx_check=154000 alu_op=a s_bit=1 bx_match=0 button=0 pulse=1
+# Time=12960055000 PC=000000ec Instr=b1e06006 op7seg=0111110 bx_check=1e0600 alu_op=f s_bit=0 bx_match=0 button=0 pulse=0
+# Time=12980020000 PC=000000ec Instr=b1e06006 op7seg=0111110 bx_check=1e0600 alu_op=f s_bit=0 bx_match=0 button=1 pulse=0
+# Time=13180020000 PC=000000ec Instr=b1e06006 op7seg=0111110 bx_check=1e0600 alu_op=f s_bit=0 bx_match=0 button=0 pulse=0
+# Time=13180045000 PC=000000ec Instr=b1e06006 op7seg=0111110 bx_check=1e0600 alu_op=f s_bit=0 bx_match=0 button=0 pulse=1
+# Time=13180055000 PC=000000f0 Instr=b3a04000 op7seg=1010110 bx_check=1a0400 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=13200020000 PC=000000f0 Instr=b3a04000 op7seg=1010110 bx_check=1a0400 alu_op=d s_bit=0 bx_match=0 button=1 pulse=0
+# Time=13400020000 PC=000000f0 Instr=b3a04000 op7seg=1010110 bx_check=1a0400 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=13400045000 PC=000000f0 Instr=b3a04000 op7seg=1010110 bx_check=1a0400 alu_op=d s_bit=0 bx_match=0 button=0 pulse=1
+# Time=13400055000 PC=000000f4 Instr=e3540f4e op7seg=0000001 bx_check=1540f4 alu_op=a s_bit=1 bx_match=0 button=0 pulse=0
+# Time=13420020000 PC=000000f4 Instr=e3540f4e op7seg=0000001 bx_check=1540f4 alu_op=a s_bit=1 bx_match=0 button=1 pulse=0
+# Time=13620020000 PC=000000f4 Instr=e3540f4e op7seg=0000001 bx_check=1540f4 alu_op=a s_bit=1 bx_match=0 button=0 pulse=0
+# Time=13620045000 PC=000000f4 Instr=e3540f4e op7seg=0000001 bx_check=1540f4 alu_op=a s_bit=1 bx_match=0 button=0 pulse=1
+# Time=13620055000 PC=000000f8 Instr=c1e06006 op7seg=0111110 bx_check=1e0600 alu_op=f s_bit=0 bx_match=0 button=0 pulse=0
+# Time=13640020000 PC=000000f8 Instr=c1e06006 op7seg=0111110 bx_check=1e0600 alu_op=f s_bit=0 bx_match=0 button=1 pulse=0
+# Time=13840020000 PC=000000f8 Instr=c1e06006 op7seg=0111110 bx_check=1e0600 alu_op=f s_bit=0 bx_match=0 button=0 pulse=0
+# Time=13840045000 PC=000000f8 Instr=c1e06006 op7seg=0111110 bx_check=1e0600 alu_op=f s_bit=0 bx_match=0 button=0 pulse=1
+# Time=13840055000 PC=000000fc Instr=c3a04f4e op7seg=1010110 bx_check=1a04f4 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=13860020000 PC=000000fc Instr=c3a04f4e op7seg=1010110 bx_check=1a04f4 alu_op=d s_bit=0 bx_match=0 button=1 pulse=0
+# Time=14060020000 PC=000000fc Instr=c3a04f4e op7seg=1010110 bx_check=1a04f4 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=14060045000 PC=000000fc Instr=c3a04f4e op7seg=1010110 bx_check=1a04f4 alu_op=d s_bit=0 bx_match=0 button=0 pulse=1
+# Time=14060055000 PC=00000100 Instr=e3550000 op7seg=0000001 bx_check=155000 alu_op=a s_bit=1 bx_match=0 button=0 pulse=0
+# Time=14080020000 PC=00000100 Instr=e3550000 op7seg=0000001 bx_check=155000 alu_op=a s_bit=1 bx_match=0 button=1 pulse=0
+# Time=14280020000 PC=00000100 Instr=e3550000 op7seg=0000001 bx_check=155000 alu_op=a s_bit=1 bx_match=0 button=0 pulse=0
+# Time=14280045000 PC=00000100 Instr=e3550000 op7seg=0000001 bx_check=155000 alu_op=a s_bit=1 bx_match=0 button=0 pulse=1
+# Time=14280055000 PC=00000104 Instr=b1e07007 op7seg=0111110 bx_check=1e0700 alu_op=f s_bit=0 bx_match=0 button=0 pulse=0
+# Time=14300020000 PC=00000104 Instr=b1e07007 op7seg=0111110 bx_check=1e0700 alu_op=f s_bit=0 bx_match=0 button=1 pulse=0
+# Time=14500020000 PC=00000104 Instr=b1e07007 op7seg=0111110 bx_check=1e0700 alu_op=f s_bit=0 bx_match=0 button=0 pulse=0
+# Time=14500045000 PC=00000104 Instr=b1e07007 op7seg=0111110 bx_check=1e0700 alu_op=f s_bit=0 bx_match=0 button=0 pulse=1
+# Time=14500055000 PC=00000108 Instr=b3a05000 op7seg=1010110 bx_check=1a0500 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=14520020000 PC=00000108 Instr=b3a05000 op7seg=1010110 bx_check=1a0500 alu_op=d s_bit=0 bx_match=0 button=1 pulse=0
+# Time=14720020000 PC=00000108 Instr=b3a05000 op7seg=1010110 bx_check=1a0500 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=14720045000 PC=00000108 Instr=b3a05000 op7seg=1010110 bx_check=1a0500 alu_op=d s_bit=0 bx_match=0 button=0 pulse=1
+# Time=14720055000 PC=0000010c Instr=e35500e8 op7seg=0000001 bx_check=15500e alu_op=a s_bit=1 bx_match=0 button=0 pulse=0
+# Time=14740020000 PC=0000010c Instr=e35500e8 op7seg=0000001 bx_check=15500e alu_op=a s_bit=1 bx_match=0 button=1 pulse=0
+# Time=14940020000 PC=0000010c Instr=e35500e8 op7seg=0000001 bx_check=15500e alu_op=a s_bit=1 bx_match=0 button=0 pulse=0
+# Time=14940045000 PC=0000010c Instr=e35500e8 op7seg=0000001 bx_check=15500e alu_op=a s_bit=1 bx_match=0 button=0 pulse=1
+# Time=14940055000 PC=00000110 Instr=ca000004 op7seg=0111101 bx_check=000000 alu_op=0 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=14960020000 PC=00000110 Instr=ca000004 op7seg=0111101 bx_check=000000 alu_op=0 s_bit=0 bx_match=0 button=1 pulse=0
+# Time=15160020000 PC=00000110 Instr=ca000004 op7seg=0111101 bx_check=000000 alu_op=0 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=15160045000 PC=00000110 Instr=ca000004 op7seg=0111101 bx_check=000000 alu_op=0 s_bit=0 bx_match=0 button=0 pulse=1
+# Time=15160055000 PC=00000114 Instr=e5804000 op7seg=1011011 bx_check=180400 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=15180020000 PC=00000114 Instr=e5804000 op7seg=1011011 bx_check=180400 alu_op=c s_bit=0 bx_match=0 button=1 pulse=0
+# Time=15380020000 PC=00000114 Instr=e5804000 op7seg=1011011 bx_check=180400 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=15380045000 PC=00000114 Instr=e5804000 op7seg=1011011 bx_check=180400 alu_op=c s_bit=0 bx_match=0 button=0 pulse=1
+# Time=15380055000 PC=00000118 Instr=e5815000 op7seg=1011011 bx_check=181500 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=15400020000 PC=00000118 Instr=e5815000 op7seg=1011011 bx_check=181500 alu_op=c s_bit=0 bx_match=0 button=1 pulse=0
+# Time=15600020000 PC=00000118 Instr=e5815000 op7seg=1011011 bx_check=181500 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=15600045000 PC=00000118 Instr=e5815000 op7seg=1011011 bx_check=181500 alu_op=c s_bit=0 bx_match=0 button=0 pulse=1
+# Time=15600055000 PC=0000011c Instr=e5826000 op7seg=1011011 bx_check=182600 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=15620020000 PC=0000011c Instr=e5826000 op7seg=1011011 bx_check=182600 alu_op=c s_bit=0 bx_match=0 button=1 pulse=0
+# Time=15820020000 PC=0000011c Instr=e5826000 op7seg=1011011 bx_check=182600 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=15820045000 PC=0000011c Instr=e5826000 op7seg=1011011 bx_check=182600 alu_op=c s_bit=0 bx_match=0 button=0 pulse=1
+# Time=15820055000 PC=00000120 Instr=e5837000 op7seg=1011011 bx_check=183700 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=15840020000 PC=00000120 Instr=e5837000 op7seg=1011011 bx_check=183700 alu_op=c s_bit=0 bx_match=0 button=1 pulse=0
+# Time=16040020000 PC=00000120 Instr=e5837000 op7seg=1011011 bx_check=183700 alu_op=c s_bit=0 bx_match=0 button=0 pulse=0
+# Time=16040045000 PC=00000120 Instr=e5837000 op7seg=1011011 bx_check=183700 alu_op=c s_bit=0 bx_match=0 button=0 pulse=1
+# Time=16040055000 PC=00000124 Instr=e12fff1e op7seg=0000001 bx_check=12fff1 alu_op=9 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=16060020000 PC=00000124 Instr=e12fff1e op7seg=0000001 bx_check=12fff1 alu_op=9 s_bit=0 bx_match=0 button=1 pulse=0
+# Time=16260020000 PC=00000124 Instr=e12fff1e op7seg=0000001 bx_check=12fff1 alu_op=9 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=16260045000 PC=00000124 Instr=e12fff1e op7seg=0000001 bx_check=12fff1 alu_op=9 s_bit=0 bx_match=0 button=0 pulse=1
+# Time=16260055000 PC=00000128 Instr=ea000034 op7seg=0111101 bx_check=000003 alu_op=0 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=16280020000 PC=00000128 Instr=ea000034 op7seg=0111101 bx_check=000003 alu_op=0 s_bit=0 bx_match=0 button=1 pulse=0
+# Time=16480020000 PC=00000128 Instr=ea000034 op7seg=0111101 bx_check=000003 alu_op=0 s_bit=0 bx_match=0 button=0 pulse=0
+# Time=16480045000 PC=00000128 Instr=ea000034 op7seg=0111101 bx_check=000003 alu_op=0 s_bit=0 bx_match=0 button=0 pulse=1
+# Time=16480055000 PC=0000012c Instr=e3a00281 op7seg=1010110 bx_check=1a0028 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=16500020000 PC=0000012c Instr=e3a00281 op7seg=1010110 bx_check=1a0028 alu_op=d s_bit=0 bx_match=0 button=1 pulse=0
+# Time=16700020000 PC=0000012c Instr=e3a00281 op7seg=1010110 bx_check=1a0028 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=16700045000 PC=0000012c Instr=e3a00281 op7seg=1010110 bx_check=1a0028 alu_op=d s_bit=0 bx_match=0 button=0 pulse=1
+# Time=16700055000 PC=00000130 Instr=e5901000 op7seg=0011100 bx_check=190100 alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=16720020000 PC=00000130 Instr=e5901000 op7seg=0011100 bx_check=190100 alu_op=c s_bit=1 bx_match=0 button=1 pulse=0
+# Time=16920020000 PC=00000130 Instr=e5901000 op7seg=0011100 bx_check=190100 alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=16920045000 PC=00000130 Instr=e5901000 op7seg=0011100 bx_check=190100 alu_op=c s_bit=1 bx_match=0 button=0 pulse=1
+# Time=16920055000 PC=00000134 Instr=e3a002c1 op7seg=1010110 bx_check=1a002c alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=16940020000 PC=00000134 Instr=e3a002c1 op7seg=1010110 bx_check=1a002c alu_op=d s_bit=0 bx_match=0 button=1 pulse=0
+# Time=17140020000 PC=00000134 Instr=e3a002c1 op7seg=1010110 bx_check=1a002c alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=17140045000 PC=00000134 Instr=e3a002c1 op7seg=1010110 bx_check=1a002c alu_op=d s_bit=0 bx_match=0 button=0 pulse=1
+# Time=17140055000 PC=00000138 Instr=e5902000 op7seg=0011100 bx_check=190200 alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=17160020000 PC=00000138 Instr=e5902000 op7seg=0011100 bx_check=190200 alu_op=c s_bit=1 bx_match=0 button=1 pulse=0
+# Time=17360020000 PC=00000138 Instr=e5902000 op7seg=0011100 bx_check=190200 alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=17360045000 PC=00000138 Instr=e5902000 op7seg=0011100 bx_check=190200 alu_op=c s_bit=1 bx_match=0 button=0 pulse=1
+# Time=17360055000 PC=0000013c Instr=e3a00201 op7seg=1010110 bx_check=1a0020 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=17380020000 PC=0000013c Instr=e3a00201 op7seg=1010110 bx_check=1a0020 alu_op=d s_bit=0 bx_match=0 button=1 pulse=0
+# Time=17580020000 PC=0000013c Instr=e3a00201 op7seg=1010110 bx_check=1a0020 alu_op=d s_bit=0 bx_match=0 button=0 pulse=0
+# Time=17580045000 PC=0000013c Instr=e3a00201 op7seg=1010110 bx_check=1a0020 alu_op=d s_bit=0 bx_match=0 button=0 pulse=1
+# Time=17580055000 PC=00000140 Instr=e5903000 op7seg=0011100 bx_check=190300 alu_op=c s_bit=1 bx_match=0 button=0 pulse=0
+# Time=17600020000 PC=00000140 Instr=e5903000 op7seg=0011100 bx_check=190300 alu_op=c s_bit=1 bx_match=0 button=1 pulse=0
+# ** Note: $finish    : C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/tb_computer_top.sv(38)
+#    Time: 22600020 ns  Iteration: 0  Instance: /tb_computer_top
+# End time: 22:03:45 on Jun 22,2025, Elapsed time: 0:00:56
+# Errors: 0, Warnings: 2

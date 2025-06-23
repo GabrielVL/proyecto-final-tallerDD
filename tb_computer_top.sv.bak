@@ -1,0 +1,25 @@
+module tb_computer_top;
+    logic clk, reset;
+    logic [6:0] op7seg;
+
+    computer_top dut (
+        .clk(clk),
+        .reset(reset),
+        .op7seg(op7seg)
+    );
+
+    initial begin
+        clk = 0;
+        forever #5 clk = ~clk; // 100 MHz clock
+    end
+
+    initial begin
+        reset = 1;
+        #10 reset = 0;
+        #1000 $finish;
+    end
+
+    initial begin
+        $monitor("Time=%0t Instr=%h op7seg=%b", $time, dut.Instr, op7seg);
+    end
+endmodule

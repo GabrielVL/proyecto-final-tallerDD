@@ -24,11 +24,14 @@ vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-ta
 vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/adderalu.sv}
 vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/mulalu.sv}
 vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/dmem.sv}
+vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/Decoder_type.sv}
+vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/Decoder_7seg.sv}
+vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/debouncer.sv}
 vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/imem.sv}
 
-vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/arm_tb.sv}
+vlog -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD {C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/tb_computer_top.sv}
 
-vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  arm_tb
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_computer_top
 
 add wave *
 view structure
