@@ -11,8 +11,9 @@ module computer_top (
 
     logic [31:0] PC, Instr, ALUResult, WriteData, ReadData;
     logic button_pulse, MemWrite;
-    logic [3:0] instr_type; 
-
+    logic [3:0] instr_type;
+	 logic clk_enable; 
+	 
     // Debouncer
     debouncer u_debouncer (
         .clk(clk),
@@ -47,6 +48,11 @@ module computer_top (
         .reset(!reset),
         .Instr(Instr)
     );
+	 
+	 dmem dmem(clk_25Mhz, 
+				 DataAdrA, DataAdrB, 
+				 WriteData, MemWriteEnable,
+				 ReadDataA, ReadDataB);
 
     // Instruction decoder instance
     Decoder_type u_decoder (
