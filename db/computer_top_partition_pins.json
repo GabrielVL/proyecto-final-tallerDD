@@ -24,6 +24,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "hex0[5]",
+					"strict" : false
+				},
+				{
 					"name" : "hex0[6]",
 					"strict" : false
 				},
@@ -113,6 +117,14 @@
 				},
 				{
 					"name" : "led_debug[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led_debug[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led_debug[2]",
 					"strict" : false
 				},
 				{
