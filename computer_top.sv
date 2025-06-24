@@ -11,7 +11,7 @@ module computer_top (
 
     logic [31:0] PC, Instr;
     logic button_pulse;
-    logic [1:0] instr_type; // 0: Otros, 1: MOV, 2: STR, 3: LDR
+    logic [2:0] instr_type; // 0: Other, 1: MOV, 2: STR, 3: LDR, 4: ADD, 5: SUB, 6: AND, 7: B
 
     // Program Counter
     always_ff @(posedge clk or negedge reset) begin
@@ -39,10 +39,14 @@ module computer_top (
     // Clasificación de instrucciones
     always_comb begin
         casez (Instr[31:20])
-            12'b111000111010: instr_type = 2'd1; // MOV (E3A0)
-            12'b111001011000: instr_type = 2'd2; // STR (E58)
-            12'b111001011001: instr_type = 2'd3; // LDR (E59)
-            default:          instr_type = 2'd0; // Otros
+            12'b111000111010: instr_type = 3'd1; // MOV (E3A0)
+            12'b111001011000: instr_type = 3'd2; // STR (E58)
+            12'b111001011001: instr_type = 3'd3; // LDR (E59)
+            12'b111000001000: instr_type = 3'd4; // ADD (E08)
+            12'b111000000100: instr_type = 3'd5; // SUB (E04)
+            12'b111000000000: instr_type = 3'd6; // AND (E00)
+            12'b1110101?????: instr_type = 3'd7; // B/BL (EA/EB)
+            default:          instr_type = 3'd0; // Other
         endcase
     end
 
@@ -53,19 +57,35 @@ module computer_top (
     // HEX4 y HEX5 según instrucción
     always_comb begin
         case (instr_type)
-            2'd1: begin // MOV: 'MO'
+            3'd1: begin // MOV: 'MO'
                 hex4 = 7'b1000000; // 'O'
                 hex5 = 7'b0001001; // 'M'
             end
-            2'd2: begin // STR: 'ST'
+            3'd2: begin // STR: 'ST'
                 hex4 = 7'b0010010; // 'T'
                 hex5 = 7'b0010010; // 'S'
             end
-            2'd3: begin // LDR: 'LD'
+            3'd3: begin // LDR: 'LD'
                 hex4 = 7'b0100001; // 'D'
                 hex5 = 7'b1000111; // 'L'
             end
-            default: begin // Apagado
+            3'd4: begin // ADD: 'AD'
+                hex4 = 7'b0100001; // 'D'
+                hex5 = 7'b0001000; // 'A'
+            end
+            3'd5: begin // SUB: 'SB'
+                hex4 = 7'b0000011; // 'b'
+                hex5 = 7'b0010010; // 'S'
+            end
+            3'd6: begin // AND: 'AN'
+                hex4 = 7'b0101011; // 'n'
+                hex5 = 7'b0001000; // 'A'
+            end
+            3'd7: begin // B: 'BR'
+                hex4 = 7'b0101111; // 'r'
+                hex5 = 7'b0000011; // 'b'
+            end
+            default: begin // Other: Off
                 hex4 = 7'b1111111;
                 hex5 = 7'b1111111;
             end
@@ -73,7 +93,9 @@ module computer_top (
     end
 
     // LEDs para depuración
-    assign led_debug[0] = button_pulse; // LEDR[0]: Pulso del botón
-    assign led_debug[3:1] = PC[2:0];    // LEDR[3:1]: PC[2:0]
+    always_ff @(posedge clk) begin
+        led_debug[0] <= button_pulse; // LEDR[0]: Pulso del botón
+        led_debug[3:1] <= PC[2:0];    // LEDR[3:1]: PC[2:0]
+    end
 
 endmodule

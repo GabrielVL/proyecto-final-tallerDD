@@ -1,5 +1,5 @@
-Analysis & Synthesis report for computer_top
-Mon Jun 23 19:53:48 2025
+Analysis & Elaboration report for computer_top
+Mon Jun 23 21:15:08 2025
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -7,21 +7,12 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 ; Table of Contents ;
 ---------------------
   1. Legal Notice
-  2. Analysis & Synthesis Summary
-  3. Analysis & Synthesis Settings
-  4. Parallel Compilation
-  5. Analysis & Synthesis Source Files Read
-  6. Analysis & Synthesis Resource Usage Summary
-  7. Analysis & Synthesis Resource Utilization by Entity
-  8. Registers Removed During Synthesis
-  9. General Register Statistics
- 10. Inverted Register Statistics
- 11. Multiplexer Restructuring Statistics (Restructuring Performed)
- 12. Port Connectivity Checks: "imem:u_imem"
- 13. Post-Synthesis Netlist Statistics for Top Partition
- 14. Elapsed Time Per Partition
- 15. Analysis & Synthesis Messages
- 16. Analysis & Synthesis Suppressed Messages
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Analysis & Elaboration Settings
+  5. Port Connectivity Checks: "imem:u_imem"
+  6. Analysis & Elaboration Messages
+  7. Analysis & Elaboration Suppressed Messages
 
 
 
@@ -44,31 +35,42 @@ refer to the applicable agreement for further details.
 
 
 
-+-------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                  ;
-+---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Jun 23 19:53:48 2025       ;
-; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
-; Revision Name                   ; computer_top                                ;
-; Top-level Entity Name           ; computer_top                                ;
-; Family                          ; Cyclone V                                   ;
-; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 29                                          ;
-; Total pins                      ; 35                                          ;
-; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 0                                           ;
-; Total DSP Blocks                ; 0                                           ;
-; Total HSSI RX PCSs              ; 0                                           ;
-; Total HSSI PMA RX Deserializers ; 0                                           ;
-; Total HSSI TX PCSs              ; 0                                           ;
-; Total HSSI PMA TX Serializers   ; 0                                           ;
-; Total PLLs                      ; 0                                           ;
-; Total DLLs                      ; 0                                           ;
-+---------------------------------+---------------------------------------------+
++-----------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                              ;
++-------------------------------+---------------------------------------------+
+; Analysis & Elaboration Status ; Successful - Mon Jun 23 21:15:08 2025       ;
+; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                 ; computer_top                                ;
+; Top-level Entity Name         ; computer_top                                ;
+; Family                        ; Cyclone V                                   ;
+; Logic utilization (in ALMs)   ; N/A until Partition Merge                   ;
+; Total registers               ; N/A until Partition Merge                   ;
+; Total pins                    ; N/A until Partition Merge                   ;
+; Total virtual pins            ; N/A until Partition Merge                   ;
+; Total block memory bits       ; N/A until Partition Merge                   ;
+; Total PLLs                    ; N/A until Partition Merge                   ;
+; Total DLLs                    ; N/A until Partition Merge                   ;
++-------------------------------+---------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Settings                                                                                             ;
+; Analysis & Elaboration Settings                                                                                           ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
@@ -154,124 +156,6 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 4           ;
-; Maximum allowed            ; 4           ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 4           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.0%      ;
-+----------------------------+-------------+
-
-
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                   ;
-+----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                               ; Library ;
-+----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+---------+
-; computer_top.sv                  ; yes             ; User SystemVerilog HDL File  ; C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv ;         ;
-; imem.sv                          ; yes             ; User SystemVerilog HDL File  ; C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/imem.sv         ;         ;
-; debouncer.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/debouncer.sv    ;         ;
-; seg7.sv                          ; yes             ; User SystemVerilog HDL File  ; C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/seg7.sv         ;         ;
-; memfile.dat                      ; yes             ; Auto-Found Unspecified File  ; C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/memfile.dat     ;         ;
-+----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+---------+
-
-
-+-----------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary               ;
-+---------------------------------------------+-------------+
-; Resource                                    ; Usage       ;
-+---------------------------------------------+-------------+
-; Estimate of Logic utilization (ALMs needed) ; 76          ;
-;                                             ;             ;
-; Combinational ALUT usage for logic          ; 116         ;
-;     -- 7 input functions                    ; 0           ;
-;     -- 6 input functions                    ; 34          ;
-;     -- 5 input functions                    ; 19          ;
-;     -- 4 input functions                    ; 28          ;
-;     -- <=3 input functions                  ; 35          ;
-;                                             ;             ;
-; Dedicated logic registers                   ; 29          ;
-;                                             ;             ;
-; I/O pins                                    ; 35          ;
-;                                             ;             ;
-; Total DSP Blocks                            ; 0           ;
-;                                             ;             ;
-; Maximum fan-out node                        ; reset~input ;
-; Maximum fan-out                             ; 46          ;
-; Total fan-out                               ; 657         ;
-; Average fan-out                             ; 3.06        ;
-+---------------------------------------------+-------------+
-
-
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                     ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------+--------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                 ; Entity Name  ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------+--------------+--------------+
-; |computer_top              ; 116 (21)            ; 29 (8)                    ; 0                 ; 0          ; 35   ; 0            ; |computer_top                       ; computer_top ; work         ;
-;    |debouncer:u_debouncer| ; 23 (23)             ; 21 (21)                   ; 0                 ; 0          ; 0    ; 0            ; |computer_top|debouncer:u_debouncer ; debouncer    ; work         ;
-;    |imem:u_imem|           ; 63 (63)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |computer_top|imem:u_imem           ; imem         ; work         ;
-;    |seg7:u_hex0|           ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |computer_top|seg7:u_hex0           ; seg7         ; work         ;
-;    |seg7:u_hex1|           ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |computer_top|seg7:u_hex1           ; seg7         ; work         ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------+--------------+--------------+
-Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+-------------------------------------------------------------+
-; Registers Removed During Synthesis                          ;
-+----------------------------------------+--------------------+
-; Register name                          ; Reason for Removal ;
-+----------------------------------------+--------------------+
-; PC[10..31]                             ; Lost fanout        ;
-; Total Number of Removed Registers = 22 ;                    ;
-+----------------------------------------+--------------------+
-
-
-+------------------------------------------------------+
-; General Register Statistics                          ;
-+----------------------------------------------+-------+
-; Statistic                                    ; Value ;
-+----------------------------------------------+-------+
-; Total registers                              ; 29    ;
-; Number of registers using Synchronous Clear  ; 16    ;
-; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 29    ;
-; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 8     ;
-; Number of registers using Preset             ; 0     ;
-+----------------------------------------------+-------+
-
-
-+--------------------------------------------------+
-; Inverted Register Statistics                     ;
-+----------------------------------------+---------+
-; Inverted Register                      ; Fan out ;
-+----------------------------------------+---------+
-; debouncer:u_debouncer|button_out       ; 4       ;
-; debouncer:u_debouncer|button_prev      ; 1       ;
-; debouncer:u_debouncer|button_d2        ; 2       ;
-; debouncer:u_debouncer|button_d1        ; 1       ;
-; Total number of inverted registers = 4 ;         ;
-+----------------------------------------+---------+
-
-
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                      ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------+
-; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |computer_top|debouncer:u_debouncer|counter[15] ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------+
-
-
 +------------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "imem:u_imem"                                                                                ;
 +--------------+--------+----------+-------------------------------------------------------------------------------------+
@@ -282,51 +166,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+-----------------------------------------------------+
-; Post-Synthesis Netlist Statistics for Top Partition ;
-+-----------------------+-----------------------------+
-; Type                  ; Count                       ;
-+-----------------------+-----------------------------+
-; arriav_ff             ; 29                          ;
-;     CLR               ; 5                           ;
-;     CLR SCLR          ; 16                          ;
-;     ENA CLR           ; 8                           ;
-; arriav_lcell_comb     ; 122                         ;
-;     arith             ; 23                          ;
-;         1 data inputs ; 22                          ;
-;         2 data inputs ; 1                           ;
-;     normal            ; 99                          ;
-;         0 data inputs ; 1                           ;
-;         1 data inputs ; 7                           ;
-;         2 data inputs ; 6                           ;
-;         3 data inputs ; 4                           ;
-;         4 data inputs ; 28                          ;
-;         5 data inputs ; 19                          ;
-;         6 data inputs ; 34                          ;
-; boundary_port         ; 35                          ;
-;                       ;                             ;
-; Max LUT depth         ; 6.00                        ;
-; Average LUT depth     ; 3.64                        ;
-+-----------------------+-----------------------------+
-
-
-+-------------------------------+
-; Elapsed Time Per Partition    ;
-+----------------+--------------+
-; Partition Name ; Elapsed Time ;
-+----------------+--------------+
-; Top            ; 00:00:00     ;
-+----------------+--------------+
-
-
-+-------------------------------+
-; Analysis & Synthesis Messages ;
-+-------------------------------+
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
 Info: *******************************************************************
-Info: Running Quartus Prime Analysis & Synthesis
+Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Mon Jun 23 19:53:31 2025
-Info: Command: quartus_map --read_settings_files=on --write_settings_files=off proyectofinal -c computer_top
+    Info: Processing started: Mon Jun 23 21:14:51 2025
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off proyectofinal -c computer_top --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file arm.sv
@@ -416,7 +263,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file decoder
 Info (12021): Found 1 design units, including 1 entities, in source file decoder_7seg.sv
     Info (12023): Found entity 1: Decoder_7seg File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/Decoder_7seg.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tb_computer_top.sv
-    Info (12023): Found entity 1: tb_computer_top File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/tb_computer_top.sv Line: 2
+    Info (12023): Found entity 1: tb_computer_top File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/tb_computer_top.sv Line: 4
 Warning (10229): Verilog HDL Expression warning at debouncer.sv(28): truncated literal to match 16 bits File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/debouncer.sv Line: 28
 Info (12021): Found 1 design units, including 1 entities, in source file debouncer.sv
     Info (12023): Found entity 1: debouncer File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/debouncer.sv Line: 1
@@ -424,7 +271,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file seg7.sv
     Info (12023): Found entity 1: seg7 File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/seg7.sv Line: 1
 Info (12127): Elaborating entity "computer_top" for the top level hierarchy
 Warning (10240): Verilog HDL Always Construct warning at computer_top.sv(17): inferring latch(es) for variable "PC", which holds its previous value in one or more paths through the always construct File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 17
-Info (10264): Verilog HDL Case Statement information at computer_top.sv(55): all case item expressions in this case statement are onehot File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 55
+Info (10264): Verilog HDL Case Statement information at computer_top.sv(59): all case item expressions in this case statement are onehot File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 59
 Info (10041): Inferred latch for "PC[0]" at computer_top.sv(17) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 17
 Info (10041): Inferred latch for "PC[1]" at computer_top.sv(17) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 17
 Info (12128): Elaborating entity "imem" for hierarchy "imem:u_imem" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 29
@@ -434,31 +281,18 @@ Warning (10030): Net "INST_RAM.waddr_a" at imem.sv(7) has no driver or initial v
 Warning (10030): Net "INST_RAM.we_a" at imem.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/imem.sv Line: 7
 Info (12128): Elaborating entity "debouncer" for hierarchy "debouncer:u_debouncer" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 37
 Warning (10230): Verilog HDL assignment warning at debouncer.sv(32): truncated value with size 32 to match size of target (16) File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/debouncer.sv Line: 32
-Info (12128): Elaborating entity "seg7" for hierarchy "seg7:u_hex0" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 50
-Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/db/computer_top.ram0_imem_37c714.hdl.mif" contains "don't care" values -- overwriting them with 0s
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "hex0[5]" is stuck at GND File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 5
-    Warning (13410): Pin "led_debug[1]" is stuck at GND File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 10
-    Warning (13410): Pin "led_debug[2]" is stuck at GND File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 10
-Info (286030): Timing-Driven Synthesis is running
-Info (17049): 22 registers lost all their fanouts during netlist optimizations.
+Info (12128): Elaborating entity "seg7" for hierarchy "seg7:u_hex0" File: C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv Line: 54
 Info (144001): Generated suppressed messages file C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/output_files/computer_top.map.smsg
-Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
-    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 154 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 3 input pins
-    Info (21059): Implemented 32 output pins
-    Info (21061): Implemented 119 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 13 warnings
-    Info: Peak virtual memory: 4829 megabytes
-    Info: Processing ended: Mon Jun 23 19:53:48 2025
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 8 warnings
+    Info: Peak virtual memory: 4772 megabytes
+    Info: Processing ended: Mon Jun 23 21:15:08 2025
     Info: Elapsed time: 00:00:17
-    Info: Total CPU time (on all processors): 00:00:26
+    Info: Total CPU time (on all processors): 00:00:28
 
 
-+------------------------------------------+
-; Analysis & Synthesis Suppressed Messages ;
-+------------------------------------------+
++--------------------------------------------+
+; Analysis & Elaboration Suppressed Messages ;
++--------------------------------------------+
 The suppressed messages can be found in C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/output_files/computer_top.map.smsg.
 
 

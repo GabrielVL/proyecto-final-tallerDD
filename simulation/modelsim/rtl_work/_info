@@ -10,36 +10,36 @@ cModel Technology
 Z0 dC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/simulation/modelsim
 vcomputer_top
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-!s110 1750729689
+Z2 !s110 1750734917
 !i10b 1
-!s100 lhJle;0ATgE1J8hCf^e3I1
-I>>aNcmzKEg4FdkZhglICX2
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s100 KMUgaLhhh?kZ1hiO7;A2>1
+ICML3:03P7^WHcZl?CB7=f0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
 !s105 computer_top_sv_unit
 S1
 R0
-w1750728255
+w1750734534
 8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv
 FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv
 L0 1
-Z3 OV;L;10.5b;63
+Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1750729689.000000
+Z5 !s108 1750734917.000000
 !s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/computer_top.sv|
 !i113 1
-Z4 o-sv -work work
-Z5 !s92 -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD
-Z6 tCvgOpt 0
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD
+Z8 tCvgOpt 0
 vdebouncer
 R1
-Z7 !s110 1750729690
+R2
 !i10b 1
 !s100 KjU6>9jQaQ8]Gm=L`@hA90
 IohPKgLN=MACn696OUGk_n3
-R2
+R3
 !s105 debouncer_sv_unit
 S1
 R0
@@ -47,24 +47,24 @@ w1750727252
 8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/debouncer.sv
 FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/debouncer.sv
 L0 1
-R3
+R4
 r1
 !s85 0
 31
-Z8 !s108 1750729690.000000
+R5
 !s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/debouncer.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/debouncer.sv|
 !i113 1
-R4
-R5
 R6
+R7
+R8
 vimem
 R1
-R7
+Z9 !s110 1750734918
 !i10b 1
 !s100 GTWNf=f5O@8Z3i;C@8<<k0
 IRn[RmS[OQ^H8Km1OR4<l[0
-R2
+R3
 !s105 imem_sv_unit
 S1
 R0
@@ -72,64 +72,64 @@ w1750728305
 8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/imem.sv
 FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/imem.sv
 L0 1
-R3
+R4
 r1
 !s85 0
 31
-R8
+R5
 !s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/imem.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/imem.sv|
 !i113 1
-R4
-R5
 R6
+R7
+R8
 vseg7
 R1
-R7
-!i10b 1
-!s100 I>DRIf>Y;2lgdE8^`3NGh0
-IS5^EB0A;7Uj?Gle:bLW_D2
 R2
+!i10b 1
+!s100 fU1_Yb?Wm>fWQLSeZWCXh1
+Ih3CSRLRTR0GUiK:7ZIkV60
+R3
 !s105 seg7_sv_unit
 S1
 R0
-w1750728270
+w1750731580
 8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/seg7.sv
 FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/seg7.sv
 L0 1
-R3
+R4
 r1
 !s85 0
 31
-R8
+R5
 !s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/seg7.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/seg7.sv|
 !i113 1
-R4
-R5
 R6
+R7
+R8
 vtb_computer_top
 R1
-R7
+R9
 !i10b 1
-!s100 8Tc_[8f;VC8TKG]I>8=7H1
-ICLlm`T=z5@zE>Zn8BNYT=1
-R2
+!s100 KnZlSW<@<fG4b5KbMOkYJ2
+I?PJ7dmnfeEKjD:QE_]1[<0
+R3
 !s105 tb_computer_top_sv_unit
 S1
 R0
-w1750729667
+w1750733012
 8C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/tb_computer_top.sv
 FC:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/tb_computer_top.sv
-L0 3
-R3
+L0 4
+R4
 r1
 !s85 0
 31
-R8
+!s108 1750734918.000000
 !s107 C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/tb_computer_top.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD|C:/Users/Ayudapls/Documents/GitHub/proyecto-final-tallerDD/tb_computer_top.sv|
 !i113 1
-R4
-R5
 R6
+R7
+R8

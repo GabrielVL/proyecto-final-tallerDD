@@ -20,8 +20,8 @@ module seg7 (
             4'hB: seg = 7'b0000011; // b
             4'hC: seg = 7'b1000110; // C
             4'hD: seg = 7'b0100001; // d
-            4'hE: seg = 7'b0000110; // E
-            4'hF: seg = 7'b0001110; // F
+            4'hE: seg = 7'b0101011; // n
+            4'hF: seg = 7'b0101111; // r
             default: seg = 7'b1111111; // Apagado
         endcase
     end
