@@ -16,7 +16,7 @@
 // PROGRAM "Quartus Prime"
 // VERSION "Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
 
-// DATE "06/24/2025 12:01:24"
+// DATE "06/24/2025 12:57:29"
 
 // 
 // Device: Altera 5CSXFC6D6F31C6 Package FBGA896
@@ -37,14 +37,14 @@ module computer_top (
 	hex4,
 	hex5,
 	led_debug);
-input 	logic clk ;
-input 	logic reset ;
-input 	logic button ;
-output 	logic [6:0] hex0 ;
-output 	logic [6:0] hex1 ;
-output 	logic [6:0] hex4 ;
-output 	logic [6:0] hex5 ;
-output 	logic [3:0] led_debug ;
+input 	clk;
+input 	reset;
+input 	button;
+output 	[6:0] hex0;
+output 	[6:0] hex1;
+output 	[6:0] hex4;
+output 	[6:0] hex5;
+output 	[3:0] led_debug;
 
 // Design Ports Information
 // hex0[0]	=>  Location: PIN_W17,	 I/O Standard: 2.5 V,	 Current Strength: Default
