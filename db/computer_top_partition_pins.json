@@ -4,147 +4,127 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "op7seg[0]",
+					"name" : "hex0[0]",
 					"strict" : false
 				},
 				{
-					"name" : "op7seg[1]",
+					"name" : "hex0[1]",
 					"strict" : false
 				},
 				{
-					"name" : "op7seg[2]",
+					"name" : "hex0[2]",
 					"strict" : false
 				},
 				{
-					"name" : "op7seg[3]",
+					"name" : "hex0[3]",
 					"strict" : false
 				},
 				{
-					"name" : "op7seg[4]",
+					"name" : "hex0[4]",
 					"strict" : false
 				},
 				{
-					"name" : "op7seg[5]",
+					"name" : "hex0[6]",
 					"strict" : false
 				},
 				{
-					"name" : "op7seg[6]",
+					"name" : "hex1[0]",
 					"strict" : false
 				},
 				{
-					"name" : "debug_bx_check[0]",
+					"name" : "hex1[1]",
 					"strict" : false
 				},
 				{
-					"name" : "debug_bx_check[1]",
+					"name" : "hex1[2]",
 					"strict" : false
 				},
 				{
-					"name" : "debug_bx_check[2]",
+					"name" : "hex1[3]",
 					"strict" : false
 				},
 				{
-					"name" : "debug_bx_check[3]",
+					"name" : "hex1[4]",
 					"strict" : false
 				},
 				{
-					"name" : "debug_bx_check[4]",
+					"name" : "hex1[5]",
 					"strict" : false
 				},
 				{
-					"name" : "debug_bx_check[5]",
+					"name" : "hex1[6]",
 					"strict" : false
 				},
 				{
-					"name" : "debug_bx_check[6]",
+					"name" : "hex4[0]",
 					"strict" : false
 				},
 				{
-					"name" : "debug_bx_check[7]",
+					"name" : "hex4[1]",
 					"strict" : false
 				},
 				{
-					"name" : "debug_bx_check[8]",
+					"name" : "hex4[2]",
 					"strict" : false
 				},
 				{
-					"name" : "debug_bx_check[9]",
+					"name" : "hex4[3]",
 					"strict" : false
 				},
 				{
-					"name" : "debug_bx_check[10]",
+					"name" : "hex4[4]",
 					"strict" : false
 				},
 				{
-					"name" : "debug_bx_check[11]",
+					"name" : "hex4[5]",
 					"strict" : false
 				},
 				{
-					"name" : "debug_bx_check[12]",
+					"name" : "hex4[6]",
 					"strict" : false
 				},
 				{
-					"name" : "debug_bx_check[13]",
+					"name" : "hex5[0]",
 					"strict" : false
 				},
 				{
-					"name" : "debug_bx_check[14]",
+					"name" : "hex5[1]",
 					"strict" : false
 				},
 				{
-					"name" : "debug_bx_check[15]",
+					"name" : "hex5[2]",
 					"strict" : false
 				},
 				{
-					"name" : "debug_bx_check[16]",
+					"name" : "hex5[3]",
 					"strict" : false
 				},
 				{
-					"name" : "debug_bx_check[17]",
+					"name" : "hex5[4]",
 					"strict" : false
 				},
 				{
-					"name" : "debug_bx_check[18]",
+					"name" : "hex5[5]",
 					"strict" : false
 				},
 				{
-					"name" : "debug_bx_check[19]",
+					"name" : "hex5[6]",
 					"strict" : false
 				},
 				{
-					"name" : "debug_bx_check[20]",
+					"name" : "led_debug[0]",
 					"strict" : false
 				},
 				{
-					"name" : "debug_alu_op[0]",
-					"strict" : false
-				},
-				{
-					"name" : "debug_alu_op[1]",
-					"strict" : false
-				},
-				{
-					"name" : "debug_alu_op[2]",
-					"strict" : false
-				},
-				{
-					"name" : "debug_alu_op[3]",
-					"strict" : false
-				},
-				{
-					"name" : "debug_s_bit",
-					"strict" : false
-				},
-				{
-					"name" : "debug_bx_match",
-					"strict" : false
-				},
-				{
-					"name" : "clk",
+					"name" : "led_debug[3]",
 					"strict" : false
 				},
 				{
 					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
 					"strict" : false
 				},
 				{
